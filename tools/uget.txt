@@ -1,0 +1,24 @@
+uget allows you to make API calls to the panel from the commandline.  This is useful for making api calls in batch/shell scripts.
+
+On linux run by calling mono.  I.e:  mono uget.exe
+
+The panel's API info is available at:  http://www.brainless.us/forum/viewtopic.php?f=21&t=244
+
+Commandline syntax:
+uget <url> <username> <password> <id> <command> <option 1> <option 2>
+
+Where
+<url> = the base url to your control panel.  i.e. https://demo.brainless.us
+<username> = panel username
+<password> = panel password
+<id> = ID of the item (could be user/server/extra ID) the command should be ran against
+<command> = the API Command
+<option 1> = option data for API call
+<option 2> = option data for API call
+
+uget will return a non zero number if there is an error.
+Return Codes:
+0 = OK
+1 = Missing commandline arguments
+2 = Panel is offline or invalid username/password
+3 = The panel returned an error when executing the API command.

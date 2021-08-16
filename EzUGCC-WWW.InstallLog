@@ -1,0 +1,15 @@
+﻿Installing assembly 'C:\Program Files\EzUGCC\EzUGCC-WWW.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   assemblypath = C:\Program Files\EzUGCC\EzUGCC-WWW.exe
+   logfile = C:\Program Files\EzUGCC\EzUGCC-WWW.InstallLog
+Installing service UGCC-WWW...
+Service UGCC-WWW has been successfully installed.
+Creating EventLog source UGCC-WWW in log Application...
+Committing assembly 'C:\Program Files\EzUGCC\EzUGCC-WWW.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   assemblypath = C:\Program Files\EzUGCC\EzUGCC-WWW.exe
+   logfile = C:\Program Files\EzUGCC\EzUGCC-WWW.InstallLog

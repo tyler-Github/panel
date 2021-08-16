@@ -1,0 +1,15 @@
+﻿Installing assembly 'C:\Program Files\EzUGCC\monitor\ugccmonsvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   assemblypath = C:\Program Files\EzUGCC\monitor\ugccmonsvc.exe
+   logfile = C:\Program Files\EzUGCC\monitor\ugccmonsvc.InstallLog
+Installing service UGCCMon...
+Service UGCCMon has been successfully installed.
+Creating EventLog source UGCCMon in log Application...
+Committing assembly 'C:\Program Files\EzUGCC\monitor\ugccmonsvc.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   assemblypath = C:\Program Files\EzUGCC\monitor\ugccmonsvc.exe
+   logfile = C:\Program Files\EzUGCC\monitor\ugccmonsvc.InstallLog

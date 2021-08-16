@@ -1,0 +1,19 @@
+DESCRIPTION
+
+Scrappier will launch a process and capture all of it's console output and log it to a file.  It also creates a scrappier.pid file that contains the pid of the process it launches.
+
+If you need to log console output of a program and the program doesn't provide that functionality, this is what you'd use scrappier for.
+
+USAGE
+
+scrappier "c:\program\to\run.exe" command line arguments
+
+SCRAPPIER FILES
+
+In the same folder as the scrappier executable (BASE):
+scrappier.log:  log output from the scrappier tool.  Shows executable, arguments, error information.  Mainly for troubleshooting
+
+
+In the current working direct (CWD):
+scrappier.pid:  Contains the pid of the file scrappier launches.  Useful if you need to keep track of the process it launches.
+console.log:  Console output of the launched program.  Error output stream is prefixed with 'Error:'.  Scrappier will rename old console log files if found before starting the program with a random string.

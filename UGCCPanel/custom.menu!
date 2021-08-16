@@ -1,0 +1,11 @@
+//<- double slashes are a comment and ignored by the panel
+//Rename this file to custom.menu to use....
+//This is the custom menu file, here you can create menu entries that will
+//show in the panel's menu.  The first line is the text and url of the main
+//menu item shown in the panel.  The following lines will be sub menu items
+//of the first.  The syntax for each line is "label","url" ie:
+//FAQ,http://www.brainless.us/faq
+Brainless,http://www.brainless.us
+Request Demo License,http://www.brainless.us/forum/viewforum.php?f=19
+Brainless Forum,http://www.brainless.us/forum
+Contact Brainless,http://www.brainless.us/contact.aspx

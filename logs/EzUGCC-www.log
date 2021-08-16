@@ -1,0 +1,4 @@
+16/08/2021 19:11:24:		Running from C:\Program Files\EzUGCC on address any, port 5000 serving C:\Program Files\EzUGCC\UGCCPanel as virtual root /
+16/08/2021 19:11:24:		Bound to ipv4 0.0.0.0:5000
+16/08/2021 19:11:24:		Bound to ipv4 for SSL 0.0.0.0:443
+16/08/2021 19:11:24:		SSL enabled:  True, port=443, cert=C:\Program Files\EzUGCC\cert.p12

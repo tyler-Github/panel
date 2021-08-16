@@ -1,0 +1,4 @@
+08/16/2021 19:11:25	UGCCMon Started (2.483) | Dbtype=sqlite | Interval=30000ms | OS:  Win | Config file:  C:\WINDOWS\system32\ugccmon.cfg | User:  NT AUTHORITY\SYSTEM
+08/16/2021 19:11:26	Generating license request file (.licrm) in C:\Program Files\EzUGCC\logs
+08/16/2021 19:11:26	License file not found, monitor disabled
+08/16/2021 19:11:26	UGCCMon shutting down.  It may take a few minutes for the monitor to finalize and shutdown.

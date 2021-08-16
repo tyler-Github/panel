@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlreadyRunning" xml:space="preserve">
+    <value>Fúwùqì yǐjīng yùnxíng!</value>
+  </data>
+  <data name="AlreadyStopped" xml:space="preserve">
+    <value>Fúwùqì yǐjīng tíngzhǐ!</value>
+  </data>
+  <data name="BadLogin" xml:space="preserve">
+    <value>Yònghù míng/mìmǎ wúxiào. Rúguǒ wàngjì mìmǎ qǐng diǎnjī &lt;a href="forgotpw.Aspx"&gt;zhèlǐ &lt;/ a&gt;chóng zhì.</value>
+  </data>
+  <data name="BadReply" xml:space="preserve">
+    <value>Yìwài shōu dào dáfù yuǎnchéng jiānkòng.</value>
+  </data>
+  <data name="ChangeEmail" xml:space="preserve">
+    <value>Diànzǐ yóujiàn dìzhǐ yǐ gēnggǎi.</value>
+  </data>
+  <data name="ChangePW" xml:space="preserve">
+    <value>Mìmǎ yǐ gēnggǎi.</value>
+  </data>
+  <data name="CmdSaved" xml:space="preserve">
+    <value>Mìnglìng xíng bǎocún.</value>
+  </data>
+  <data name="DemoDisabled" xml:space="preserve">
+    <value>Jìnyòng cǐ gōngnéng de yǎnshì yònghù</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Xiángqíng</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Cǐ gōngnéng yǐ bèi guǎnlǐ yuán jìnyòng.</value>
+  </data>
+  <data name="DisabledTxt" xml:space="preserve">
+    <value>Cán</value>
+  </data>
+  <data name="EditServer" xml:space="preserve">
+    <value>Biānjí fúwùqì</value>
+  </data>
+  <data name="EditServerTitle" xml:space="preserve">
+    <value>Biānjí fúwùqì de pèizhì</value>
+  </data>
+  <data name="ExtraTool" xml:space="preserve">
+    <value>Qítā</value>
+  </data>
+  <data name="ExtraToolTitle" xml:space="preserve">
+    <value>Qítā xuǎn xiàng qǐyòng nín de gōngyìng shāng</value>
+  </data>
+  <data name="FailedloginAcctDisabled" xml:space="preserve">
+    <value>Zhànghù yǐ tíng yòng, qǐng liánxì jìshù zhīchí.</value>
+  </data>
+  <data name="FileTool" xml:space="preserve">
+    <value>Wénjiàn</value>
+  </data>
+  <data name="FileToolTitle" xml:space="preserve">
+    <value>Wénjiàn guǎnlǐ qì</value>
+  </data>
+  <data name="Hash" xml:space="preserve">
+    <value>Fúwùqì de kě zhíxíng wénjiàn de hā xī yǐ gēnggǎi. Méiyǒu qǐdòng fúwùqì.</value>
+  </data>
+  <data name="Hash2" xml:space="preserve">
+    <value>Fúwùqì de fǔzhù wénjiàn hā xī yǐ gēnggǎi. Méiyǒu qǐdòng fúwùqì.</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Xìnxī</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Dìdiǎn</value>
+  </data>
+  <data name="ManageSDef" xml:space="preserve">
+    <value>Guǎnlǐ cǐ fúwùqì dìngyì</value>
+  </data>
+  <data name="ManageServer" xml:space="preserve">
+    <value>Cǐ fúwùqì de guǎnlǐ yèmiàn</value>
+  </data>
+  <data name="ManageUser" xml:space="preserve">
+    <value>Cǐ yònghù de guǎnlǐ yèmiàn</value>
+  </data>
+  <data name="MissingExe" xml:space="preserve">
+    <value>Wúfǎ zhǎodào fúwùqì de kě zhíxíng wénjiàn, qǐng liánxì jìshù zhīchí.</value>
+  </data>
+  <data name="NoExe" xml:space="preserve">
+    <value>Méiyǒu kě zhíxíng wénjiàn yǐ dìngyì cǐ fúwùqì....</value>
+  </data>
+  <data name="NoPermission" xml:space="preserve">
+    <value>Nín méiyǒu quánxiàn qù zuò.</value>
+  </data>
+  <data name="NoPid" xml:space="preserve">
+    <value>Yīgè pid wénjiàn wèi zhǎodào fúwùqì.</value>
+  </data>
+  <data name="NoResp" xml:space="preserve">
+    <value>Wú xiǎngyìng</value>
+  </data>
+  <data name="NoServers" xml:space="preserve">
+    <value>Nǐ sìhū méiyǒu rènhé yóuxì fúwùqì de fǎngwèn.</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Zhùshì</value>
+  </data>
+  <data name="NotesTitle" xml:space="preserve">
+    <value>Chákàn/biānjí bǐjì</value>
+  </data>
+  <data name="PWDontMatch" xml:space="preserve">
+    <value>Mìmǎ bù pǐpèi.</value>
+  </data>
+  <data name="PWInvalid" xml:space="preserve">
+    <value>Nín dāngqián de mìmǎ shì bù zhèngquè de.</value>
+  </data>
+  <data name="PWTooShort" xml:space="preserve">
+    <value>Xīn mìmǎ xūyào ATLEAST liù gè zìfú zhǎng</value>
+  </data>
+  <data name="QueryTool" xml:space="preserve">
+    <value>Cháxún</value>
+  </data>
+  <data name="QueryToolTitle" xml:space="preserve">
+    <value>Jiǎnchá nǐ de yóuxì fúwùqì de zhuàngtài</value>
+  </data>
+  <data name="RconTool" xml:space="preserve">
+    <value>RCON</value>
+  </data>
+  <data name="RconToolTitle" xml:space="preserve">
+    <value>Yuǎnchéng guǎnlǐ nín de fúwùqì</value>
+  </data>
+  <data name="Remote" xml:space="preserve">
+    <value>Wúfǎ liánjiē dào yuǎnchéng jiānkòng.</value>
+  </data>
+  <data name="RemoteError" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="RemoteErrorTip" xml:space="preserve">
+    <value>Wúfǎ liánjiē dào yuǎnchéng jiānkòng</value>
+  </data>
+  <data name="RemoteOffline" xml:space="preserve">
+    <value>Yuǎnchéng fúwùqì biāojì wèi tuō jī.</value>
+  </data>
+  <data name="RemoteTimeout" xml:space="preserve">
+    <value>Liánjiē chāo shí děngdài cóng yuǎnchéng jiānkòng de xiǎngyìng.</value>
+  </data>
+  <data name="RestartedText" xml:space="preserve">
+    <value>Chóngxīn qǐdòng!</value>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>Zuìduō</value>
+  </data>
+  <data name="RunningImgTip" xml:space="preserve">
+    <value>Fúwùqì zhèngzài yùnxíng. Dān jī “tíngzhǐ fúwùqì.</value>
+  </data>
+  <data name="RunningText" xml:space="preserve">
+    <value>Yùnxíng</value>
+  </data>
+  <data name="RunningTip" xml:space="preserve">
+    <value>Fúwùqì zhèngzài yùnxíng, dān jī tíngzhǐ</value>
+  </data>
+  <data name="ServerDisabled" xml:space="preserve">
+    <value>Gāi fúwùqì yǐ bèi jìnyòng, qǐng liánxì jìshù zhīchí.</value>
+  </data>
+  <data name="ServerName" xml:space="preserve">
+    <value>Fúwùqì míngchēng</value>
+  </data>
+  <data name="StartedText" xml:space="preserve">
+    <value>Kāishǐ!</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Zhuàngtài</value>
+  </data>
+  <data name="Stopped" xml:space="preserve">
+    <value>Xiàjiàng</value>
+  </data>
+  <data name="StoppedImgTip" xml:space="preserve">
+    <value>Fúwùqì méiyǒu yùnxíng. Dān jī “qǐdòng fúwùqì”.</value>
+  </data>
+  <data name="StoppedText" xml:space="preserve">
+    <value>Yǐ tíngzhǐ</value>
+  </data>
+  <data name="StoppedText2" xml:space="preserve">
+    <value>Tíngzhǐ!</value>
+  </data>
+  <data name="StoppedTip" xml:space="preserve">
+    <value>Fúwùqì yǐ tíngzhǐ, dān jī “kāishǐ”</value>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>Zhīchí piào xìtǒng</value>
+  </data>
+  <data name="TicketsNew" xml:space="preserve">
+    <value>Chuàngjiàn yīgè xīn de piào</value>
+  </data>
+  <data name="TicketsView" xml:space="preserve">
+    <value>Chá kān ménpiào</value>
+  </data>
+  <data name="TicketSysLink" xml:space="preserve">
+    <value>Nǐ yě kěyǐ chuàngjiàn yīgè zhīchí piào, shòupiào xìtǒng.</value>
+  </data>
+  <data name="TooManyServers" xml:space="preserve">
+    <value>Nǐ méiyǒu quánxiàn yùnxíng zài rènhé tèdìng shíjiān chāoguò XXX fúwùqì.</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Yǒu yīgè yìwài de cuòwù. Qǐng liánxì jìshù zhīchí.</value>
+  </data>
+  <data name="UnhandledStartError" xml:space="preserve">
+    <value>Yóuyú wèi chǔlǐ de cuòwù, wúfǎ qǐdòng fúwùqì, qǐng liánxì jìshù zhīchí.</value>
+  </data>
+  <data name="UpdateTool" xml:space="preserve">
+    <value>Gēngxīn</value>
+  </data>
+  <data name="UpdateToolTitle" xml:space="preserve">
+    <value>Gēngxīn nín de fúwùqì</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>Fúwùqì zhèngzài gēngxīn. Dāng gēngxīn wánchéng hòu, jiāng kāishǐ.</value>
+  </data>
+  <data name="UpdatingStatus" xml:space="preserve">
+    <value>Gēngxīn</value>
+  </data>
+  <data name="UpdatingStatusTip" xml:space="preserve">
+    <value>Fúwùqì gēngxīn. Bùnéng qǐdòng huò tíngzhǐ, zhídào gēngxīn wánchéng.</value>
+  </data>
+  <data name="UpdatingText" xml:space="preserve">
+    <value>Gēngxīn</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Yònghù</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Mìmǎ</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Yònghù míng</value>
+  </data>
+  <data name="UnhandledStopError" xml:space="preserve">
+    <value>Wúfǎ tíngzhǐ fúwùqì yóuyú wèi chǔlǐ de cuòwù, qǐng liánxì jìshù zhīchí.</value>
+  </data>
+  <data name="ManageServerMenu" xml:space="preserve">
+    <value>Guǎnlǐ fúwùqì</value>
+  </data>
+  <data name="ViewLogs" xml:space="preserve">
+    <value>Chákàn rìzhì</value>
+  </data>
+  <data name="OpenFTP" xml:space="preserve">
+    <value>Zài dǎkāi FTP kèhù duān</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Lùjìng</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Nǐ quèdìng yào zhíxíng cǐ cāozuò?</value>
+  </data>
+  <data name="CreateErr" xml:space="preserve">
+    <value>Cuòwù chuàngjiàn wénjiàn:</value>
+  </data>
+  <data name="DecompressErr" xml:space="preserve">
+    <value>Méiyǒu zhǎodào jiǎn yā fāng'àn. Qǐng liánxì jìshù zhīchí.</value>
+  </data>
+  <data name="DelRoot" xml:space="preserve">
+    <value>Nǐ kěnéng bù shānchú zuì dǐngcéng de mùlù. Liánxì yǐ huòdé bāngzhù zhīchí.</value>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>Mǒu xiē gōngnéng shì mónǐ zhànghù jìnyòng.</value>
+  </data>
+  <data name="ExceedsMaxLen" xml:space="preserve">
+    <value>Wénjiàn chāoguò yǔnxǔ de chángdù.</value>
+  </data>
+  <data name="FileExists" xml:space="preserve">
+    <value>Gāi wénjiàn yǐjīng cúnzài.</value>
+  </data>
+  <data name="FName" xml:space="preserve">
+    <value>Nǐ bìxū xiān shūrù yīgè míngchēng</value>
+  </data>
+  <data name="FolderNotFound" xml:space="preserve">
+    <value>Wèi zhǎodào wénjiàn jiā. Qǐng liánxì jìshù zhīchí.</value>
+  </data>
+  <data name="InvName" xml:space="preserve">
+    <value>Míngchēng bāohán wúxiào zìfú</value>
+  </data>
+  <data name="ParentFolder" xml:space="preserve">
+    <value>Fù wénjiàn jiā</value>
+  </data>
+  <data name="RenameErr" xml:space="preserve">
+    <value>Cuòwù zhòng mìngmíng wénjiàn:</value>
+  </data>
+  <data name="ThisFolder" xml:space="preserve">
+    <value>Cǐ wénjiàn jiā</value>
+  </data>
+  <data name="UnsupportedExt" xml:space="preserve">
+    <value>Gāi kuòzhǎn shì bù yǔnxǔ de. Rúguǒ nǐ juédé tā Cotnact zhīchí yīnggāi bèi yǔnxǔ.</value>
+  </data>
+  <data name="LastManUpd" xml:space="preserve">
+    <value>Zuìhòu shǒudòng gēngxīn shí jìnxíng</value>
+  </data>
+  <data name="UpdateComplete" xml:space="preserve">
+    <value>Gēngxīn yǐ wánchéng.</value>
+  </data>
+  <data name="UpdateStop" xml:space="preserve">
+    <value>Nín bìxū tíngzhǐ fúwùqì, ránhòu cáinéng gēngxīn!</value>
+  </data>
+  <data name="UpdatingIs" xml:space="preserve">
+    <value>Fúwùqì gēngxīn, cǐ yèmiàn jiāng zìdòng dìngqí shuāxīn</value>
+  </data>
+  <data name="UpdatingNoOutput" xml:space="preserve">
+    <value>Gēngxīn yǐjīng qǐdòng, dàn méiyǒu wénzì yǐ fǎnhuí ne.</value>
+  </data>
+  <data name="UpdatingOutSession" xml:space="preserve">
+    <value>Gēngxīn zhēng zài jìnxíng zhōng. Tā shì yóu nǐ zài lìng yīgè huìyì kāishǐ, qítā rén, huò zìdòng. Fúwùqì yīnggāi chóngxīn qǐdòng shí, gēngxīn wánchéng qiě gēngxīn lìshǐ jiàng zài zhèlǐ xiǎnshì. Rúguǒ nín xūyào bāngzhù, qǐng liánxì jìshù zhīchí.</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Jiùmìng</value>
+  </data>
+  <data name="HelpTip" xml:space="preserve">
+    <value>Huòdé zhīchí</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Jiā</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Zuìhòu fúwùqì</value>
+  </data>
+  <data name="LastTip" xml:space="preserve">
+    <value>Huíbào gěi nǐ shàng zhíxíng de cāozuò de zuìhòu yī tái fúwùqì</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Dēnglù</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Zhùxiāo</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Xīnwén</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Lúnkuò</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Shèzhì</value>
+  </data>
+  <data name="UpdateToolDesc" xml:space="preserve">
+    <value>Zhège gōngjù kěyǐ ràng nǐ gēngxīn nǐ de yóuxì fúwùqì, bìng chákàn gēngxīn dí dàng qián hé/huò guòqù de zhuàngtài.</value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>Guānbì</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Kāifàng</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Guǎnlǐ</value>
+  </data>
+  <data name="ChooseAnItem" xml:space="preserve">
+    <value>Xuǎnzé cóng xiàlā lièbiǎo zhōng dì yī cì yùnxíng yīgè xiàngmù</value>
+  </data>
+  <data name="ExtraFinished" xml:space="preserve">
+    <value>Guòchéng yǐjīng wánchéng.</value>
+  </data>
+  <data name="ExtraIs" xml:space="preserve">
+    <value>Gāi jìnchéng réng zài yùnxíng, gāi yèmiàn, zìdòng dìngqí shuāxīn</value>
+  </data>
+  <data name="ExtraNoOutput" xml:space="preserve">
+    <value>Guòchéng yǐjīng kāishǐ, dànshì méiyǒu wénzì yǐ fǎnhuí ne.</value>
+  </data>
+  <data name="ExtraStarted" xml:space="preserve">
+    <value>Guòchéng yǐjīng kāishǐ. Cǐ yèmiàn jiāng zìdòng shuāxīn 15 miǎo.</value>
+  </data>
+  <data name="ServerImage" xml:space="preserve">
+    <value>Fúwùqì túpiàn</value>
+  </data>
+  <data name="ServerImageTitle" xml:space="preserve">
+    <value>Wèi nín de fúwùqì biānjí fúwùqì yìngxiàng</value>
+  </data>
+  <data name="Variables" xml:space="preserve">
+    <value>Biànliàng</value>
+  </data>
+  <data name="VariableTitle" xml:space="preserve">
+    <value>Fúwùqì biànliàng biānjí qì</value>
+  </data>
+  <data name="ExtraToolDesc" xml:space="preserve">
+    <value>Zhège gōngjù yǔnxǔ nín yùnxíng nín de tígōng shāng suǒ tígōng de qítā xuǎnxiàng.</value>
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>Xuǎnzé xiàngmù....</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>Yóu</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>Shàng</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Cóng</value>
+  </data>
+  <data name="NewTroubleTicket" xml:space="preserve">
+    <value>Xīn de gùzhàng dān</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Fúwùqì</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Xuékē</value>
+  </data>
+  <data name="TicketBlank" xml:space="preserve">
+    <value>Zhǔtí hé xiāoxī zìduàn bùnéng wéi kōng!</value>
+  </data>
+  <data name="TicketBlankReply" xml:space="preserve">
+    <value>Nǐ bùnéng fāsòng kòngbái huífù. Qǐng shūrù xìnxī.</value>
+  </data>
+  <data name="TicketNoReply" xml:space="preserve">
+    <value>Qǐng bùyào huífù cǐ yóujiàn, ér bùshì dēnglù dào nín de zhànghù, bìng tiānjiā yīgè dáfù.</value>
+  </data>
+  <data name="TicketUpdate" xml:space="preserve">
+    <value>Gùzhàng dān de zhuàngtài gēngxīn</value>
+  </data>
+  <data name="ExtraStart" xml:space="preserve">
+    <value>Fúwùqì bìxū yùnxíng zhīqián, nǐ kěnéng huì yù dào zhè zhǒng éwài de fèiyòng.</value>
+  </data>
+  <data name="ExtraStop" xml:space="preserve">
+    <value>Nín bìxū tíngzhǐ fúwùqì zhīqián, nǐ kěnéng huì yù dào zhè zhǒng éwài de fèiyòng.</value>
+  </data>
+  <data name="FailedloginMaint" xml:space="preserve">
+    <value>Miànbǎn mùqián chǔyú wéihù móshì. Qǐng shāo hòu dēnglù.</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>Wánjiā</value>
+  </data>
+  <data name="Servers" xml:space="preserve">
+    <value>Fúwùqì</value>
+  </data>
+  <data name="AccountExists" xml:space="preserve">
+    <value>Yònghù míng yǐ cúnzài, qǐng chóng shì</value>
+  </data>
+  <data name="NoSubaccounts" xml:space="preserve">
+    <value>Nín méiyǒu chuàngjiàn zi zhànghù de quánxiàn.</value>
+  </data>
+  <data name="ConsoleTool" xml:space="preserve">
+    <value>Chákàn kòngzhì tái</value>
+  </data>
+  <data name="ConsoleToolTitle" xml:space="preserve">
+    <value>Chákàn fúwùqì jìnchéng shūchū</value>
+  </data>
+  <data name="ConsoleButton" xml:space="preserve">
+    <value>Ānwèi</value>
+  </data>
+  <data name="PendingRestartTip" xml:space="preserve">
+    <value>服务器正在运行，但重新启动暂挂。  单击以启动重新启动。</value>
+  </data>
+  <data name="PendingStopTip" xml:space="preserve">
+    <value>服务器正在运行，但关闭处于暂挂状态。  单击以立即关闭。</value>
+  </data>
+  <data name="PendingUpdateTip" xml:space="preserve">
+    <value>服务器正在运行，但更新处于暂挂状态。  单击以启动关闭和更新。</value>
+  </data>
+  <data name="GracefulStarted" xml:space="preserve">
+    <value>正常关闭已启动。</value>
+  </data>
+  <data name="ShutdownCancelled" xml:space="preserve">
+    <value>已取消关闭</value>
+  </data>
+  <data name="PendingRestart" xml:space="preserve">
+    <value>服务器关闭暂挂等待重新启动</value>
+  </data>
+  <data name="PendingRestartStarted" xml:space="preserve">
+    <value>暂挂服务器重新启动已启动</value>
+  </data>
+  <data name="PendingShutdown" xml:space="preserve">
+    <value>服务器关闭暂挂</value>
+  </data>
+  <data name="PendingShutdownTip" xml:space="preserve">
+    <value>关闭暂挂，单击以取消暂挂关闭。</value>
+  </data>
+  <data name="PendingShutdownTipForce" xml:space="preserve">
+    <value>关闭暂挂，单击以启动立即关闭。</value>
+  </data>
+  <data name="PendingUpdate" xml:space="preserve">
+    <value>服务器关闭暂挂以进行更新</value>
+  </data>
+  <data name="OperationUnavailable" xml:space="preserve">
+    <value>操作当前不可用</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>重新启动</value>
+  </data>
+  <data name="RestartText" xml:space="preserve">
+    <value>重新启动服务器</value>
+  </data>
+  <data name="AdvertTool" xml:space="preserve">
+    <value>RCON 消息</value>
+  </data>
+  <data name="AdvertToolTitle" xml:space="preserve">
+    <value>设置定时 RCON 消息/命令</value>
+  </data>
+  <data name="Reinstall" xml:space="preserve">
+    <value>重新安装</value>
+  </data>
+  <data name="ReinstallTip" xml:space="preserve">
+    <value>重新安装游戏服务器</value>
+  </data>
+  <data name="ReinstallToolDesc" xml:space="preserve">
+    <value>此工具允许您重新安装游戏服务器。  将设置游戏服务器和命令行值的新副本。  您当前的服务器将被禁用，但在您需要访问文件的情况下可访问，但可以在没有通知的情况下除去。</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>行动</value>
+  </data>
+  <data name="ArcInfoTT" xml:space="preserve">
+    <value>查看归档信息</value>
+  </data>
+  <data name="CompressTT" xml:space="preserve">
+    <value>压缩</value>
+  </data>
+  <data name="DecompressTT" xml:space="preserve">
+    <value>减压</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="ModTime" xml:space="preserve">
+    <value>修改时间</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="NewNews" xml:space="preserve">
+    <value>您已在此处重定向，因为已添加新的新闻项。  复审新项后，可以继续至主菜单。</value>
+  </data>
+  <data name="ShutdownFirst" xml:space="preserve">
+    <value>服务器正在运行，必须先停止它才能使用此工具</value>
+  </data>
+  <data name="WorkshopDLError" xml:space="preserve">
+    <value>下载 Mod时出错 :</value>
+  </data>
+  <data name="WorkshopItemsMissing" xml:space="preserve">
+    <value>未定义车间标识，未定义任何内容</value>
+  </data>
+  <data name="WorkshopTool" xml:space="preserve">
+    <value>修改安装程序</value>
+  </data>
+  <data name="WorkshopToolTitle" xml:space="preserve">
+    <value>将 Steam Workshop MDS 添加到该服务器</value>
+  </data>
+  <data name="RequiresLicense" xml:space="preserve">
+    <value>此功能需要许可证</value>
+  </data>
+  <data name="UpdatingMods" xml:space="preserve">
+    <value>服务器当前正在更新 mid。  如果启用了更新，那么它将在更新完成时启动。</value>
+  </data>
+  <data name="UpdatingWorkshopStatus" xml:space="preserve">
+    <value>更新研讨会</value>
+  </data>
+  <data name="UpdatingWorkshopStatusTip" xml:space="preserve">
+    <value>服务器正在更新车间项。  在更新完成之前，它无法启动或停止。</value>
+  </data>
+  <data name="UpdatingWorkshopText" xml:space="preserve">
+    <value>服务器当前正在更新车间项!</value>
+  </data>
+  <data name="TfaNotice" xml:space="preserve">
+    <value>使用两个因子认证来保护您的帐户。</value>
+  </data>
+  <data name="Added" xml:space="preserve">
+    <value>已添加</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="WorkshopAdded" xml:space="preserve">
+    <value>已添加项</value>
+  </data>
+  <data name="WorkshopBrowse" xml:space="preserve">
+    <value>浏览 Steam workshop mid for 此游戏</value>
+  </data>
+  <data name="WorkshopDisabled" xml:space="preserve">
+    <value>此游戏类型未启用车间，无法继续!</value>
+  </data>
+  <data name="WorkshopExists" xml:space="preserve">
+    <value>项已存在!</value>
+  </data>
+  <data name="WorkshopGO" xml:space="preserve">
+    <value>Workshop mod ( s ) 安装/更新已排队。</value>
+  </data>
+  <data name="WorkshopIDErrorNumeric" xml:space="preserve">
+    <value>无法添加新项，车间项只能是数字。</value>
+  </data>
+  <data name="WorkshopImport" xml:space="preserve">
+    <value>从集合导入车间标识</value>
+  </data>
+  <data name="WorkshopMissingAPPID" xml:space="preserve">
+    <value>没有为该游戏类型定义 Steam 应用程序标识，无法继续!</value>
+  </data>
+  <data name="WorkshopQueued" xml:space="preserve">
+    <value>正在跳过修改，已为此项调度作业。</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>返回</value>
+  </data>
+</root>

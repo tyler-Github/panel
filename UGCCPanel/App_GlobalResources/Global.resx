@@ -1,0 +1,904 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlreadyRunning" xml:space="preserve">
+    <value>Server is already running!</value>
+    <comment>Message a users gets when trying to start a server that has already been started.</comment>
+  </data>
+  <data name="AlreadyStopped" xml:space="preserve">
+    <value>Server is already stopped!</value>
+    <comment>Message a user gets when trying to stop a server that has already been stopped.</comment>
+  </data>
+  <data name="BadLogin" xml:space="preserve">
+    <value>Invalid username/password.  If you've forgotten your password click &lt;a class="alert-link" href="forgotpw.aspx"&gt;here&lt;/a&gt; to reset it.</value>
+    <comment>Error message user gets when they enter wrong username and/or password</comment>
+  </data>
+  <data name="BadReply" xml:space="preserve">
+    <value>Unexpected reply received from remote monitor.</value>
+    <comment>Error message when the panel receives an invalid reply from monitor.</comment>
+  </data>
+  <data name="ChangeEmail" xml:space="preserve">
+    <value>Email address has been changed.</value>
+    <comment>Text given to user when they update their email address.</comment>
+  </data>
+  <data name="ChangePW" xml:space="preserve">
+    <value>Password has been changed.</value>
+    <comment>Text given to user when they update thier password.</comment>
+  </data>
+  <data name="CmdSaved" xml:space="preserve">
+    <value>Command line saved.</value>
+    <comment>Prompt returned to use when an update for the commandline was successful.</comment>
+  </data>
+  <data name="DemoDisabled" xml:space="preserve">
+    <value>This feature is disabled for demo users</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+    <comment>Main menu table heading</comment>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>This feature has been disabled by the administrator.</value>
+    <comment>Error returned when a feature is disabled.</comment>
+  </data>
+  <data name="DisabledTxt" xml:space="preserve">
+    <value>Disabled</value>
+    <comment>The word 'Disabled', show on main menu next to server status if server is disabled.</comment>
+  </data>
+  <data name="EditServer" xml:space="preserve">
+    <value>Edit Server</value>
+    <comment>Text for edit server link on manage page (only shows if logged in as an admin)</comment>
+  </data>
+  <data name="EditServerTitle" xml:space="preserve">
+    <value>Edit this server's configuration</value>
+    <comment>Text for edit server link tooltip on manage page (if logged in as an admin)</comment>
+  </data>
+  <data name="ExtraTool" xml:space="preserve">
+    <value>Extras</value>
+    <comment>Text for extra tool item on manage page</comment>
+  </data>
+  <data name="ExtraToolTitle" xml:space="preserve">
+    <value>Other options enabled by your provider</value>
+    <comment>Tool tip when you hover over extra tool link on manage page</comment>
+  </data>
+  <data name="FailedloginAcctDisabled" xml:space="preserve">
+    <value>Account disabled, please contact support.</value>
+    <comment>Error message user gets when trying to login and their account is disabled.</comment>
+  </data>
+  <data name="FileTool" xml:space="preserve">
+    <value>Files</value>
+    <comment>Text for file tool item on manage page</comment>
+  </data>
+  <data name="FileToolTitle" xml:space="preserve">
+    <value>Manage the files on your server</value>
+    <comment>Tool tip when you hover over file tool icon on manage page</comment>
+  </data>
+  <data name="Hash" xml:space="preserve">
+    <value>The server's executable hash has changed.   Not starting server.</value>
+    <comment>Error message given when a hash mismatch occurs.</comment>
+  </data>
+  <data name="Hash2" xml:space="preserve">
+    <value>The server's secondary file hash has changed.  Not starting server.</value>
+    <comment>Error message given when a secondary file hash mismatch occurs.</comment>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+    <comment>Main menu table heading</comment>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Server Def.</value>
+    <comment>Main menu table heading</comment>
+  </data>
+  <data name="ManageSDef" xml:space="preserve">
+    <value>Manage this server definition</value>
+    <comment>Tooltip for main menu's server defintion page link</comment>
+  </data>
+  <data name="ManageServer" xml:space="preserve">
+    <value>Management page for this server</value>
+    <comment>Tooltip for main menu's server manage page link</comment>
+  </data>
+  <data name="ManageUser" xml:space="preserve">
+    <value>Management page for this user</value>
+    <comment>Tooltip for main menu's user manage page link</comment>
+  </data>
+  <data name="MissingExe" xml:space="preserve">
+    <value>Can't find the server's executable, please contact support.</value>
+    <comment>Error message given when the exe for a server could not be found.</comment>
+  </data>
+  <data name="NoExe" xml:space="preserve">
+    <value>No executable has been defined for this server....</value>
+    <comment>Error message given when no exe has been specified for a server.</comment>
+  </data>
+  <data name="NoPermission" xml:space="preserve">
+    <value>You don't have permission to do that.</value>
+    <comment>Error message user gets when trying to do something they're not allowed to do.</comment>
+  </data>
+  <data name="NoPid" xml:space="preserve">
+    <value>A PID file was not found for the server.</value>
+    <comment>Error message when starting a server and the panel can't find the pid file</comment>
+  </data>
+  <data name="NoResp" xml:space="preserve">
+    <value>No Response</value>
+    <comment>Text returned on main menu when a game server query returns no status</comment>
+  </data>
+  <data name="NoServers" xml:space="preserve">
+    <value>You don't seem to have access to any game servers.</value>
+    <comment>Message user sees when they login and have no access to any game server.</comment>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notes</value>
+    <comment>Text for notes item on manage page</comment>
+  </data>
+  <data name="NotesTitle" xml:space="preserve">
+    <value>View/edit your notes</value>
+    <comment>Tool tip when you hover over note icon on manage page</comment>
+  </data>
+  <data name="PWDontMatch" xml:space="preserve">
+    <value>The passwords don't match.</value>
+    <comment>Text given to user when the password fields don't match when trying to change their password.</comment>
+  </data>
+  <data name="PWInvalid" xml:space="preserve">
+    <value>Your current password is incorrect.</value>
+    <comment>Message given to user when they try tot change their password and fail to enter the correct current password.</comment>
+  </data>
+  <data name="PWTooShort" xml:space="preserve">
+    <value>New passwords need to be atleast six characters long</value>
+    <comment>Message given to users when password change is too short.</comment>
+  </data>
+  <data name="QueryTool" xml:space="preserve">
+    <value>Query</value>
+    <comment>Text for query tool item on manage page</comment>
+  </data>
+  <data name="QueryToolTitle" xml:space="preserve">
+    <value>Check the status of your game server</value>
+    <comment>Tool tip when you hover over query tool icon on manage page</comment>
+  </data>
+  <data name="RconTool" xml:space="preserve">
+    <value>RCON</value>
+    <comment>Text for rcon tool item on manage page</comment>
+  </data>
+  <data name="RconToolTitle" xml:space="preserve">
+    <value>Remotely administrate your server</value>
+    <comment>Tool tip when you hover over rcon tool icon on manage page</comment>
+  </data>
+  <data name="Remote" xml:space="preserve">
+    <value>Could not connect to remote monitor.</value>
+    <comment>Error message when the panel is unable to connect to remote monitor.</comment>
+  </data>
+  <data name="RemoteError" xml:space="preserve">
+    <value>?</value>
+    <comment>status text of servers in main menu</comment>
+  </data>
+  <data name="RemoteErrorTip" xml:space="preserve">
+    <value>Unable to connect to remote monitor</value>
+    <comment>Status tooltip of main menu</comment>
+  </data>
+  <data name="RemoteOffline" xml:space="preserve">
+    <value>Remote server is marked as offline.</value>
+    <comment>Message given when trying to perform an action on a server that is hosted on a remote that is marked as disabled.</comment>
+  </data>
+  <data name="RemoteTimeout" xml:space="preserve">
+    <value>Connection timed out waiting for a response from the remote monitor.</value>
+    <comment>Error message when the panel doesn't receive a reply for the remote monitor in a timely matter.</comment>
+  </data>
+  <data name="RestartedText" xml:space="preserve">
+    <value>Restarted!</value>
+    <comment>Text displayed on manage page when a server is restarted</comment>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>Up</value>
+    <comment>Status text of servers in main menu</comment>
+  </data>
+  <data name="RunningImgTip" xml:space="preserve">
+    <value>Server is running.  Click to stop the server.</value>
+    <comment>Tooltip for image next to server status.</comment>
+  </data>
+  <data name="RunningText" xml:space="preserve">
+    <value>Server is running!</value>
+    <comment>Represents the 'running text' used on the server management page</comment>
+  </data>
+  <data name="RunningTip" xml:space="preserve">
+    <value>Server is running, click to stop</value>
+    <comment>Status tooltip of main menu</comment>
+  </data>
+  <data name="ServerDisabled" xml:space="preserve">
+    <value>The server has been disabled, please contact support.</value>
+    <comment>Error message user gets when they try to start a server that's been disabled.</comment>
+  </data>
+  <data name="ServerName" xml:space="preserve">
+    <value>Server Name</value>
+    <comment>Main menu table heading</comment>
+  </data>
+  <data name="StartedText" xml:space="preserve">
+    <value>Started!</value>
+    <comment>Text displayed on manage page when a server is started</comment>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+    <comment>Main menu table heading</comment>
+  </data>
+  <data name="Stopped" xml:space="preserve">
+    <value>Down</value>
+    <comment>status text of servers in main menu</comment>
+  </data>
+  <data name="StoppedImgTip" xml:space="preserve">
+    <value>Server is not running.  Click to start the server.</value>
+    <comment>Tooltip for image next to server status.</comment>
+  </data>
+  <data name="StoppedText" xml:space="preserve">
+    <value>Server is stopped!</value>
+    <comment>Represents the 'stopped text' used on the server management page.</comment>
+  </data>
+  <data name="StoppedText2" xml:space="preserve">
+    <value>Stopped!</value>
+    <comment>Text displayed on manage page when a server is stopped</comment>
+  </data>
+  <data name="StoppedTip" xml:space="preserve">
+    <value>Server is stopped, click to start</value>
+    <comment>Status tooltip of main menu</comment>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>Support Ticket System</value>
+    <comment>Text shown for ticket header on support page</comment>
+  </data>
+  <data name="TicketsNew" xml:space="preserve">
+    <value>Create a new ticket</value>
+    <comment>Text shown for URL on support page to submit a new ticket</comment>
+  </data>
+  <data name="TicketsView" xml:space="preserve">
+    <value>View your tickets</value>
+    <comment>Text shown for URL on support page to view tickets</comment>
+  </data>
+  <data name="TicketSysLink" xml:space="preserve">
+    <value>You can also create a support ticket in the ticket system.</value>
+    <comment>Text for link to ticket system page</comment>
+  </data>
+  <data name="TooManyServers" xml:space="preserve">
+    <value>You don't have permission to run more than XXX server at any given time.</value>
+    <comment>Error message user gets when they try to start more than XXX servers they are allowed to run.</comment>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>There was an unexpected error.  Please contact support.</value>
+    <comment>Unexptected/unhandled error message</comment>
+  </data>
+  <data name="UnhandledStartError" xml:space="preserve">
+    <value>Unable to start the server due to an unhandled error, please contact support.</value>
+    <comment>Error message for an unhandled error when starting server.</comment>
+  </data>
+  <data name="UpdateTool" xml:space="preserve">
+    <value>Update</value>
+    <comment>Text for update tool item on manage page</comment>
+  </data>
+  <data name="UpdateToolTitle" xml:space="preserve">
+    <value>Update your server</value>
+    <comment>Tool tip when you hover over update tool icon on manage page</comment>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>The server is currently being updated.  It will be started when the update is finished if enabled.</value>
+    <comment>Message given to user when they attempt to start a server that is currently being updated.</comment>
+  </data>
+  <data name="UpdatingStatus" xml:space="preserve">
+    <value>Updating</value>
+    <comment>Status text of updating servers in main menu</comment>
+  </data>
+  <data name="UpdatingStatusTip" xml:space="preserve">
+    <value>The server is updating.  It cannot be started or stopped until the update is finished.</value>
+    <comment>Tooltip for updating link in main menu</comment>
+  </data>
+  <data name="UpdatingText" xml:space="preserve">
+    <value>Server is currently updating!</value>
+    <comment>Represents the "updating text' used on the server management page</comment>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>User</value>
+    <comment>Main menu table heading</comment>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>password</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>username</value>
+  </data>
+  <data name="UnhandledStopError" xml:space="preserve">
+    <value>Unable to stop the server due to an unhandled error, please contact support.</value>
+    <comment>Error message for an unhandled error when stopping server.</comment>
+  </data>
+  <data name="ManageServerMenu" xml:space="preserve">
+    <value>Manage this server</value>
+    <comment>Shown on dropdown menu on main menu</comment>
+  </data>
+  <data name="ViewLogs" xml:space="preserve">
+    <value>Logs</value>
+    <comment>Shown on dropdown menu on main menu</comment>
+  </data>
+  <data name="OpenFTP" xml:space="preserve">
+    <value>Open in FTP Client</value>
+    <comment>Text for open in FTP Client button in file tool</comment>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Path</value>
+    <comment>Text for path legend in file tool</comment>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Are you sure you want to perform this action?</value>
+    <comment>Text for confirmation boxes</comment>
+  </data>
+  <data name="CreateErr" xml:space="preserve">
+    <value>Error creating file:  </value>
+    <comment>Message shown in file tool if there is an error creating file.</comment>
+  </data>
+  <data name="DecompressErr" xml:space="preserve">
+    <value>Decompression program not found.  Please contact support.</value>
+  </data>
+  <data name="DelRoot" xml:space="preserve">
+    <value>You may not delete the top most directory.  Contact support for assistance.</value>
+    <comment>Error message users get in file tool if they try to delete top most folder.</comment>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>Some features are disabled for demo accounts.</value>
+  </data>
+  <data name="ExceedsMaxLen" xml:space="preserve">
+    <value>File exceeds allowed length.</value>
+    <comment>Message in file tool if a file is too large for file tool</comment>
+  </data>
+  <data name="FileExists" xml:space="preserve">
+    <value>The file already exists.</value>
+    <comment>Message shown in file tool if a file already exists</comment>
+  </data>
+  <data name="FName" xml:space="preserve">
+    <value>You must enter a name first</value>
+  </data>
+  <data name="FolderNotFound" xml:space="preserve">
+    <value>The folder was not found.  Please contact support.</value>
+    <comment>Missing folder message in file tool.</comment>
+  </data>
+  <data name="InvName" xml:space="preserve">
+    <value>Name contains invalid characters</value>
+  </data>
+  <data name="ParentFolder" xml:space="preserve">
+    <value>Parent</value>
+    <comment>Text for '..' folder in file tool.</comment>
+  </data>
+  <data name="RenameErr" xml:space="preserve">
+    <value>Error renaming file:  </value>
+  </data>
+  <data name="ThisFolder" xml:space="preserve">
+    <value>This Folder</value>
+    <comment>Text for '.' folder in file tool.</comment>
+  </data>
+  <data name="UnsupportedExt" xml:space="preserve">
+    <value>This extension is not allowed.  Contact support if you feel it should be allowed.</value>
+    <comment>File tool message if a user tries to open an unallowed file type</comment>
+  </data>
+  <data name="LastManUpd" xml:space="preserve">
+    <value>Last manual update performed at</value>
+    <comment>Text shown on update page note</comment>
+  </data>
+  <data name="UpdateComplete" xml:space="preserve">
+    <value>Update has finished.</value>
+    <comment>Text shown on update page when update finishes.</comment>
+  </data>
+  <data name="UpdateStop" xml:space="preserve">
+    <value>You must stop the server before you can update it!</value>
+    <comment>Message shown on update page if server is still running when trying to update.</comment>
+  </data>
+  <data name="UpdatingIs" xml:space="preserve">
+    <value>The server is updating, this page will automatically refresh periodically</value>
+    <comment>Status text shown on update page when server is updating</comment>
+  </data>
+  <data name="UpdatingNoOutput" xml:space="preserve">
+    <value>Update has been started but no text has been returned yet.</value>
+    <comment>Shown when the update is running but no text caputred yet.</comment>
+  </data>
+  <data name="UpdatingOutSession" xml:space="preserve">
+    <value>An update is in progress.  It was started by you in another session, someone else, or automatically.  The server should restart when the update is complete and the update history will be displayed here.  Please contact support if you need assistance.</value>
+    <comment>Text shown in update page if panel is unable to get update text from update process.</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+    <comment>Text for main nav menu</comment>
+  </data>
+  <data name="HelpTip" xml:space="preserve">
+    <value>Get support</value>
+    <comment>Text for main nav menu</comment>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+    <comment>Text for main navigation menu</comment>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Last Server</value>
+    <comment>Text for main nav menu</comment>
+  </data>
+  <data name="LastTip" xml:space="preserve">
+    <value>Return to the last server you performed an action on</value>
+    <comment>Text for main nav menu</comment>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+    <comment>Text for main nav menu</comment>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Log out</value>
+    <comment>Text for main nav menu</comment>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>News</value>
+    <comment>Text for main nav menu</comment>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profile</value>
+    <comment>Text for main nav menu</comment>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+    <comment>Text for main nav menu</comment>
+  </data>
+  <data name="UpdateToolDesc" xml:space="preserve">
+    <value>This tool allows you to update your game server and view the current and/or past status of an update.</value>
+    <comment>Text for update tool note</comment>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>Closed</value>
+    <comment>Ticket status 'closed'</comment>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+    <comment>Ticket status 'open'</comment>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Manage</value>
+    <comment>Table header on menu.aspx page for server options dropdown.</comment>
+  </data>
+  <data name="ChooseAnItem" xml:space="preserve">
+    <value>Choose an item to run from the drop down list first</value>
+  </data>
+  <data name="ExtraFinished" xml:space="preserve">
+    <value>Process has finished.</value>
+    <comment>Shown on extras page when an extra option finishes running.</comment>
+  </data>
+  <data name="ExtraIs" xml:space="preserve">
+    <value>The process is still running, this page will automatically refresh periodically</value>
+  </data>
+  <data name="ExtraNoOutput" xml:space="preserve">
+    <value>Process has been started but no text has been returned yet.</value>
+  </data>
+  <data name="ExtraStarted" xml:space="preserve">
+    <value>Process has been started.  This page will auto refresh in 15 seconds.</value>
+  </data>
+  <data name="ServerImage" xml:space="preserve">
+    <value>Server Images</value>
+    <comment>Button on management page</comment>
+  </data>
+  <data name="ServerImageTitle" xml:space="preserve">
+    <value>Edit server images for your server</value>
+    <comment>Tittle for server images button on management page</comment>
+  </data>
+  <data name="Variables" xml:space="preserve">
+    <value>Variables</value>
+    <comment>Show on management page for variable button</comment>
+  </data>
+  <data name="VariableTitle" xml:space="preserve">
+    <value>Server variable editor</value>
+    <comment>Title for variable button on management page</comment>
+  </data>
+  <data name="ExtraToolDesc" xml:space="preserve">
+    <value>This tool allows you to run other options enabled by your provider.&amp;nbsp; Choose one from the drop down.&amp;nbsp; If you leave this page the process will continue to run.</value>
+    <comment>Desc of tool shown on extras page.</comment>
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>Choose an item....</value>
+    <comment>Show in dropdowns</comment>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>By</value>
+    <comment>Used on news page for 'by'</comment>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>On</value>
+    <comment>Used on news page and tickets for 'on'</comment>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From</value>
+    <comment>From text shown in ticket messages and emails.</comment>
+  </data>
+  <data name="NewTroubleTicket" xml:space="preserve">
+    <value>New trouble ticket</value>
+    <comment>Text for new trouble ticket email message.</comment>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Server</value>
+    <comment>Text for server in tickets.</comment>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Subject</value>
+    <comment>Subject text shown in ticket messages and emails.</comment>
+  </data>
+  <data name="TicketBlank" xml:space="preserve">
+    <value>The subject and message fields cannot be blank!</value>
+    <comment>Error shown to users on newticket page when subject and message are blank.</comment>
+  </data>
+  <data name="TicketBlankReply" xml:space="preserve">
+    <value>You cannot send a blank reply.  Please enter a message.</value>
+    <comment>Shown on ticket reply page if reply is blank.</comment>
+  </data>
+  <data name="TicketNoReply" xml:space="preserve">
+    <value>Please do not reply to this email, instead login to your account and add a reply.</value>
+    <comment>Shown in the bottom of message reply emails.</comment>
+  </data>
+  <data name="TicketUpdate" xml:space="preserve">
+    <value>Trouble ticket status updated</value>
+    <comment>Text for updated trouble ticket email message.</comment>
+  </data>
+  <data name="ExtraStart" xml:space="preserve">
+    <value>The server must be running before you may run this extra.</value>
+    <comment>Error message shown to a user when they try to run an extra that requires the server to be running.</comment>
+  </data>
+  <data name="ExtraStop" xml:space="preserve">
+    <value>You must stop the server before you may run this extra.</value>
+    <comment>Error message shown to a user when they try to run an extra that requires the server to be stopped first.</comment>
+  </data>
+  <data name="FailedloginMaint" xml:space="preserve">
+    <value>Panel is currently in maintenance mode.  Please try logging in later.</value>
+    <comment>Shown to users when trying to login when panel is in maintenance mode.</comment>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>Players</value>
+    <comment>Text for 'players' in status bar on main menu.</comment>
+  </data>
+  <data name="Servers" xml:space="preserve">
+    <value>Servers</value>
+    <comment>Text for 'servers' in status bar on main menu.</comment>
+  </data>
+  <data name="AccountExists" xml:space="preserve">
+    <value>Username already exists, try again</value>
+    <comment>Shown on subaccount page if a choosen username is already in use.</comment>
+  </data>
+  <data name="NoSubaccounts" xml:space="preserve">
+    <value>You do not have permission to create subaccounts.</value>
+    <comment>Shown on subaccount create page to demo users and sub account users.</comment>
+  </data>
+  <data name="ConsoleTool" xml:space="preserve">
+    <value>View console</value>
+    <comment>Text for console tool in main menu dropdown</comment>
+  </data>
+  <data name="ConsoleToolTitle" xml:space="preserve">
+    <value>View server process output</value>
+    <comment>Tooltip for main menu dropdown</comment>
+  </data>
+  <data name="ConsoleButton" xml:space="preserve">
+    <value>Console</value>
+    <comment>Text for console button on management page.</comment>
+  </data>
+  <data name="PendingRestartTip" xml:space="preserve">
+    <value>Server is running, but a restart is pending.  Click to start restart.</value>
+    <comment>Shown on menu page</comment>
+  </data>
+  <data name="PendingStopTip" xml:space="preserve">
+    <value>Server is running, but a shutdown is pending.  Click to immediately shutdown.</value>
+    <comment>Shown on menu page</comment>
+  </data>
+  <data name="PendingUpdateTip" xml:space="preserve">
+    <value>Server is running, but an update is pending.  Click to start shutdown and update.</value>
+    <comment>Shown on menu page</comment>
+  </data>
+  <data name="GracefulStarted" xml:space="preserve">
+    <value>Graceful shutdown initiated.</value>
+    <comment>Text returned to user when a graceful shutdown has been started.</comment>
+  </data>
+  <data name="ShutdownCancelled" xml:space="preserve">
+    <value>Shutdown cancelled</value>
+    <comment>Text returned when a server's pending shutdown/restart/update is cancelled by user</comment>
+  </data>
+  <data name="PendingRestart" xml:space="preserve">
+    <value>Server shutdown pending for restart</value>
+  </data>
+  <data name="PendingRestartStarted" xml:space="preserve">
+    <value>A pending server restart has been started</value>
+  </data>
+  <data name="PendingShutdown" xml:space="preserve">
+    <value>Server shutdown pending</value>
+  </data>
+  <data name="PendingShutdownTip" xml:space="preserve">
+    <value>A shutdown is pending, click to cancel pending shutdown.</value>
+  </data>
+  <data name="PendingShutdownTipForce" xml:space="preserve">
+    <value>A shutdown is pending, click to start an immediate shutdown.</value>
+  </data>
+  <data name="PendingUpdate" xml:space="preserve">
+    <value>Server shutdown pending for update</value>
+  </data>
+  <data name="OperationUnavailable" xml:space="preserve">
+    <value>Operation is currently unavailable</value>
+    <comment>Message returned to user when trying to perform an operation when user tries to do something in a diectory with an ugcc.exclude file</comment>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Restart</value>
+    <comment>Restart text for server restart</comment>
+  </data>
+  <data name="RestartText" xml:space="preserve">
+    <value>Restart server</value>
+    <comment>Text for Restart buttons</comment>
+  </data>
+  <data name="AdvertTool" xml:space="preserve">
+    <value>RCON Msgs</value>
+    <comment>Text shown in rcon advertisement tool button on server management page.</comment>
+  </data>
+  <data name="AdvertToolTitle" xml:space="preserve">
+    <value>Setup timed RCON messages/commands</value>
+    <comment>RCON advertisement tool tooltip</comment>
+  </data>
+  <data name="Reinstall" xml:space="preserve">
+    <value>Reinstall</value>
+    <comment>Title for reinstall button on management page</comment>
+  </data>
+  <data name="ReinstallTip" xml:space="preserve">
+    <value>Reinstall your game server</value>
+    <comment>Tooltip for Reinstall button on management page</comment>
+  </data>
+  <data name="ReinstallToolDesc" xml:space="preserve">
+    <value>This tool allows you to reinstall your game server.  A fresh copy of the game server and command line values will be setup,.  Your current server will be disabled but accessible in case you need access to the files but may be removed without notice.</value>
+    <comment>Text shown on reinstall tool page</comment>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Actions</value>
+    <comment>Text for file tool "Actions' column</comment>
+  </data>
+  <data name="ArcInfoTT" xml:space="preserve">
+    <value>View archive information</value>
+    <comment>Tool tip for file tool show archive info button</comment>
+  </data>
+  <data name="CompressTT" xml:space="preserve">
+    <value>Compress</value>
+    <comment>Tool tip for file tool compress button</comment>
+  </data>
+  <data name="DecompressTT" xml:space="preserve">
+    <value>Decompress</value>
+    <comment>Tool tip for file tool decompress button</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+    <comment>Text for file tool 'Delete' column</comment>
+  </data>
+  <data name="ModTime" xml:space="preserve">
+    <value>Modified Time</value>
+    <comment>Text for file tool 'Modified Time' column</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>Text for file tool Name column</comment>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Size</value>
+    <comment>Text for file tool 'Size' column</comment>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+    <comment>Text for file tool 'Type' column</comment>
+  </data>
+  <data name="NewNews" xml:space="preserve">
+    <value>You have been redirected here because a new news item has been added.  You can continue to the main menu after reviewing the new items.</value>
+    <comment>Show on news.aspx page when a user is redirect after login due to a new news item.</comment>
+  </data>
+  <data name="ShutdownFirst" xml:space="preserve">
+    <value>The server is running, it must be stopped first to use this tool</value>
+    <comment>Message shown to users when they try to use workshop installer on a running server.</comment>
+  </data>
+  <data name="WorkshopDLError" xml:space="preserve">
+    <value>Error downloading Mod:</value>
+    <comment>Message show to user when mod download fails</comment>
+  </data>
+  <data name="WorkshopItemsMissing" xml:space="preserve">
+    <value>No workshop IDs are defined, nothing to do</value>
+    <comment>Message shown on workshop tool if user hasn't added any workshop item ids</comment>
+  </data>
+  <data name="WorkshopTool" xml:space="preserve">
+    <value>Workshop Mod Installer</value>
+    <comment>Shown on UGCC page as button that links to the workshop mod installer</comment>
+  </data>
+  <data name="WorkshopToolTitle" xml:space="preserve">
+    <value>Add and update Steam Workshop Mods to this server</value>
+    <comment>Tool tip for workshop mod installer button</comment>
+  </data>
+  <data name="RequiresLicense" xml:space="preserve">
+    <value>This feature requires a license</value>
+    <comment>Message shown when trying to do something that needs a license.</comment>
+  </data>
+  <data name="UpdatingMods" xml:space="preserve">
+    <value>The server is currently updating mods.  It will be started when the update is finished if enabled.</value>
+    <comment>Message given to user when they attempt to start a server that is currently updating mods.</comment>
+  </data>
+  <data name="UpdatingWorkshopStatus" xml:space="preserve">
+    <value>Updating workshop</value>
+    <comment>Status text of updating servers in main menu</comment>
+  </data>
+  <data name="UpdatingWorkshopStatusTip" xml:space="preserve">
+    <value>The server is updating workshop items.  It cannot be started or stopped until the update is finished.</value>
+    <comment>Tooltip for updating link in main menu</comment>
+  </data>
+  <data name="UpdatingWorkshopText" xml:space="preserve">
+    <value>Server is currently updating workshop items!</value>
+    <comment>Represents the "updating text' used on the server management page</comment>
+  </data>
+  <data name="TfaNotice" xml:space="preserve">
+    <value>Secure your account with two factor authentication.</value>
+    <comment>Message shown to users on main menu to remind them they can enable TFA.</comment>
+  </data>
+  <data name="Added" xml:space="preserve">
+    <value>Added</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+    <comment>Date/Time stamp</comment>
+  </data>
+  <data name="WorkshopAdded" xml:space="preserve">
+    <value>Item added</value>
+    <comment>Shown on workshop mod installer page when a new mod id was successfully added.</comment>
+  </data>
+  <data name="WorkshopBrowse" xml:space="preserve">
+    <value>Browse Steam workshop mods for this game</value>
+    <comment>Shown on workshop mod installer page, URL that takes user to steam workshop content</comment>
+  </data>
+  <data name="WorkshopDisabled" xml:space="preserve">
+    <value>Workshop is not enabled for this game type, cannot continue!</value>
+    <comment>Show on workshop mod installer page for an unconfigured gametype.</comment>
+  </data>
+  <data name="WorkshopExists" xml:space="preserve">
+    <value>Item is already present!</value>
+    <comment>Shown on workshop mod installer page, message shown when adding a mod and it already exists.</comment>
+  </data>
+  <data name="WorkshopGO" xml:space="preserve">
+    <value>Workshop mod(s) installation/update queued.</value>
+    <comment>Message shown to users when workshop mod update was submitted to queue system.</comment>
+  </data>
+  <data name="WorkshopIDErrorNumeric" xml:space="preserve">
+    <value>Unable to add new item, workshop items should be numeric only.</value>
+    <comment>Shown when user enters a non-numeric ID</comment>
+  </data>
+  <data name="WorkshopImport" xml:space="preserve">
+    <value>Importing workshop IDs from collection</value>
+  </data>
+  <data name="WorkshopMissingAPPID" xml:space="preserve">
+    <value>A Steam App ID is not defined for this game type, cannot continue!</value>
+    <comment>Show on workshop mod installer page for an unconfigured gametype.</comment>
+  </data>
+  <data name="WorkshopQueued" xml:space="preserve">
+    <value>Skipping mod, a job is already scheduled for this item.</value>
+    <comment>Message shown when a workshop item is already queued</comment>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Return</value>
+    <comment>Text for various buttons that return to you last servers you were managing.</comment>
+  </data>
+  <data name="Extras" xml:space="preserve">
+    <value>An extra is currently running for the server and cannot be started at this time.</value>
+  </data>
+  <data name="ExtraStatusTip" xml:space="preserve">
+    <value>An extra is currently running for the server that requires it to be stopped.</value>
+  </data>
+  <data name="ExtraText" xml:space="preserve">
+    <value>Server is running an extra!</value>
+  </data>
+  <data name="FileBlocked" xml:space="preserve">
+    <value>File is not allowed or archive contiains a file that is not allowed.</value>
+    <comment>Message shown when a user tries to upload/rename a file that is blocked.  (Or archives being decompressed contain an unallowed file)</comment>
+  </data>
+  <data name="WorkShop" xml:space="preserve">
+    <value>The server is currently installing mods.  It will be restarted when complete if enabled.</value>
+  </data>
+</root>

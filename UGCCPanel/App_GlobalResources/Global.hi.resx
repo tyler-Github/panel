@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlreadyRunning" xml:space="preserve">
+    <value>सर्वर पहले से ही चल रहा है!</value>
+  </data>
+  <data name="AlreadyStopped" xml:space="preserve">
+    <value>सर्वर पहले से ही बंद कर दिया है!</value>
+  </data>
+  <data name="BadLogin" xml:space="preserve">
+    <value>अमान्य उपयोगकर्ता नाम / पासवर्ड। आप यहां अपना पासवर्ड क्लिक &lt;a class="alert-link" href="forgotpw.aspx"&gt; भूल गए हैं इसे फिर से कायम करने के लिए &lt;a।</value>
+  </data>
+  <data name="BadReply" xml:space="preserve">
+    <value>अप्रत्याशित उत्तर के दूरस्थ निगरानी से प्राप्त किया।</value>
+  </data>
+  <data name="ChangeEmail" xml:space="preserve">
+    <value>ईमेल पते बदल दिया गया है।</value>
+  </data>
+  <data name="ChangePW" xml:space="preserve">
+    <value>पासवर्ड बदल दिया गया है।</value>
+  </data>
+  <data name="CmdSaved" xml:space="preserve">
+    <value>कमांड लाइन से बचा लिया।</value>
+  </data>
+  <data name="DemoDisabled" xml:space="preserve">
+    <value>यह सुविधा डेमो उपयोगकर्ताओं के लिए अक्षम किया गया है</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>विवरण</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>यह सुविधा व्यवस्थापक द्वारा अक्षम कर दिया गया है।</value>
+  </data>
+  <data name="DisabledTxt" xml:space="preserve">
+    <value>विकलांग</value>
+  </data>
+  <data name="EditServer" xml:space="preserve">
+    <value>संपादित सर्वर</value>
+  </data>
+  <data name="EditServerTitle" xml:space="preserve">
+    <value>इस सर्वर के विन्यास संपादित करें</value>
+  </data>
+  <data name="ExtraTool" xml:space="preserve">
+    <value>एक्स्ट्रा कलाकार</value>
+  </data>
+  <data name="ExtraToolTitle" xml:space="preserve">
+    <value>अपने प्रदाता द्वारा सक्षम अन्य विकल्प</value>
+  </data>
+  <data name="FailedloginAcctDisabled" xml:space="preserve">
+    <value>, समर्थन विकलांग संपर्क कृपया खाते।</value>
+  </data>
+  <data name="FileTool" xml:space="preserve">
+    <value>फ़ाइलें</value>
+  </data>
+  <data name="FileToolTitle" xml:space="preserve">
+    <value>फ़ाइल प्रबंधक</value>
+  </data>
+  <data name="Hash" xml:space="preserve">
+    <value>सर्वर का निष्पादन योग्य हैश बदल गया है। सर्वर नहीं शुरू।</value>
+  </data>
+  <data name="Hash2" xml:space="preserve">
+    <value>सर्वर के माध्यमिक फ़ाइल हैश बदल गया है। सर्वर नहीं शुरू।</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>जानकारी</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>सर्वर डेफ।</value>
+  </data>
+  <data name="ManageSDef" xml:space="preserve">
+    <value>इस सर्वर परिभाषा प्रबंधित</value>
+  </data>
+  <data name="ManageServer" xml:space="preserve">
+    <value>इस सर्वर के लिए प्रबंधन पेज</value>
+  </data>
+  <data name="ManageUser" xml:space="preserve">
+    <value>इस प्रयोक्ता के लिए प्रबंधन पेज</value>
+  </data>
+  <data name="MissingExe" xml:space="preserve">
+    <value>सर्वर का निष्पादन योग्य नहीं मिल सकता है, समर्थन से संपर्क करें।</value>
+  </data>
+  <data name="NoExe" xml:space="preserve">
+    <value>कोई निष्पादन योग्य इस सर्वर के लिए परिभाषित किया गया है ....</value>
+  </data>
+  <data name="NoPermission" xml:space="preserve">
+    <value>आपको लगता है कि ऐसा करने की अनुमति नहीं है।</value>
+  </data>
+  <data name="NoPid" xml:space="preserve">
+    <value>एक पीआईडी ​​फ़ाइल सर्वर के लिए नहीं मिला था।</value>
+  </data>
+  <data name="NoResp" xml:space="preserve">
+    <value>कोई जवाब नहीं</value>
+  </data>
+  <data name="NoServers" xml:space="preserve">
+    <value>आप किसी भी खेल सर्वरों के लिए उपयोग कर सकते है ऐसा नहीं लगता है।</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>टिप्पणियाँ</value>
+  </data>
+  <data name="NotesTitle" xml:space="preserve">
+    <value>देखें / अपने नोट्स को संपादित</value>
+  </data>
+  <data name="PWDontMatch" xml:space="preserve">
+    <value>पासवर्ड मेल नहीं खाते।</value>
+  </data>
+  <data name="PWInvalid" xml:space="preserve">
+    <value>अपने वर्तमान पासवर्ड गलत है।</value>
+  </data>
+  <data name="PWTooShort" xml:space="preserve">
+    <value>नई पासवर्ड लंबे समय से कम से कम छह वर्ण होने की जरूरत</value>
+  </data>
+  <data name="QueryTool" xml:space="preserve">
+    <value>सवाल</value>
+  </data>
+  <data name="QueryToolTitle" xml:space="preserve">
+    <value>अपने खेल सर्वर की स्थिति की जाँच</value>
+  </data>
+  <data name="RconTool" xml:space="preserve">
+    <value>RCON</value>
+  </data>
+  <data name="RconToolTitle" xml:space="preserve">
+    <value>दूर से अपने सर्वर प्रबंधन</value>
+  </data>
+  <data name="Remote" xml:space="preserve">
+    <value>दूरदराज के निगरानी के लिए कनेक्ट नहीं कर सका।</value>
+  </data>
+  <data name="RemoteError" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="RemoteErrorTip" xml:space="preserve">
+    <value>दूरदराज के निगरानी के लिए कनेक्ट करने में असमर्थ</value>
+  </data>
+  <data name="RemoteOffline" xml:space="preserve">
+    <value>रिमोट सर्वर ऑफ़लाइन के रूप में चिह्नित है।</value>
+  </data>
+  <data name="RemoteTimeout" xml:space="preserve">
+    <value>कनेक्शन दूरस्थ निगरानी से एक प्रतिक्रिया के लिए प्रतीक्षा का समय समाप्त हो।</value>
+  </data>
+  <data name="RestartedText" xml:space="preserve">
+    <value>फिर आरंभ!</value>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>ऊपर</value>
+  </data>
+  <data name="RunningImgTip" xml:space="preserve">
+    <value>सर्वर चल रहा है। सर्वर बंद करने के लिए क्लिक करें।</value>
+  </data>
+  <data name="RunningText" xml:space="preserve">
+    <value>सर्वर चल रहा है!</value>
+  </data>
+  <data name="RunningTip" xml:space="preserve">
+    <value>सर्वर चल रहा है, को रोकने के लिए क्लिक करें</value>
+  </data>
+  <data name="ServerDisabled" xml:space="preserve">
+    <value>सर्वर निष्क्रिय कर दिया गया, समर्थन से संपर्क करें।</value>
+  </data>
+  <data name="ServerName" xml:space="preserve">
+    <value>सर्वर नाम</value>
+  </data>
+  <data name="StartedText" xml:space="preserve">
+    <value>स्टार्टेड!</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>स्थिति</value>
+  </data>
+  <data name="Stopped" xml:space="preserve">
+    <value>नीचे</value>
+  </data>
+  <data name="StoppedImgTip" xml:space="preserve">
+    <value>सर्वर नहीं चल रहा है। सर्वर शुरू करने के लिए क्लिक करें।</value>
+  </data>
+  <data name="StoppedText" xml:space="preserve">
+    <value>सर्वर बंद कर दिया है!</value>
+  </data>
+  <data name="StoppedText2" xml:space="preserve">
+    <value>बंद कर दिया!</value>
+  </data>
+  <data name="StoppedTip" xml:space="preserve">
+    <value>सर्वर बंद कर दिया है, शुरू करने के लिए क्लिक करें</value>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>समर्थन टिकट प्रणाली</value>
+  </data>
+  <data name="TicketsNew" xml:space="preserve">
+    <value>एक नया टिकट बनाएँ</value>
+  </data>
+  <data name="TicketsView" xml:space="preserve">
+    <value>अपने टिकट देखें</value>
+  </data>
+  <data name="TicketSysLink" xml:space="preserve">
+    <value>तुम भी टिकट प्रणाली में एक समर्थन टिकट बना सकते हैं।</value>
+  </data>
+  <data name="TooManyServers" xml:space="preserve">
+    <value>आप किसी भी समय में एरोटिक सर्वर से अधिक चलाने के लिए अनुमति नहीं है।</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>एक अप्रत्याशित त्रुटि थी। समर्थन से संपर्क करें।</value>
+  </data>
+  <data name="UnhandledStartError" xml:space="preserve">
+    <value>कारण एक अनियंत्रित त्रुटि के लिए सर्वर प्रारंभ करने में असमर्थ है, समर्थन से संपर्क करें।</value>
+  </data>
+  <data name="UpdateTool" xml:space="preserve">
+    <value>अपडेट</value>
+  </data>
+  <data name="UpdateToolTitle" xml:space="preserve">
+    <value>आपके सर्वर अद्यतन</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>सर्वर वर्तमान में अद्यतन किया जा रहा है। अद्यतन समाप्त हो गया है जब यह शुरू किया जाएगा।</value>
+  </data>
+  <data name="UpdatingStatus" xml:space="preserve">
+    <value>अद्यतन कर रहा है</value>
+  </data>
+  <data name="UpdatingStatusTip" xml:space="preserve">
+    <value>सर्वर अद्यतन कर रहा है। यह शुरू कर दिया है या अद्यतन समाप्त हो गया है जब तक रोका नहीं जा सकता।</value>
+  </data>
+  <data name="UpdatingText" xml:space="preserve">
+    <value>सर्वर वर्तमान में अद्यतन कर रहा है!</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>प्रयोक्ता</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>पासवर्ड</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>उपयोगकर्ता नाम</value>
+  </data>
+  <data name="UnhandledStopError" xml:space="preserve">
+    <value>कारण एक अनियंत्रित त्रुटि के लिए सर्वर को रोकने में असमर्थ, समर्थन से संपर्क करें।</value>
+  </data>
+  <data name="ManageServerMenu" xml:space="preserve">
+    <value>सर्वर का प्रबंधन</value>
+  </data>
+  <data name="ViewLogs" xml:space="preserve">
+    <value>देखें लॉग्स</value>
+  </data>
+  <data name="OpenFTP" xml:space="preserve">
+    <value>FTP क्लाइंट में खोलें</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>पथ</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>आप इस क्रिया को निष्पादित करने के लिए चाहते हैं आप यकीन कर रहे हैं?</value>
+  </data>
+  <data name="CreateErr" xml:space="preserve">
+    <value>फ़ाइल बनाने में त्रुटि:</value>
+  </data>
+  <data name="DecompressErr" xml:space="preserve">
+    <value>Decompression कार्यक्रम नहीं मिला। समर्थन से संपर्क करें।</value>
+  </data>
+  <data name="DelRoot" xml:space="preserve">
+    <value>तुम सबसे शीर्ष निर्देशिका को नष्ट नहीं कर सकते हैं। सहायता के लिए समर्थन से संपर्क करें।</value>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>कुछ सुविधाओं डेमो खातों के लिए अक्षम हैं।</value>
+  </data>
+  <data name="ExceedsMaxLen" xml:space="preserve">
+    <value>फ़ाइल स्वीकृत लंबाई से अधिक है।</value>
+  </data>
+  <data name="FileExists" xml:space="preserve">
+    <value>फ़ाइल पहले से ही मौजूद है।</value>
+  </data>
+  <data name="FName" xml:space="preserve">
+    <value>आप पहली बार एक नाम दर्ज करना होगा</value>
+  </data>
+  <data name="FolderNotFound" xml:space="preserve">
+    <value>फ़ोल्डर नहीं मिला था। समर्थन से संपर्क करें।</value>
+  </data>
+  <data name="InvName" xml:space="preserve">
+    <value>नाम में अमान्य वर्ण हैं</value>
+  </data>
+  <data name="ParentFolder" xml:space="preserve">
+    <value>मूल फ़ोल्डर</value>
+  </data>
+  <data name="RenameErr" xml:space="preserve">
+    <value>का नाम बदलने फ़ाइल त्रुटि:</value>
+  </data>
+  <data name="ThisFolder" xml:space="preserve">
+    <value>इस फ़ोल्डर</value>
+  </data>
+  <data name="UnsupportedExt" xml:space="preserve">
+    <value>इस विस्तार की अनुमति नहीं है। आप इसे महसूस अगर Cotnact समर्थन अनुमति दी जानी चाहिए।</value>
+  </data>
+  <data name="LastManUpd" xml:space="preserve">
+    <value>अंतिम पुस्तिका अद्यतन पर प्रदर्शन</value>
+  </data>
+  <data name="UpdateComplete" xml:space="preserve">
+    <value>अद्यतन समाप्त हो गया है।</value>
+  </data>
+  <data name="UpdateStop" xml:space="preserve">
+    <value>आप इसे अपडेट कर सकते हैं इससे पहले कि आप सर्वर बंद कर देना चाहिए!</value>
+  </data>
+  <data name="UpdatingIs" xml:space="preserve">
+    <value>सर्वर समय-समय पर ताज़ा करने के लिए स्वचालित रूप से, इस पेज को अपडेट कर रहा है</value>
+  </data>
+  <data name="UpdatingNoOutput" xml:space="preserve">
+    <value>अद्यतन शुरू किया गया है, लेकिन कोई पाठ अभी तक लौटा दिया गया है।</value>
+  </data>
+  <data name="UpdatingOutSession" xml:space="preserve">
+    <value>एक अद्यतन प्रगति पर है। यह किसी और, एक और सत्र में आप के द्वारा किसी को शुरू कर दिया है, या स्वचालित रूप से किया गया था। अद्यतन पूरा हो गया है और अद्यतन इतिहास यहाँ प्रदर्शित किया जाएगा जब सर्वर को पुनः आरंभ करना चाहिए। आप सहायता की जरूरत है अगर समर्थन से संपर्क करें।</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>सहायता</value>
+  </data>
+  <data name="HelpTip" xml:space="preserve">
+    <value>सहायता प्राप्त करें</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>होम</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>अंतिम सर्वर</value>
+  </data>
+  <data name="LastTip" xml:space="preserve">
+    <value>तुम पर एक क्रिया पिछले सर्वर पर लौटें</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>लॉग इन करें</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>लॉग आउट</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>समाचार</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>प्रोफ़ाइल</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>सेटिंग्स</value>
+  </data>
+  <data name="UpdateToolDesc" xml:space="preserve">
+    <value>यह उपकरण आपको अपने खेल सर्वर अद्यतन और एक अद्यतन के वर्तमान और / या अतीत की स्थिति देखने के लिए अनुमति देता है।</value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>बंद</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>खुली</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>प्रबंधित करें</value>
+  </data>
+  <data name="ChooseAnItem" xml:space="preserve">
+    <value>पहले ड्रॉप डाउन सूची से चलाने के लिए एक आइटम चुनें</value>
+  </data>
+  <data name="ExtraFinished" xml:space="preserve">
+    <value>प्रक्रिया समाप्त हो गया है।</value>
+  </data>
+  <data name="ExtraIs" xml:space="preserve">
+    <value>प्रक्रिया अभी भी समय-समय पर ताज़ा करने के लिए स्वचालित रूप से, इस पेज से चल रहा है</value>
+  </data>
+  <data name="ExtraNoOutput" xml:space="preserve">
+    <value>प्रक्रिया शुरू कर दी गई है, लेकिन कोई पाठ अभी तक लौटा दिया गया है।</value>
+  </data>
+  <data name="ExtraStarted" xml:space="preserve">
+    <value>प्रक्रिया शुरू कर दी गई है। यह पृष्ठ स्वत: 15 सेकंड में ताज़ा होगी।</value>
+  </data>
+  <data name="ServerImage" xml:space="preserve">
+    <value>सर्वर छवियां</value>
+  </data>
+  <data name="ServerImageTitle" xml:space="preserve">
+    <value>आपके सर्वर के लिए संपादित करें सर्वर छवियों</value>
+  </data>
+  <data name="Variables" xml:space="preserve">
+    <value>चर</value>
+  </data>
+  <data name="VariableTitle" xml:space="preserve">
+    <value>सर्वर चर संपादक</value>
+  </data>
+  <data name="ExtraToolDesc" xml:space="preserve">
+    <value>यह उपकरण आपको अपने प्रदाता रूप से सक्षम अन्य विकल्पों को चलाने के लिए अनुमति देता है।</value>
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>किसी आइटम का चयन करें....</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>द्वारा</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>पर</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>से</value>
+  </data>
+  <data name="NewTroubleTicket" xml:space="preserve">
+    <value>नई मुसीबत टिकट</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>सर्वर</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>विषय</value>
+  </data>
+  <data name="TicketBlank" xml:space="preserve">
+    <value>विषय और संदेश फ़ील्ड रिक्त नहीं हो सकता!</value>
+  </data>
+  <data name="TicketBlankReply" xml:space="preserve">
+    <value>आप एक रिक्त जवाब भेज नहीं कर सकते। एक संदेश दर्ज करें।</value>
+  </data>
+  <data name="TicketNoReply" xml:space="preserve">
+    <value>बजाय अपने खाते में प्रवेश, इस ईमेल का जवाब दें और एक उत्तर जोड़ नहीं है।</value>
+  </data>
+  <data name="TicketUpdate" xml:space="preserve">
+    <value>मुसीबत टिकट स्थिति अद्यतन</value>
+  </data>
+  <data name="ExtraStart" xml:space="preserve">
+    <value>आप इस अतिरिक्त चला सकते हैं पहले सर्वर चलना चाहिए।</value>
+  </data>
+  <data name="ExtraStop" xml:space="preserve">
+    <value>आप इस अतिरिक्त चला सकते हैं इससे पहले कि आप सर्वर बंद कर देना चाहिए।</value>
+  </data>
+  <data name="FailedloginMaint" xml:space="preserve">
+    <value>पैनल रखरखाव मोड में है। बाद में प्रवेश करने का प्रयास करें।</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>खिलाड़ी</value>
+  </data>
+  <data name="Servers" xml:space="preserve">
+    <value>सर्वर</value>
+  </data>
+  <data name="AccountExists" xml:space="preserve">
+    <value>यूजर का नाम पहले से ही मौजूद है, फिर कोशिश करें</value>
+  </data>
+  <data name="NoSubaccounts" xml:space="preserve">
+    <value>आप उपखाते बनाने की अनुमति नहीं है।</value>
+  </data>
+  <data name="ConsoleTool" xml:space="preserve">
+    <value>सांत्वना देखें</value>
+  </data>
+  <data name="ConsoleToolTitle" xml:space="preserve">
+    <value>देखें सर्वर प्रक्रिया उत्पादन</value>
+  </data>
+  <data name="ConsoleButton" xml:space="preserve">
+    <value>कंसोल</value>
+  </data>
+  <data name="PendingRestartTip" xml:space="preserve">
+    <value>सर्वर चल रहा है, लेकिन एक पुनरारंभ लंबित है.  पुनः प्रारंभ करने के लिए क्लिक करें.</value>
+  </data>
+  <data name="PendingStopTip" xml:space="preserve">
+    <value>सर्वर चल रहा है, लेकिन एक बंद करने के लिए लंबित है.  तुरंत बंद करने के लिए क्लिक करें.</value>
+  </data>
+  <data name="PendingUpdateTip" xml:space="preserve">
+    <value>सर्वर चल रहा है, लेकिन एक अद्यतन लंबित है.  बंद करने और अद्यतन करने के लिए क्लिक करें.</value>
+  </data>
+  <data name="GracefulStarted" xml:space="preserve">
+    <value>सुंदर बंद करने की शुरुआत ।</value>
+  </data>
+  <data name="ShutdownCancelled" xml:space="preserve">
+    <value>शबंद रद्द</value>
+  </data>
+  <data name="PendingRestart" xml:space="preserve">
+    <value>फिर आरंभ करने के लिए सर्वर बंद</value>
+  </data>
+  <data name="PendingRestartStarted" xml:space="preserve">
+    <value>एक लंबित सर्वर पुनरारंभ शुरू हो गया है</value>
+  </data>
+  <data name="PendingShutdown" xml:space="preserve">
+    <value>सर्वर बंद लंबित</value>
+  </data>
+  <data name="PendingShutdownTip" xml:space="preserve">
+    <value>शटडाउन लंबित है, स्थगित करने के लिए स्थगित करने के लिए क्लिक करें.</value>
+  </data>
+  <data name="PendingShutdownTipForce" xml:space="preserve">
+    <value>एक बंद बंद है, तुरंत बंद करने के लिए क्लिक करें.</value>
+  </data>
+  <data name="PendingUpdate" xml:space="preserve">
+    <value>अद्यतन के लिए सर्वर बंद लंबित</value>
+  </data>
+  <data name="OperationUnavailable" xml:space="preserve">
+    <value>ऑपरेशन वर्तमान में अनुपलब्ध है</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>पुनः प्रारंभ</value>
+  </data>
+  <data name="RestartText" xml:space="preserve">
+    <value>सर्वर पुनः आरंभ</value>
+  </data>
+  <data name="AdvertTool" xml:space="preserve">
+    <value>RCON Msgs</value>
+  </data>
+  <data name="AdvertToolTitle" xml:space="preserve">
+    <value>समयबद्ध RCOM संदेश/कमांड सेटअप करें</value>
+  </data>
+  <data name="Reinstall" xml:space="preserve">
+    <value>पुनः संस्थापित करें</value>
+  </data>
+  <data name="ReinstallTip" xml:space="preserve">
+    <value>अपने खेल परिसेवक को पुनः संस्थापित करें</value>
+  </data>
+  <data name="ReinstallToolDesc" xml:space="preserve">
+    <value>यह उपकरण आपको अपने खेल सर्वर को पुनः संस्थापित करने देता है.  खेल सर्वर और कमांड लाइन मूल्यों की एक नई प्रतिलिपि सेटअप किया जाएगा,.  आपका मौजूदा सर्वर अक्षम है लेकिन यदि आपको फ़ाइलों में पहुँच की जरूरत है, तो आपको बिना सूचना के हटाया जा सकता है.</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>क्रियाएँ</value>
+  </data>
+  <data name="ArcInfoTT" xml:space="preserve">
+    <value>अभिलेख जानकारी देखें</value>
+  </data>
+  <data name="CompressTT" xml:space="preserve">
+    <value>संपीडित करें</value>
+  </data>
+  <data name="DecompressTT" xml:space="preserve">
+    <value>अपप्रेस</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>मिटाएँ</value>
+  </data>
+  <data name="ModTime" xml:space="preserve">
+    <value>परिवर्धित समय</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>आकार</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>क़िस्म</value>
+  </data>
+  <data name="NewNews" xml:space="preserve">
+    <value>आप यहाँ readed किया गया है क्योंकि एक नई समाचार आइटम जोड़ा गया है.  नई वस्तुओं की समीक्षा करने के बाद आप मुख्य मेनू पर जारी रख सकते हैं.</value>
+  </data>
+  <data name="ShutdownFirst" xml:space="preserve">
+    <value>सर्वर चल रहा है, इसे पहले बंद किया जाना चाहिए इस उपकरण का उपयोग करने के लिए</value>
+  </data>
+  <data name="WorkshopDLError" xml:space="preserve">
+    <value>मोड डाउनलोड करने में त्रुटि:</value>
+  </data>
+  <data name="WorkshopItemsMissing" xml:space="preserve">
+    <value>कोई कार्यशाला आईडीएस परिभाषित नहीं की गई है, कुछ करने के लिए कुछ</value>
+  </data>
+  <data name="WorkshopTool" xml:space="preserve">
+    <value>संस्थापक संस्थापक</value>
+  </data>
+  <data name="WorkshopToolTitle" xml:space="preserve">
+    <value>इस सर्वर में एसटीम वर्कशॉप मोड्स को जोड़ने और अद्यतन करें</value>
+  </data>
+  <data name="RequiresLicense" xml:space="preserve">
+    <value>इस विशेषता के लिए लाइसेंस की आवश्यकता है</value>
+  </data>
+  <data name="UpdatingMods" xml:space="preserve">
+    <value>सर्वर वर्तमान में मोड्स अद्यतन कर रहा है.  यह तब शुरू किया जाएगा जब अद्यतन किया जा रहा है यदि सक्रिय किया जाता है.</value>
+  </data>
+  <data name="UpdatingWorkshopStatus" xml:space="preserve">
+    <value>कार्यशाला अद्यतन करें</value>
+  </data>
+  <data name="UpdatingWorkshopStatusTip" xml:space="preserve">
+    <value>सर्वर वर्कशॉप आइटम को अद्यतन कर रहा है.  इसे तब तक शुरू या बंद नहीं किया जा सकता जब तक अद्यतन समाप्त नहीं हो जाता.</value>
+  </data>
+  <data name="UpdatingWorkshopText" xml:space="preserve">
+    <value>सर्वर वर्तमान में कार्यशाला आइटम को अद्यतन कर रहा है!</value>
+  </data>
+  <data name="TfaNotice" xml:space="preserve">
+    <value>दो कारक प्रमाणीकरण के साथ अपने खाते को सुरक्षित करें.</value>
+  </data>
+  <data name="Added" xml:space="preserve">
+    <value>जोड़ा गया</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>समय</value>
+  </data>
+  <data name="WorkshopAdded" xml:space="preserve">
+    <value>मद जोड़ा गया</value>
+  </data>
+  <data name="WorkshopBrowse" xml:space="preserve">
+    <value>इस खेल के लिए भाप कार्यशाला मोड्स ब्राउज़ करें</value>
+  </data>
+  <data name="WorkshopDisabled" xml:space="preserve">
+    <value>कार्यशाला इस खेल प्रकार के लिए सक्षम नहीं है, जारी नहीं रह सकता!</value>
+  </data>
+  <data name="WorkshopExists" xml:space="preserve">
+    <value>आइटम पहले से ही मौजूद है!</value>
+  </data>
+  <data name="WorkshopGO" xml:space="preserve">
+    <value>कार्यशाला मोड (ओं) इंस्टॉलेशन/अद्यतन कतारबद्ध.</value>
+  </data>
+  <data name="WorkshopIDErrorNumeric" xml:space="preserve">
+    <value>नया आइटम जोड़ने में असमर्थ, वर्कशॉप आइटम केवल संख्यात्मक होना चाहिए.</value>
+  </data>
+  <data name="WorkshopImport" xml:space="preserve">
+    <value>संग्रह से कार्यशाला आईडी आयात कर रहा है</value>
+  </data>
+  <data name="WorkshopMissingAPPID" xml:space="preserve">
+    <value>एक भाप एप्लिकेशन आईडी इस खेल प्रकार के लिए परिभाषित नहीं है, जारी नहीं कर सकते!</value>
+  </data>
+  <data name="WorkshopQueued" xml:space="preserve">
+    <value>इस मद के लिए पहले से ही एक काम पहले से ही बनाया जा रहा है.</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>वापसी</value>
+  </data>
+</root>

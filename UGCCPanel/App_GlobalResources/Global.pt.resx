@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlreadyRunning" xml:space="preserve">
+    <value>Servidor já está rodando!</value>
+  </data>
+  <data name="AlreadyStopped" xml:space="preserve">
+    <value>Servidor já está parado!</value>
+  </data>
+  <data name="BadLogin" xml:space="preserve">
+    <value>Inválido nome de usuário / senha. Se você esqueceu sua senha, clique &lt;a href="forgotpw.aspx"&gt; aqui &lt;/ a&gt; para redefini-la.</value>
+  </data>
+  <data name="BadReply" xml:space="preserve">
+    <value>Resposta inesperada recebeu de monitor remoto.</value>
+  </data>
+  <data name="ChangeEmail" xml:space="preserve">
+    <value>Endereço de email foi alterado.</value>
+  </data>
+  <data name="ChangePW" xml:space="preserve">
+    <value>Senha foi alterada.</value>
+  </data>
+  <data name="CmdSaved" xml:space="preserve">
+    <value>Linha de comando salvo.</value>
+  </data>
+  <data name="DemoDisabled" xml:space="preserve">
+    <value>Este recurso está desabilitado para usuários de demonstração</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detalhes</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Este recurso foi desativado pelo administrador.</value>
+  </data>
+  <data name="DisabledTxt" xml:space="preserve">
+    <value>Inválido</value>
+  </data>
+  <data name="EditServer" xml:space="preserve">
+    <value>Editar Servidor</value>
+  </data>
+  <data name="EditServerTitle" xml:space="preserve">
+    <value>Editar a configuração deste servidor</value>
+  </data>
+  <data name="ExtraTool" xml:space="preserve">
+    <value>Extras</value>
+  </data>
+  <data name="ExtraToolTitle" xml:space="preserve">
+    <value>Outras opções ativadas por seu provedor</value>
+  </data>
+  <data name="FailedloginAcctDisabled" xml:space="preserve">
+    <value>Conta desativada, por favor, contate o suporte.</value>
+  </data>
+  <data name="FileTool" xml:space="preserve">
+    <value>Arquivos</value>
+  </data>
+  <data name="FileToolTitle" xml:space="preserve">
+    <value>Gerenciador de arquivos</value>
+  </data>
+  <data name="Hash" xml:space="preserve">
+    <value>De hash executável do servidor mudou. Não começar do servidor.</value>
+  </data>
+  <data name="Hash2" xml:space="preserve">
+    <value>De hash de arquivos do servidor secundário mudou. Não começar do servidor.</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Informações</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Localização</value>
+  </data>
+  <data name="ManageSDef" xml:space="preserve">
+    <value>Gerir esta definição de servidor</value>
+  </data>
+  <data name="ManageServer" xml:space="preserve">
+    <value>Página de gerenciamento para este servidor</value>
+  </data>
+  <data name="ManageUser" xml:space="preserve">
+    <value>Página de gerenciamento para este usuário</value>
+  </data>
+  <data name="MissingExe" xml:space="preserve">
+    <value>Não é possível encontrar o executável do servidor, contate o suporte.</value>
+  </data>
+  <data name="NoExe" xml:space="preserve">
+    <value>Não executável foi definido para este servidor ....</value>
+  </data>
+  <data name="NoPermission" xml:space="preserve">
+    <value>Você não tem permissão de fazer isso.</value>
+  </data>
+  <data name="NoPid" xml:space="preserve">
+    <value>Um arquivo de PID não foi encontrado para o servidor.</value>
+  </data>
+  <data name="NoResp" xml:space="preserve">
+    <value>Sem resposta</value>
+  </data>
+  <data name="NoServers" xml:space="preserve">
+    <value>Você não parece ter acesso a todos os servidores do jogo.</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="NotesTitle" xml:space="preserve">
+    <value>Ver / editar as suas notas</value>
+  </data>
+  <data name="PWDontMatch" xml:space="preserve">
+    <value>As senhas não coincidem.</value>
+  </data>
+  <data name="PWInvalid" xml:space="preserve">
+    <value>Sua senha atual está incorreto.</value>
+  </data>
+  <data name="PWTooShort" xml:space="preserve">
+    <value>Novas senhas precisam ser atleast seis caracteres</value>
+  </data>
+  <data name="QueryTool" xml:space="preserve">
+    <value>Pergunta</value>
+  </data>
+  <data name="QueryToolTitle" xml:space="preserve">
+    <value>Verifique o status do seu servidor de jogo</value>
+  </data>
+  <data name="RconTool" xml:space="preserve">
+    <value>RCON</value>
+  </data>
+  <data name="RconToolTitle" xml:space="preserve">
+    <value>Administrar remotamente o servidor</value>
+  </data>
+  <data name="Remote" xml:space="preserve">
+    <value>Não foi possível conectar ao monitor remoto.</value>
+  </data>
+  <data name="RemoteError" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="RemoteErrorTip" xml:space="preserve">
+    <value>Não foi possível conectar ao monitor remoto</value>
+  </data>
+  <data name="RemoteOffline" xml:space="preserve">
+    <value>Servidor remoto é marcado como offline.</value>
+  </data>
+  <data name="RemoteTimeout" xml:space="preserve">
+    <value>Conexão expirou à espera de uma resposta do monitor remoto.</value>
+  </data>
+  <data name="RestartedText" xml:space="preserve">
+    <value>Reiniciado!</value>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>Para cima</value>
+  </data>
+  <data name="RunningImgTip" xml:space="preserve">
+    <value>Servidor está executando. Clique para parar o servidor.</value>
+  </data>
+  <data name="RunningText" xml:space="preserve">
+    <value>Funcionamento</value>
+  </data>
+  <data name="RunningTip" xml:space="preserve">
+    <value>Servidor está em execução, clique para parar</value>
+  </data>
+  <data name="ServerDisabled" xml:space="preserve">
+    <value>O servidor foi desativado, por favor, contate o suporte.</value>
+  </data>
+  <data name="ServerName" xml:space="preserve">
+    <value>Nome do Servidor</value>
+  </data>
+  <data name="StartedText" xml:space="preserve">
+    <value>Começou!</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="Stopped" xml:space="preserve">
+    <value>Para baixo</value>
+  </data>
+  <data name="StoppedImgTip" xml:space="preserve">
+    <value>Servidor não está executando. Clique para iniciar o servidor.</value>
+  </data>
+  <data name="StoppedText" xml:space="preserve">
+    <value>Parou</value>
+  </data>
+  <data name="StoppedText2" xml:space="preserve">
+    <value>Parado!</value>
+  </data>
+  <data name="StoppedTip" xml:space="preserve">
+    <value>Servidor for interrompido, clique para iniciar</value>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>Sistema de ticket de suporte</value>
+  </data>
+  <data name="TicketsNew" xml:space="preserve">
+    <value>Criar um novo bilhete</value>
+  </data>
+  <data name="TicketsView" xml:space="preserve">
+    <value>Ver os seus bilhetes</value>
+  </data>
+  <data name="TicketSysLink" xml:space="preserve">
+    <value>Você também pode criar um ticket de suporte no sistema de tickets.</value>
+  </data>
+  <data name="TooManyServers" xml:space="preserve">
+    <value>Você não tem permissão para executar mais de servidor XXX, em determinado momento.</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Houve um erro inesperado. Por favor, contate o suporte.</value>
+  </data>
+  <data name="UnhandledStartError" xml:space="preserve">
+    <value>Não foi possível iniciar o servidor devido a um erro não tratado, por favor, contate o suporte.</value>
+  </data>
+  <data name="UpdateTool" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="UpdateToolTitle" xml:space="preserve">
+    <value>Atualizar o servidor</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>O servidor está sendo atualizado. Ele será iniciado quando a actualização estiver concluída.</value>
+  </data>
+  <data name="UpdatingStatus" xml:space="preserve">
+    <value>Atualizando</value>
+  </data>
+  <data name="UpdatingStatusTip" xml:space="preserve">
+    <value>O servidor está atualizando. Ele não pode ser iniciado ou interrompido até que a atualização seja concluída.</value>
+  </data>
+  <data name="UpdatingText" xml:space="preserve">
+    <value>Atualizando</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>senha</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>nome de usuário</value>
+  </data>
+  <data name="UnhandledStopError" xml:space="preserve">
+    <value>Não é possível parar o servidor devido a um erro não tratado, por favor, entre em contato com o suporte.</value>
+  </data>
+  <data name="ManageServerMenu" xml:space="preserve">
+    <value>Gerenciar Servidor</value>
+  </data>
+  <data name="ViewLogs" xml:space="preserve">
+    <value>Ver Logs</value>
+  </data>
+  <data name="OpenFTP" xml:space="preserve">
+    <value>Open in FTP Client</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Caminho</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Tem certeza de que deseja executar esta ação?</value>
+  </data>
+  <data name="CreateErr" xml:space="preserve">
+    <value>Erro ao criar arquivo:</value>
+  </data>
+  <data name="DecompressErr" xml:space="preserve">
+    <value>Programa de descompressão não encontrada. Entre em contato com o suporte.</value>
+  </data>
+  <data name="DelRoot" xml:space="preserve">
+    <value>Você não pode excluir o diretório top mais. Contato com o suporte para obter assistência.</value>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>Alguns recursos estão desativados para contas de demonstração.</value>
+  </data>
+  <data name="ExceedsMaxLen" xml:space="preserve">
+    <value>Arquivo exceda o tamanho permitido.</value>
+  </data>
+  <data name="FileExists" xml:space="preserve">
+    <value>O arquivo já existe.</value>
+  </data>
+  <data name="FName" xml:space="preserve">
+    <value>Você deve digitar um nome de primeira</value>
+  </data>
+  <data name="FolderNotFound" xml:space="preserve">
+    <value>A pasta não foi encontrado. Entre em contato com o suporte.</value>
+  </data>
+  <data name="InvName" xml:space="preserve">
+    <value>Nome contém caracteres inválidos</value>
+  </data>
+  <data name="ParentFolder" xml:space="preserve">
+    <value>Pasta pai</value>
+  </data>
+  <data name="RenameErr" xml:space="preserve">
+    <value>Erro de arquivo renomeando:</value>
+  </data>
+  <data name="ThisFolder" xml:space="preserve">
+    <value>Esta Pasta</value>
+  </data>
+  <data name="UnsupportedExt" xml:space="preserve">
+    <value>Esta extensão não é permitido. Apoio Cotnact se você sente que deve ser permitido.</value>
+  </data>
+  <data name="LastManUpd" xml:space="preserve">
+    <value>Última atualização manual realizada no</value>
+  </data>
+  <data name="UpdateComplete" xml:space="preserve">
+    <value>Update terminou.</value>
+  </data>
+  <data name="UpdateStop" xml:space="preserve">
+    <value>Você deve parar o servidor antes de atualizá-lo!</value>
+  </data>
+  <data name="UpdatingIs" xml:space="preserve">
+    <value>O servidor está atualizando, esta página com automaticamente atualizar periodicamente</value>
+  </data>
+  <data name="UpdatingNoOutput" xml:space="preserve">
+    <value>Atualização foi iniciado, mas nenhum texto ainda não foi devolvido.</value>
+  </data>
+  <data name="UpdatingOutSession" xml:space="preserve">
+    <value>Uma atualização está em andamento. Ela foi criada por você em outra sessão, alguém, ou automaticamente. O servidor deve reiniciar quando a atualização for concluída e o histórico de atualização será exibido aqui. Por favor, contate o suporte se precisar de assistência.</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Socorro</value>
+  </data>
+  <data name="HelpTip" xml:space="preserve">
+    <value>Obter suporte</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Casa</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Última Servidor</value>
+  </data>
+  <data name="LastTip" xml:space="preserve">
+    <value>Voltar para o último servidor que você executou uma ação em</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Conecte-Se</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Notícia</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Definições</value>
+  </data>
+  <data name="UpdateToolDesc" xml:space="preserve">
+    <value>Esta ferramenta permite que você atualize o seu servidor de jogo e ver o status atual e / ou passada de uma atualização.</value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>Fechado</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Aberto</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Gerir Os</value>
+  </data>
+  <data name="ChooseAnItem" xml:space="preserve">
+    <value>Escolha um item a correr a partir da lista suspensa primeiro</value>
+  </data>
+  <data name="ExtraFinished" xml:space="preserve">
+    <value>Processo tenha terminado.</value>
+  </data>
+  <data name="ExtraIs" xml:space="preserve">
+    <value>O processo ainda está em execução, esta página com automaticamente atualizar periodicamente</value>
+  </data>
+  <data name="ExtraNoOutput" xml:space="preserve">
+    <value>Processo foi iniciado, mas nenhum texto ainda não foi retornado.</value>
+  </data>
+  <data name="ExtraStarted" xml:space="preserve">
+    <value>Processo foi iniciado. Esta página irá atualizar automaticamente em 15 segundos.</value>
+  </data>
+  <data name="ServerImage" xml:space="preserve">
+    <value>Imagens do Servidor</value>
+  </data>
+  <data name="ServerImageTitle" xml:space="preserve">
+    <value>Editar imagens de servidor para servidor</value>
+  </data>
+  <data name="Variables" xml:space="preserve">
+    <value>Variáveis</value>
+  </data>
+  <data name="VariableTitle" xml:space="preserve">
+    <value>Editor variável de servidor</value>
+  </data>
+  <data name="ExtraToolDesc" xml:space="preserve">
+    <value>Esta ferramenta permite que você execute outras opções ativadas pelo seu provedor.</value>
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>Escolha um item ....</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>Em</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>A partir da</value>
+  </data>
+  <data name="NewTroubleTicket" xml:space="preserve">
+    <value>Novo registro de problema</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Servidor</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Assunto</value>
+  </data>
+  <data name="TicketBlank" xml:space="preserve">
+    <value>Os campos de assunto e mensagem não pode estar em branco!</value>
+  </data>
+  <data name="TicketBlankReply" xml:space="preserve">
+    <value>Você não pode enviar uma resposta em branco. Digite uma mensagem.</value>
+  </data>
+  <data name="TicketNoReply" xml:space="preserve">
+    <value>Por favor, não responda a este e-mail, ao invés de login em sua conta e adicionar uma resposta.</value>
+  </data>
+  <data name="TicketUpdate" xml:space="preserve">
+    <value>Estatuto do bilhete do problema atualizado</value>
+  </data>
+  <data name="ExtraStart" xml:space="preserve">
+    <value>O servidor deve estar executando antes que você possa executar este extra.</value>
+  </data>
+  <data name="ExtraStop" xml:space="preserve">
+    <value>Você deve parar o servidor antes que você possa executar este extra.</value>
+  </data>
+  <data name="FailedloginMaint" xml:space="preserve">
+    <value>Painel está atualmente em modo de manutenção. Por favor, tente entrar mais tarde.</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>Jogadoras</value>
+  </data>
+  <data name="Servers" xml:space="preserve">
+    <value>Servidores</value>
+  </data>
+  <data name="AccountExists" xml:space="preserve">
+    <value>O nome de usuário já existe, tente novamente</value>
+  </data>
+  <data name="NoSubaccounts" xml:space="preserve">
+    <value>Você não tem permissão para criar subcontas.</value>
+  </data>
+  <data name="ConsoleTool" xml:space="preserve">
+    <value>Exibir console</value>
+  </data>
+  <data name="ConsoleToolTitle" xml:space="preserve">
+    <value>Exibir saída do processo do servidor</value>
+  </data>
+  <data name="ConsoleButton" xml:space="preserve">
+    <value>Console</value>
+  </data>
+  <data name="PendingRestartTip" xml:space="preserve">
+    <value>O servidor está em execução, mas um reinício está pendente.  Clique para iniciar o reinício.</value>
+  </data>
+  <data name="PendingStopTip" xml:space="preserve">
+    <value>Servidor está em execução, mas uma paralisação está pendente.  Clique para encerrar imediatamente.</value>
+  </data>
+  <data name="PendingUpdateTip" xml:space="preserve">
+    <value>Servidor está em execução, mas uma atualização está pendente.  Clique para iniciar o encerramento e a atualização.</value>
+  </data>
+  <data name="GracefulStarted" xml:space="preserve">
+    <value>Paralisação graciosa iniciada.</value>
+  </data>
+  <data name="ShutdownCancelled" xml:space="preserve">
+    <value>Encerramento cancelado</value>
+  </data>
+  <data name="PendingRestart" xml:space="preserve">
+    <value>Paralisação do servidor pendente para reinício</value>
+  </data>
+  <data name="PendingRestartStarted" xml:space="preserve">
+    <value>Um reinício de servidor pendente foi iniciado</value>
+  </data>
+  <data name="PendingShutdown" xml:space="preserve">
+    <value>Paralisação do servidor pendente</value>
+  </data>
+  <data name="PendingShutdownTip" xml:space="preserve">
+    <value>Uma paralisação está pendente, clique para cancelar o encerramento pendente.</value>
+  </data>
+  <data name="PendingShutdownTipForce" xml:space="preserve">
+    <value>Uma paralisação está pendente, clique para iniciar uma paralisação imediata.</value>
+  </data>
+  <data name="PendingUpdate" xml:space="preserve">
+    <value>Paralisação do servidor pendente para atualização</value>
+  </data>
+  <data name="OperationUnavailable" xml:space="preserve">
+    <value>A operação está atualmente indisponível</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Reinício</value>
+  </data>
+  <data name="RestartText" xml:space="preserve">
+    <value>Reiniciar servidor</value>
+  </data>
+  <data name="AdvertTool" xml:space="preserve">
+    <value>Msgs RCON</value>
+  </data>
+  <data name="AdvertToolTitle" xml:space="preserve">
+    <value>Setup timado mensagens / comandos RCON</value>
+  </data>
+  <data name="Reinstall" xml:space="preserve">
+    <value>Reinstalar</value>
+  </data>
+  <data name="ReinstallTip" xml:space="preserve">
+    <value>Reinstale seu servidor de jogo</value>
+  </data>
+  <data name="ReinstallToolDesc" xml:space="preserve">
+    <value>Esta ferramenta permite que você reinstale o seu servidor de jogo.  Uma cópia fresca do servidor de jogos e valores da linha de comando será setup,.  Seu servidor atual será desativado mas acessível no caso de você precisar de acesso aos arquivos mas pode ser removido sem aviso prévio.</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Ações</value>
+  </data>
+  <data name="ArcInfoTT" xml:space="preserve">
+    <value>Visualizar informações de arquivo</value>
+  </data>
+  <data name="CompressTT" xml:space="preserve">
+    <value>Compressa</value>
+  </data>
+  <data name="DecompressTT" xml:space="preserve">
+    <value>Descompacta</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="ModTime" xml:space="preserve">
+    <value>Tempo modificado</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Tamanho</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="NewNews" xml:space="preserve">
+    <value>Você foi redirecionado aqui porque um novo item de notícias foi adicionado.  Você pode continuar no menu principal após revisar os novos itens.</value>
+  </data>
+  <data name="ShutdownFirst" xml:space="preserve">
+    <value>O servidor está em execução, ele deve ser interrompido primeiro para usar esta ferramenta</value>
+  </data>
+  <data name="WorkshopDLError" xml:space="preserve">
+    <value>Erro ao baixar Mod:</value>
+  </data>
+  <data name="WorkshopItemsMissing" xml:space="preserve">
+    <value>Nenhum IDs de workshop são definidos, nada a fazer</value>
+  </data>
+  <data name="WorkshopTool" xml:space="preserve">
+    <value>Instalador Mod</value>
+  </data>
+  <data name="WorkshopToolTitle" xml:space="preserve">
+    <value>Adicionar e atualizar mods de Workshop de vapor para este servidor</value>
+  </data>
+  <data name="RequiresLicense" xml:space="preserve">
+    <value>Este recurso requer uma licença</value>
+  </data>
+  <data name="UpdatingMods" xml:space="preserve">
+    <value>O servidor está atualmente atualizando mods.  Ele será iniciado quando a atualização for concluída se ativada.</value>
+  </data>
+  <data name="UpdatingWorkshopStatus" xml:space="preserve">
+    <value>Workshop de atualização</value>
+  </data>
+  <data name="UpdatingWorkshopStatusTip" xml:space="preserve">
+    <value>O servidor está atualizando os itens do workshop.  Ele não pode ser iniciado ou parado até que a atualização seja concluída.</value>
+  </data>
+  <data name="UpdatingWorkshopText" xml:space="preserve">
+    <value>O servidor está atualmente atualizando os itens do workshop!</value>
+  </data>
+  <data name="TfaNotice" xml:space="preserve">
+    <value>Garanta sua conta com duas autenticação de fator.</value>
+  </data>
+  <data name="Added" xml:space="preserve">
+    <value>Incluído</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Tempo</value>
+  </data>
+  <data name="WorkshopAdded" xml:space="preserve">
+    <value>Item incluído</value>
+  </data>
+  <data name="WorkshopBrowse" xml:space="preserve">
+    <value>Browse Steam workshop mods para este jogo</value>
+  </data>
+  <data name="WorkshopDisabled" xml:space="preserve">
+    <value>Workshop não é ativado para este tipo de jogo, não pode continuar!</value>
+  </data>
+  <data name="WorkshopExists" xml:space="preserve">
+    <value>Item já está presente!</value>
+  </data>
+  <data name="WorkshopGO" xml:space="preserve">
+    <value>Workshop mod (s) instalação / atualização queued.</value>
+  </data>
+  <data name="WorkshopIDErrorNumeric" xml:space="preserve">
+    <value>Não é possível adicionar novo item, os itens da oficina devem ser numéricos apenas.</value>
+  </data>
+  <data name="WorkshopImport" xml:space="preserve">
+    <value>Importando IDs de oficina da coleção</value>
+  </data>
+  <data name="WorkshopMissingAPPID" xml:space="preserve">
+    <value>Um App Steam ID não está definido para este tipo de jogo, não pode continuar!</value>
+  </data>
+  <data name="WorkshopQueued" xml:space="preserve">
+    <value>Pulando mod, um trabalho já está programado para este item.</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Retorno</value>
+  </data>
+</root>

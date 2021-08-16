@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlreadyRunning" xml:space="preserve">
+    <value>الملقم قيد التشغيل بالفعل!</value>
+  </data>
+  <data name="AlreadyStopped" xml:space="preserve">
+    <value>توقفت بالفعل الخادم!</value>
+  </data>
+  <data name="BadLogin" xml:space="preserve">
+    <value>غير صالح المستخدم / كلمة المرور. إذا كنت قد نسيت كلمة المرور فوق &lt;aالخاص href="forgotpw.aspx"&gt; هنا &lt;/ a&gt; لإعادة تعيينها.</value>
+  </data>
+  <data name="BadReply" xml:space="preserve">
+    <value>تلقى ردا غير متوقع من رصد البعيد.</value>
+  </data>
+  <data name="ChangeEmail" xml:space="preserve">
+    <value>تم تغيير عنوان البريد الإلكتروني.</value>
+  </data>
+  <data name="ChangePW" xml:space="preserve">
+    <value>تم تغيير كلمة السر.</value>
+  </data>
+  <data name="CmdSaved" xml:space="preserve">
+    <value>حفظ سطر الأوامر.</value>
+  </data>
+  <data name="DemoDisabled" xml:space="preserve">
+    <value>تم تعطيل هذه الميزة للمستخدمين التجريبي</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>تفاصيل</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>لقد تم تعطيل هذه الميزة من قبل المسؤول.</value>
+  </data>
+  <data name="DisabledTxt" xml:space="preserve">
+    <value>معاق</value>
+  </data>
+  <data name="EditServer" xml:space="preserve">
+    <value>تحرير ملقم</value>
+  </data>
+  <data name="EditServerTitle" xml:space="preserve">
+    <value>تعديل تكوين هذا الملقم</value>
+  </data>
+  <data name="ExtraTool" xml:space="preserve">
+    <value>كومبارس</value>
+  </data>
+  <data name="ExtraToolTitle" xml:space="preserve">
+    <value>خيارات أخرى ممكنة من قبل موفر</value>
+  </data>
+  <data name="FailedloginAcctDisabled" xml:space="preserve">
+    <value>الحساب معطل ، يرجى الاتصال بالدعم.</value>
+  </data>
+  <data name="FileTool" xml:space="preserve">
+    <value>ملفات</value>
+  </data>
+  <data name="FileToolTitle" xml:space="preserve">
+    <value>مدير ملف</value>
+  </data>
+  <data name="Hash" xml:space="preserve">
+    <value>لقد تغيرت تجزئة الملقم القابل للتنفيذ. لا يبدأ الملقم.</value>
+  </data>
+  <data name="Hash2" xml:space="preserve">
+    <value>لقد تغيرت التجزئة للملقم ملف الثانوي. لا يبدأ الملقم.</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>معلومات</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>موقع</value>
+  </data>
+  <data name="ManageSDef" xml:space="preserve">
+    <value>إدارة هذا التعريف ملقم</value>
+  </data>
+  <data name="ManageServer" xml:space="preserve">
+    <value>صفحة إدارة لهذا الملقم</value>
+  </data>
+  <data name="ManageUser" xml:space="preserve">
+    <value>صفحة إدارة لهذا المستخدم</value>
+  </data>
+  <data name="MissingExe" xml:space="preserve">
+    <value>لا يمكن العثور على الملقم القابل للتنفيذ ، يرجى الاتصال بالدعم.</value>
+  </data>
+  <data name="NoExe" xml:space="preserve">
+    <value>لم يتم تحديد القابل للتنفيذ لهذا الملقم....</value>
+  </data>
+  <data name="NoPermission" xml:space="preserve">
+    <value>ليس لديك إذن للقيام بذلك.</value>
+  </data>
+  <data name="NoPid" xml:space="preserve">
+    <value>لم يتم العثور على ملف PID للملقم.</value>
+  </data>
+  <data name="NoResp" xml:space="preserve">
+    <value>لا استجابة</value>
+  </data>
+  <data name="NoServers" xml:space="preserve">
+    <value>كنت لا يبدو أن الوصول إلى أي خوادم اللعبة.</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>تلاحظ</value>
+  </data>
+  <data name="NotesTitle" xml:space="preserve">
+    <value>عرض / تحرير الملاحظات</value>
+  </data>
+  <data name="PWDontMatch" xml:space="preserve">
+    <value>كلمات المرور لا تتطابق.</value>
+  </data>
+  <data name="PWInvalid" xml:space="preserve">
+    <value>كلمة السر الحالية غير صحيحة.</value>
+  </data>
+  <data name="PWTooShort" xml:space="preserve">
+    <value>كلمات المرور الجديدة يجب أن تكون أتلست ستة أحرف</value>
+  </data>
+  <data name="QueryTool" xml:space="preserve">
+    <value>الاستعلام</value>
+  </data>
+  <data name="QueryToolTitle" xml:space="preserve">
+    <value>التحقق من حالة الخادم لعبتك</value>
+  </data>
+  <data name="RconTool" xml:space="preserve">
+    <value>RCON</value>
+  </data>
+  <data name="RconToolTitle" xml:space="preserve">
+    <value>إداراتها عن بعد الخادم الخاص</value>
+  </data>
+  <data name="Remote" xml:space="preserve">
+    <value>تعذر الاتصال لرصد البعيد.</value>
+  </data>
+  <data name="RemoteError" xml:space="preserve">
+    <value>؟</value>
+  </data>
+  <data name="RemoteErrorTip" xml:space="preserve">
+    <value>غير قادر على الاتصال عن بعد لرصد</value>
+  </data>
+  <data name="RemoteOffline" xml:space="preserve">
+    <value>ويتميز الخادم البعيد كما متصل.</value>
+  </data>
+  <data name="RemoteTimeout" xml:space="preserve">
+    <value>انتهت مهلة الاتصال في انتظار استجابة من رصد البعيد.</value>
+  </data>
+  <data name="RestartedText" xml:space="preserve">
+    <value>إعادة تشغيل!</value>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>حتى</value>
+  </data>
+  <data name="RunningImgTip" xml:space="preserve">
+    <value>الملقم قيد التشغيل. انقر لوقف الخادم.</value>
+  </data>
+  <data name="RunningText" xml:space="preserve">
+    <value>تشغيل</value>
+  </data>
+  <data name="RunningTip" xml:space="preserve">
+    <value>الملقم قيد التشغيل ، انقر لوقف</value>
+  </data>
+  <data name="ServerDisabled" xml:space="preserve">
+    <value>تم تعطيل الخدمة ، يرجى الاتصال بالدعم.</value>
+  </data>
+  <data name="ServerName" xml:space="preserve">
+    <value>اسم الخادم</value>
+  </data>
+  <data name="StartedText" xml:space="preserve">
+    <value>بدأت!</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>حالة</value>
+  </data>
+  <data name="Stopped" xml:space="preserve">
+    <value>أسفل</value>
+  </data>
+  <data name="StoppedImgTip" xml:space="preserve">
+    <value>الخادم ليست قيد التشغيل. انقر لبدء تشغيل الملقم.</value>
+  </data>
+  <data name="StoppedText" xml:space="preserve">
+    <value>توقفت</value>
+  </data>
+  <data name="StoppedText2" xml:space="preserve">
+    <value>توقف!</value>
+  </data>
+  <data name="StoppedTip" xml:space="preserve">
+    <value>تم إيقاف الملقم ، انقر لبدء</value>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>دعم نظام التذاكر</value>
+  </data>
+  <data name="TicketsNew" xml:space="preserve">
+    <value>إنشاء تذكرة جديدة</value>
+  </data>
+  <data name="TicketsView" xml:space="preserve">
+    <value>عرض التذاكر الخاصة بك</value>
+  </data>
+  <data name="TicketSysLink" xml:space="preserve">
+    <value>يمكنك أيضا إنشاء تذكرة دعم في نظام بيع التذاكر.</value>
+  </data>
+  <data name="TooManyServers" xml:space="preserve">
+    <value>ليس لديك إذن لتشغيل أكثر من خادم جنسي في أي وقت من الأوقات.</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>كان هناك خطأ غير متوقع. يرجى الاتصال بالدعم.</value>
+  </data>
+  <data name="UnhandledStartError" xml:space="preserve">
+    <value>غير قادر على بدء تشغيل الملقم بسبب خطأ غير معالج ، الرجاء الاتصال بالدعم.</value>
+  </data>
+  <data name="UpdateTool" xml:space="preserve">
+    <value>التحديث</value>
+  </data>
+  <data name="UpdateToolTitle" xml:space="preserve">
+    <value>التحديث خادم</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>ويتم حاليا خادم يجري تحديثها. وسيتم تشغيلها عند الانتهاء من التحديث.</value>
+  </data>
+  <data name="UpdatingStatus" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="UpdatingStatusTip" xml:space="preserve">
+    <value>تحديث الملقم. لا يمكن إيقاف أو التي حتى يتم الانتهاء من التحديث.</value>
+  </data>
+  <data name="UpdatingText" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>المستخدم</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="UnhandledStopError" xml:space="preserve">
+    <value>غير قادر على وقف الخادم بسبب خطأ غير معالج، يرجى الاتصال بالدعم.</value>
+  </data>
+  <data name="ManageServerMenu" xml:space="preserve">
+    <value>إدارة الملقم</value>
+  </data>
+  <data name="ViewLogs" xml:space="preserve">
+    <value>عرض سجلات</value>
+  </data>
+  <data name="OpenFTP" xml:space="preserve">
+    <value>فتح في بروتوكول نقل الملفات العملاء</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>مسار</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد تنفيذ هذا الإجراء؟</value>
+  </data>
+  <data name="CreateErr" xml:space="preserve">
+    <value>خطأ في إنشاء ملف:</value>
+  </data>
+  <data name="DecompressErr" xml:space="preserve">
+    <value>لم يتم العثور على برنامج إزالة الضغط. يرجى الاتصال بالدعم.</value>
+  </data>
+  <data name="DelRoot" xml:space="preserve">
+    <value>لا تستطيع حذف الدليل العلوي أكثر من غيرها. الاتصال بالدعم للحصول على المساعدة.</value>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>يتم تعطيل الحسابات التجريبية لبعض الميزات.</value>
+  </data>
+  <data name="ExceedsMaxLen" xml:space="preserve">
+    <value>تجاوز الملفات المسموح بها طول.</value>
+  </data>
+  <data name="FileExists" xml:space="preserve">
+    <value>الملف موجود بالفعل.</value>
+  </data>
+  <data name="FName" xml:space="preserve">
+    <value>يجب إدخال اسم أولا</value>
+  </data>
+  <data name="FolderNotFound" xml:space="preserve">
+    <value>لم يتم العثور على المجلد. يرجى الاتصال بالدعم.</value>
+  </data>
+  <data name="InvName" xml:space="preserve">
+    <value>اسم يحتوي على أحرف غير صالحة</value>
+  </data>
+  <data name="ParentFolder" xml:space="preserve">
+    <value>المجلد الأصل</value>
+  </data>
+  <data name="RenameErr" xml:space="preserve">
+    <value>خطأ إعادة تسمية ملف:</value>
+  </data>
+  <data name="ThisFolder" xml:space="preserve">
+    <value>هذا المجلد</value>
+  </data>
+  <data name="UnsupportedExt" xml:space="preserve">
+    <value>لا يسمح هذا التمديد. وينبغي أن يسمح دعم Cotnact إذا كنت تشعر به.</value>
+  </data>
+  <data name="LastManUpd" xml:space="preserve">
+    <value>آخر تحديث يدوي أجريت في</value>
+  </data>
+  <data name="UpdateComplete" xml:space="preserve">
+    <value>تحديث انتهى.</value>
+  </data>
+  <data name="UpdateStop" xml:space="preserve">
+    <value>يجب إيقاف الخادم قبل أن تتمكن من تحديثه!</value>
+  </data>
+  <data name="UpdatingIs" xml:space="preserve">
+    <value>خادم يتم تحديثها، هذه الصفحة مع تلقائيا تحديث بشكل دوري</value>
+  </data>
+  <data name="UpdatingNoOutput" xml:space="preserve">
+    <value>وقد بدأ التحديث ولكن تم إرجاع أية النص بعد.</value>
+  </data>
+  <data name="UpdatingOutSession" xml:space="preserve">
+    <value>تحديث قيد التقدم. بدأ من قبلك في جلسة أخرى، وشخص آخر، أو تلقائيا. يجب إعادة تشغيل الملقم عند اكتمال التحديث وسوف يتم عرض محفوظات التحديث هنا. الرجاء الاتصال بالدعم إذا كنت بحاجة إلى المساعدة.</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>مساعدة</value>
+  </data>
+  <data name="HelpTip" xml:space="preserve">
+    <value>احصل على الدعم</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>منزل</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>خادم الماضي</value>
+  </data>
+  <data name="LastTip" xml:space="preserve">
+    <value>العودة إلى ملقم آخر قيامك بعملية إجراء على</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>أخبار</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>الملف الشخصي</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="UpdateToolDesc" xml:space="preserve">
+    <value>هذه الأداة تسمح لك لتحديث خادم اللعبة الخاص بك وعرض الوضع الحالي و / أو الماضي من التحديث.</value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>مغلق</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>فتح</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>إدارة</value>
+  </data>
+  <data name="ChooseAnItem" xml:space="preserve">
+    <value>اختيار عنصر إلى تشغيل من القائمة المنسدلة لأول مرة</value>
+  </data>
+  <data name="ExtraFinished" xml:space="preserve">
+    <value>العملية قد انتهت.</value>
+  </data>
+  <data name="ExtraIs" xml:space="preserve">
+    <value>عملية لا يزال قيد التشغيل، هذه الصفحة مع تلقائيا تحديث بشكل دوري</value>
+  </data>
+  <data name="ExtraNoOutput" xml:space="preserve">
+    <value>وقد بدأت العملية ولكن لقد تم إرجاع أي نص حتى الان.</value>
+  </data>
+  <data name="ExtraStarted" xml:space="preserve">
+    <value>وقد بدأت العملية. وهذه الصفحة التحديث التلقائي خلال 15 ثانية.</value>
+  </data>
+  <data name="ServerImage" xml:space="preserve">
+    <value>الخادم صور</value>
+  </data>
+  <data name="ServerImageTitle" xml:space="preserve">
+    <value>صور تحرير الخادم لخادم</value>
+  </data>
+  <data name="Variables" xml:space="preserve">
+    <value>المتغيرات</value>
+  </data>
+  <data name="VariableTitle" xml:space="preserve">
+    <value>خادم محرر متغير</value>
+  </data>
+  <data name="ExtraToolDesc" xml:space="preserve">
+    <value>هذه الأداة تسمح لك بتشغيل الخيارات الأخرى تمكين قبل موفر.</value>
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>اختيار عنصر ....</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>بواسطة</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>على</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="NewTroubleTicket" xml:space="preserve">
+    <value>مشكلة التذاكر جديد</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>الخادم</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>موضوع</value>
+  </data>
+  <data name="TicketBlank" xml:space="preserve">
+    <value>الحقول الموضوع والرسالة لا يمكن أن تكون فارغة!</value>
+  </data>
+  <data name="TicketBlankReply" xml:space="preserve">
+    <value>لا يمكنك إرسال الرد فارغة. الرجاء إدخال رسالة.</value>
+  </data>
+  <data name="TicketNoReply" xml:space="preserve">
+    <value>يرجى عدم الرد على هذا البريد الإلكتروني، وبدلا من ذلك تسجيل الدخول إلى حسابك وإضافة رد.</value>
+  </data>
+  <data name="TicketUpdate" xml:space="preserve">
+    <value>وضع تذكرة المتاعب تحديث</value>
+  </data>
+  <data name="ExtraStart" xml:space="preserve">
+    <value>خادم يجب أن يعمل قبل أن تتمكن من تشغيل هذا اضافية.</value>
+  </data>
+  <data name="ExtraStop" xml:space="preserve">
+    <value>يجب إيقاف الخادم قبل أن تتمكن من تشغيل هذا اضافية.</value>
+  </data>
+  <data name="FailedloginMaint" xml:space="preserve">
+    <value>هو الفريق حاليا في وضع الصيانة. الرجاء حاول تسجيل الدخول في وقت لاحق.</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>اللاعبين</value>
+  </data>
+  <data name="Servers" xml:space="preserve">
+    <value>خوادم</value>
+  </data>
+  <data name="AccountExists" xml:space="preserve">
+    <value>اسم المستخدم موجود بالفعل، حاول مرة أخرى</value>
+  </data>
+  <data name="NoSubaccounts" xml:space="preserve">
+    <value>لم يكن لديك إذن لإنشاء حسابات فرعية.</value>
+  </data>
+  <data name="ConsoleTool" xml:space="preserve">
+    <value>وحدة الرأي</value>
+  </data>
+  <data name="ConsoleToolTitle" xml:space="preserve">
+    <value>الناتج مشاهدة عملية الخادم</value>
+  </data>
+  <data name="ConsoleButton" xml:space="preserve">
+    <value>وحدة التحكم</value>
+  </data>
+  <data name="PendingRestartTip" xml:space="preserve">
+    <value>جاري تشغيل وحدة الخدمة ، ولكن تم تأجيل عملية اعادة البدء.  اضغط لبدء عملية اعادة البدء.</value>
+  </data>
+  <data name="PendingStopTip" xml:space="preserve">
+    <value>جاري تشغيل وحدة الخدمة ، ولكن تم تأجيل ايقاف التشغيل.  اضغط للاغلاق فورا.</value>
+  </data>
+  <data name="PendingUpdateTip" xml:space="preserve">
+    <value>يتم تشغيل وحدة الخدمة ، ولكن يتم تأجيل عملية التعديل.  اضغط لبدء عملية الاغلاق والتعديل.</value>
+  </data>
+  <data name="GracefulStarted" xml:space="preserve">
+    <value>تم الشروع في إغلاق كريسي.</value>
+  </data>
+  <data name="ShutdownCancelled" xml:space="preserve">
+    <value>تم الغاء ايقاف التشغيل</value>
+  </data>
+  <data name="PendingRestart" xml:space="preserve">
+    <value>تم تأجيل اغلاق وحدة الخدمة لاعادة البدء</value>
+  </data>
+  <data name="PendingRestartStarted" xml:space="preserve">
+    <value>تم بدء اعادة بدء وحدة الخدمة المؤجلة</value>
+  </data>
+  <data name="PendingShutdown" xml:space="preserve">
+    <value>تأجيل ايقاف تشغيل وحدة الخدمة</value>
+  </data>
+  <data name="PendingShutdownTip" xml:space="preserve">
+    <value>تم تأجيل ايقاف التشغيل ، اضغط للغاء عملية الاغلاق المؤجلة.</value>
+  </data>
+  <data name="PendingShutdownTipForce" xml:space="preserve">
+    <value>تم تأجيل ايقاف التشغيل ، اضغط لبدء اغلاق فوري.</value>
+  </data>
+  <data name="PendingUpdate" xml:space="preserve">
+    <value>تم تعليق اغلاق وحدة الخدمة للتعديل</value>
+  </data>
+  <data name="OperationUnavailable" xml:space="preserve">
+    <value>العملية غير متاحة حاليا</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>اعادة بدء</value>
+  </data>
+  <data name="RestartText" xml:space="preserve">
+    <value>اعادة بدء وحدة الخدمة</value>
+  </data>
+  <data name="AdvertTool" xml:space="preserve">
+    <value>RCON Msgs</value>
+  </data>
+  <data name="AdvertToolTitle" xml:space="preserve">
+    <value>تحديد رسائل / أوامر RCON المحددة</value>
+  </data>
+  <data name="Reinstall" xml:space="preserve">
+    <value>اعادة تركيب</value>
+  </data>
+  <data name="ReinstallTip" xml:space="preserve">
+    <value>اعادة تركيب وحدة خدمة اللعبة الخاصة بك</value>
+  </data>
+  <data name="ReinstallToolDesc" xml:space="preserve">
+    <value>هذه الأداة تمكنك من اعادة تركيب وحدة خدمة اللعبة الخاصة بك.  سيتم اعداد نسخة جديدة من وحدة خدمة اللعبة وقيم سطر الأمر.  سيتم الغاء اتاحة وحدة الخدمة الحالية ولكن يمكن التوصل اليها في حالة احتياجك للاتصال بالملفات ولكن قد يتم ازالتها بدون اشعار.</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>التصرفات</value>
+  </data>
+  <data name="ArcInfoTT" xml:space="preserve">
+    <value>مشاهدة معلومات التخزين</value>
+  </data>
+  <data name="CompressTT" xml:space="preserve">
+    <value>ضغط</value>
+  </data>
+  <data name="DecompressTT" xml:space="preserve">
+    <value>الغاء ضغط</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="ModTime" xml:space="preserve">
+    <value>وقت التعديل</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>الحجم</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="NewNews" xml:space="preserve">
+    <value>تم اعادة توجيهك الى هنا لأنه تم اضافة بند جديد للأخبار.  يمكنك الاستمرار الى القائمة الرئيسية بعد مراجعة البنود الجديدة.</value>
+  </data>
+  <data name="ShutdownFirst" xml:space="preserve">
+    <value>جاري تشغيل وحدة الخدمة ، يجب ايقافها أولا لاستخدام هذه الأداة</value>
+  </data>
+  <data name="WorkshopDLError" xml:space="preserve">
+    <value>خطأ في تحميل Md :</value>
+  </data>
+  <data name="WorkshopItemsMissing" xml:space="preserve">
+    <value>لم يتم تعريف أكواد ورشة العمل ، لا يوجد شيء للقيام به</value>
+  </data>
+  <data name="WorkshopTool" xml:space="preserve">
+    <value>برنامج تركيب Md</value>
+  </data>
+  <data name="WorkshopToolTitle" xml:space="preserve">
+    <value>اضافة وتعديل Steam ورشة عمل الى وحدة الخدمة هذه</value>
+  </data>
+  <data name="RequiresLicense" xml:space="preserve">
+    <value>تتطلب هذه الخاصية ترخيص</value>
+  </data>
+  <data name="UpdatingMods" xml:space="preserve">
+    <value>تقوم وحدة الخدمة حاليا بتعديل mods.  سيتم بدءه عند الانتهاء من التعديل اذا تم اتاحته.</value>
+  </data>
+  <data name="UpdatingWorkshopStatus" xml:space="preserve">
+    <value>تحديث حلقة العمل</value>
+  </data>
+  <data name="UpdatingWorkshopStatusTip" xml:space="preserve">
+    <value>تقوم وحدة الخدمة بتعديل بنود ورشة العمل.  لا يمكن بدءها أو ايقافها حتى يتم الانتهاء من التحديث.</value>
+  </data>
+  <data name="UpdatingWorkshopText" xml:space="preserve">
+    <value>تقوم وحدة الخدمة حاليا بتعديل بنود حلقة العمل !</value>
+  </data>
+  <data name="TfaNotice" xml:space="preserve">
+    <value>قم بتأمين الحساب الخاص بك باستخدام اثنين من توثيق المعامل.</value>
+  </data>
+  <data name="Added" xml:space="preserve">
+    <value>تمت الاضافة</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="WorkshopAdded" xml:space="preserve">
+    <value>اضافة بند</value>
+  </data>
+  <data name="WorkshopBrowse" xml:space="preserve">
+    <value>Browse Steam workshop mods لهذه اللعبة</value>
+  </data>
+  <data name="WorkshopDisabled" xml:space="preserve">
+    <value>لم يتم اتاحة ورشة العمل لنوع اللعبة هذا ، لا يمكن الاستمرار !</value>
+  </data>
+  <data name="WorkshopExists" xml:space="preserve">
+    <value>البند موجود بالفعل !</value>
+  </data>
+  <data name="WorkshopGO" xml:space="preserve">
+    <value>تركيب / تعديل حلقة العمل التي تم وضعها / تحديثها في الصف.</value>
+  </data>
+  <data name="WorkshopIDErrorNumeric" xml:space="preserve">
+    <value>لا يمكن اضافة بند جديد ، يجب أن تكون بنود ورشة العمل رقمية فقط.</value>
+  </data>
+  <data name="WorkshopImport" xml:space="preserve">
+    <value>استقبال أكواد ورشة العمل من المجموعة</value>
+  </data>
+  <data name="WorkshopMissingAPPID" xml:space="preserve">
+    <value>لم يتم تعريف Steam App ID لنوع اللعبة هذا ، لا يمكن الاستمرار !</value>
+  </data>
+  <data name="WorkshopQueued" xml:space="preserve">
+    <value>تخطي mod ، تم جدولة العمل بالفعل لهذا البند.</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>ارجاع</value>
+  </data>
+</root>

@@ -1,0 +1,54 @@
+// The panel uses this file to build the navigation menu.  default.txt is copied to menu.txt by the panel and the panel uses menu.txt if it exists.
+// Be sure to put your edits in menu.txt; otherwise they may get overwritten during an upgrade.
+// The syntax for each line is:
+// (flag,html to insert)
+// Flag is a letter where:
+// a:  always add
+// l:  only show if logged in
+// !:  only show to admins
+// g:  only show to users not logged in
+// i:  generates the last id link; replaces %LASTID% with id of last server
+// Variables (ie. %Home%), get replaced with their translated values from Global.resx
+// "//" is a comment and the panel will ignore the line if it starts with this
+//  see http://getbootstrap.com/components/#navbar for help with what HTML and classes to use
+// See the comment below to change the 'Brainless Panel' text in the menu
+// ===========================================
+(a,<div class="container">)
+(a,<div class="navbar-header">)
+(a,<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">)
+(a,<span class="sr-only">Toggle navigation</span>)
+(a,<span class="icon-bar"></span>)
+(a,<span class="icon-bar"></span>)
+(a,<span class="icon-bar"></span>)
+(a,</button>)
+//  !====================== Change the 'UGCC' below to replace the UGCC text
+//   In the menu to whatever you want======================================!
+(a,<a class="navbar-brand" href="menu.aspx">PlayCoin Panel</a>)
+(a,</div>)
+(a,<div class="navbar-collapse collapse">)
+(a,<ul class="nav navbar-nav">)
+(l,<li><a href="menu.aspx" title="%Home%"><span class="glyphicon glyphicon-home"></span> %Home%</a></li>)
+(l,<li><a href="usermenu.aspx" title="%Profile%"><span class="glyphicon glyphicon-user"></span> %Profile%</a></li>)
+(l,<li><a href="contactinfo.aspx" title="%HelpTip%"><span class="glyphicon glyphicon-question-sign"></span> %Help%</a></li>)
+(l,<li><a href="News.aspx" title="%News%"><span class="glyphicon glyphicon-exclamation-sign"></span> %News%</a></li>)
+(i,<li><a href="ugcc.aspx?id=%LASTID%" title="%LastTip%"><span class="glyphicon glyphicon-asterisk"></span> %Last%</a></li>)
+(!,<li><a href="adminmenu.aspx" title="%Settings%"><span class="glyphicon glyphicon-cog"></span> %Settings%</a></li>)
+// Begin information dropdown only shown to admins
+(!,<li class="dropdown">)
+(!,<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="Admin Info Menu"><span class="glyphicon glyphicon glyphicon-exclamation-sign"></span><span class="caret"></span></a>)
+(!,<ul class="dropdown-menu">)
+(!,<li><a href="https://brainless.us/Forum/viewtopic.php?f=20&t=80" target="_blank">Panel Documentation</a></li>)
+(!,<li><a href="https://www.brainless.us/forum/viewtopic.php?f=21&t=1041" target="_blank">Game Templates</a></li>)
+(!,<li role="separator" class="divider"></li>)
+(!,<li><a href="https://brainless.us/Forum/viewtopic.php?f=20&t=80" target="_blank">Panel Documentation</a></li>)
+(!,<li><a href="https://www.brainless.us/forum/viewtopic.php?f=21&t=1041" target="_blank">Game Templates</a></li>)
+(!,<li role="separator" class="divider"></li>)
+(!,<li><a href="https://www.brainless.us/forum/viewtopic.php?f=21&t=2093" target="_blank">Automated Installer quick start</a></li>)
+(!,<li role="separator" class="divider"></li>)
+(!,<li><a href="https://discord.com/invite/EFuewth" target="_blank">Join us on discord</a></li>)
+(!,</ul>)
+(!,</li>)
+// End information dropdown
+(l,<li><a href="logoff.aspx" title="%Logout%"><span class="glyphicon glyphicon-log-out"></span> %Logout%</a></li>)
+(g,<li><a href="Default.aspx">%Login%</a></li>)
+(a,</ul></div><!--/.nav-collapse --></div>)

@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlreadyRunning" xml:space="preserve">
+    <value>Sunucu zaten çalışıyor!</value>
+  </data>
+  <data name="AlreadyStopped" xml:space="preserve">
+    <value>Sunucu zaten durdurulur!</value>
+  </data>
+  <data name="BadLogin" xml:space="preserve">
+    <value>Geçersiz kullanıcı adı / parola. Burada şifrenizi tıklayın &lt;a class="alert-link" href="forgotpw.aspx"&gt; unuttuysanız sıfırlamak için &lt;a.</value>
+  </data>
+  <data name="BadReply" xml:space="preserve">
+    <value>Beklenmedik Cevap uzaktan monitör aldı.</value>
+  </data>
+  <data name="ChangeEmail" xml:space="preserve">
+    <value>E-posta adresi değişti.</value>
+  </data>
+  <data name="ChangePW" xml:space="preserve">
+    <value>Şifre değiştirildi.</value>
+  </data>
+  <data name="CmdSaved" xml:space="preserve">
+    <value>Komut satırı kaydedildi.</value>
+  </data>
+  <data name="DemoDisabled" xml:space="preserve">
+    <value>Bu özellik demo kullanıcıları için devre dışı</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Ayrıntılar</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Bu özellik yönetici tarafından devre dışı bırakıldı.</value>
+  </data>
+  <data name="DisabledTxt" xml:space="preserve">
+    <value>Engelli</value>
+  </data>
+  <data name="EditServer" xml:space="preserve">
+    <value>Sunucuyu Düzenle</value>
+  </data>
+  <data name="EditServerTitle" xml:space="preserve">
+    <value>Bu sunucunun yapılandırmasını düzenlemek</value>
+  </data>
+  <data name="ExtraTool" xml:space="preserve">
+    <value>Ekstralar</value>
+  </data>
+  <data name="ExtraToolTitle" xml:space="preserve">
+    <value>Sağlayıcınız tarafından etkin Diğer seçenekler</value>
+  </data>
+  <data name="FailedloginAcctDisabled" xml:space="preserve">
+    <value>, Desteğe engelli başvurun Hesap.</value>
+  </data>
+  <data name="FileTool" xml:space="preserve">
+    <value>Dosyalar</value>
+  </data>
+  <data name="FileToolTitle" xml:space="preserve">
+    <value>Dosya yöneticisi</value>
+  </data>
+  <data name="Hash" xml:space="preserve">
+    <value>Sunucunun yürütülebilir karma değişti. Sunucu başlangıç ​​değil.</value>
+  </data>
+  <data name="Hash2" xml:space="preserve">
+    <value>Sunucunun ikincil dosya karma değişti. Sunucu başlangıç ​​değil.</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Bilgi</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Sunucu Def.</value>
+  </data>
+  <data name="ManageSDef" xml:space="preserve">
+    <value>Bu sunucu tanımı yönetin</value>
+  </data>
+  <data name="ManageServer" xml:space="preserve">
+    <value>Bu sunucu için Yönetim sayfası</value>
+  </data>
+  <data name="ManageUser" xml:space="preserve">
+    <value>Bu kullanıcı için Yönetim sayfası</value>
+  </data>
+  <data name="MissingExe" xml:space="preserve">
+    <value>Sunucunun yürütülebilir bulamıyor, desteğe başvurun.</value>
+  </data>
+  <data name="NoExe" xml:space="preserve">
+    <value>Hiçbir yürütülebilir Bu sunucu için tanımlanmıştır ....</value>
+  </data>
+  <data name="NoPermission" xml:space="preserve">
+    <value>Bunu yapmak için izniniz yok.</value>
+  </data>
+  <data name="NoPid" xml:space="preserve">
+    <value>Bir PID dosya sunucusu bulunamadı değildi.</value>
+  </data>
+  <data name="NoResp" xml:space="preserve">
+    <value>Yanıt Yok</value>
+  </data>
+  <data name="NoServers" xml:space="preserve">
+    <value>Herhangi bir oyun sunucularına erişimi görünmemektedir.</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notlar</value>
+  </data>
+  <data name="NotesTitle" xml:space="preserve">
+    <value>Görünüm / notlarınızı düzenlemek</value>
+  </data>
+  <data name="PWDontMatch" xml:space="preserve">
+    <value>parolalar eşleşmiyor.</value>
+  </data>
+  <data name="PWInvalid" xml:space="preserve">
+    <value>Mevcut şifre yanlış.</value>
+  </data>
+  <data name="PWTooShort" xml:space="preserve">
+    <value>Yeni parolalar uzun en az altı karakter olması gerekir</value>
+  </data>
+  <data name="QueryTool" xml:space="preserve">
+    <value>Sorgu</value>
+  </data>
+  <data name="QueryToolTitle" xml:space="preserve">
+    <value>Oyun sunucusu durumunu kontrol</value>
+  </data>
+  <data name="RconTool" xml:space="preserve">
+    <value>Rcon</value>
+  </data>
+  <data name="RconToolTitle" xml:space="preserve">
+    <value>Uzaktan sunucu yönetmek</value>
+  </data>
+  <data name="Remote" xml:space="preserve">
+    <value>Uzak monitöre bağlantı kurulamadı.</value>
+  </data>
+  <data name="RemoteError" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="RemoteErrorTip" xml:space="preserve">
+    <value>Uzak monitör bağlantı kurulamıyor</value>
+  </data>
+  <data name="RemoteOffline" xml:space="preserve">
+    <value>Uzak sunucu çevrimdışı olarak işaretlenir.</value>
+  </data>
+  <data name="RemoteTimeout" xml:space="preserve">
+    <value>Bağlantı uzak monitörden bir yanıt beklerken zaman aşımına uğradı.</value>
+  </data>
+  <data name="RestartedText" xml:space="preserve">
+    <value>Restarted!</value>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>Yukarı</value>
+  </data>
+  <data name="RunningImgTip" xml:space="preserve">
+    <value>Server çalışıyor. Sunucusunu durdurmak için tıklayın.</value>
+  </data>
+  <data name="RunningText" xml:space="preserve">
+    <value>Sunucu çalışıyor!</value>
+  </data>
+  <data name="RunningTip" xml:space="preserve">
+    <value>Sunucu çalıştıran durdurmak için tıklayın</value>
+  </data>
+  <data name="ServerDisabled" xml:space="preserve">
+    <value>Sunucu devre dışı bırakıldı, desteğe başvurun.</value>
+  </data>
+  <data name="ServerName" xml:space="preserve">
+    <value>Sunucu Adı</value>
+  </data>
+  <data name="StartedText" xml:space="preserve">
+    <value>Başladı!</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="Stopped" xml:space="preserve">
+    <value>Aşağı</value>
+  </data>
+  <data name="StoppedImgTip" xml:space="preserve">
+    <value>Sunucu çalışmıyor. Sunucuyu başlatmak için tıklayınız.</value>
+  </data>
+  <data name="StoppedText" xml:space="preserve">
+    <value>Sunucu durdurulur!</value>
+  </data>
+  <data name="StoppedText2" xml:space="preserve">
+    <value>Durduruldu!</value>
+  </data>
+  <data name="StoppedTip" xml:space="preserve">
+    <value>Sunucu durdurulur, başlatmak için tıklayın</value>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>Destek Bilet Sistemi</value>
+  </data>
+  <data name="TicketsNew" xml:space="preserve">
+    <value>Yeni bir bilet oluşturun</value>
+  </data>
+  <data name="TicketsView" xml:space="preserve">
+    <value>Biletlerinizi görüntüle</value>
+  </data>
+  <data name="TicketSysLink" xml:space="preserve">
+    <value>Ayrıca bilet sistemi bir destek bileti oluşturabilirsiniz.</value>
+  </data>
+  <data name="TooManyServers" xml:space="preserve">
+    <value>Herhangi bir zamanda XXX sunucudan daha fazla çalıştırmak için izniniz yok.</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Beklenmeyen bir hata oluştu. Desteğe başvurun.</value>
+  </data>
+  <data name="UnhandledStartError" xml:space="preserve">
+    <value>Nedeniyle işlenmeyen hata sunucu başlatılamıyor, desteğe başvurun.</value>
+  </data>
+  <data name="UpdateTool" xml:space="preserve">
+    <value>Güncelleştirme</value>
+  </data>
+  <data name="UpdateToolTitle" xml:space="preserve">
+    <value>Sunucu güncelleyin</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>Sunucu şu anda güncellenmektedir. Güncelleştirme bittiğinde bu başlanacaktır.</value>
+  </data>
+  <data name="UpdatingStatus" xml:space="preserve">
+    <value>Güncelleniyor</value>
+  </data>
+  <data name="UpdatingStatusTip" xml:space="preserve">
+    <value>Sunucu güncelleniyor. Bu başlatılmış veya güncelleme tamamlanana kadar durdu olamaz.</value>
+  </data>
+  <data name="UpdatingText" xml:space="preserve">
+    <value>Sunucu şu anda güncelleniyor!</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Kullanıcı</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>şifre</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>kullanıcı adı</value>
+  </data>
+  <data name="UnhandledStopError" xml:space="preserve">
+    <value>Nedeniyle işlenmeyen hata sunucusunu durdurmak için açılamıyor, desteğe başvurun.</value>
+  </data>
+  <data name="ManageServerMenu" xml:space="preserve">
+    <value>Sunucu yönetin</value>
+  </data>
+  <data name="ViewLogs" xml:space="preserve">
+    <value>Görünüm Günlükleri</value>
+  </data>
+  <data name="OpenFTP" xml:space="preserve">
+    <value>FTP Client Aç</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Yol</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Bu eylemi gerçekleştirmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="CreateErr" xml:space="preserve">
+    <value>Dosyası oluşturma Hata:</value>
+  </data>
+  <data name="DecompressErr" xml:space="preserve">
+    <value>Dekompresyon programı bulunamadı. Desteğe başvurun.</value>
+  </data>
+  <data name="DelRoot" xml:space="preserve">
+    <value>Sen en üst dizini silemezsiniz. Yardım için desteğe başvurun.</value>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>Bazı özellikler demo hesapları için devre dışı bırakılır.</value>
+  </data>
+  <data name="ExceedsMaxLen" xml:space="preserve">
+    <value>Dosya izin uzunluğu aşıyor.</value>
+  </data>
+  <data name="FileExists" xml:space="preserve">
+    <value>Dosya zaten var.</value>
+  </data>
+  <data name="FName" xml:space="preserve">
+    <value>Önce bir isim girmelisiniz</value>
+  </data>
+  <data name="FolderNotFound" xml:space="preserve">
+    <value>Klasör bulunamadı. Desteğe başvurun.</value>
+  </data>
+  <data name="InvName" xml:space="preserve">
+    <value>Adı geçersiz karakterler içeriyor</value>
+  </data>
+  <data name="ParentFolder" xml:space="preserve">
+    <value>Ana Klasör</value>
+  </data>
+  <data name="RenameErr" xml:space="preserve">
+    <value>Dosyasını yeniden adlandırma Hata:</value>
+  </data>
+  <data name="ThisFolder" xml:space="preserve">
+    <value>Bu Klasör</value>
+  </data>
+  <data name="UnsupportedExt" xml:space="preserve">
+    <value>Bu uzantı izin verilmiyor. Eğer hissediyorum Cotnact destek izin verilmelidir.</value>
+  </data>
+  <data name="LastManUpd" xml:space="preserve">
+    <value>Son manuel güncelleme yapılan</value>
+  </data>
+  <data name="UpdateComplete" xml:space="preserve">
+    <value>Güncelleme tamamladı.</value>
+  </data>
+  <data name="UpdateStop" xml:space="preserve">
+    <value>Bunu güncelleyebilirsiniz önce sunucusunu durdurmak gerekir!</value>
+  </data>
+  <data name="UpdatingIs" xml:space="preserve">
+    <value>Sunucu periyodik yenileme ile otomatik olarak, bu sayfayı güncelliyor</value>
+  </data>
+  <data name="UpdatingNoOutput" xml:space="preserve">
+    <value>Güncelleme başlamıştır, ancak hiçbir metin henüz iade edilmiştir.</value>
+  </data>
+  <data name="UpdatingOutSession" xml:space="preserve">
+    <value>Bir güncelleme devam ediyor. O başka, başka bir oturumda sizin tarafınızdan birini başladı, ya da otomatik edildi. Güncelleme tamamlandığında ve güncelleme geçmişi burada görüntülenir sunucu yeniden başlatmanız gerekir. Yardıma ihtiyacınız varsa desteğe başvurun.</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="HelpTip" xml:space="preserve">
+    <value>Destek alın</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Ev</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Son Sunucu</value>
+  </data>
+  <data name="LastTip" xml:space="preserve">
+    <value>Eğer bir eylem yapılan son sunucuya geri dön</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Oturum Aç</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Oturumu</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Haber</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="UpdateToolDesc" xml:space="preserve">
+    <value>Bu araç, oyun sunucusu güncellemek ve bir güncelleme mevcut ve / veya geçmiş durumunu görmenizi sağlar.</value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>Kapalı</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Yönet</value>
+  </data>
+  <data name="ChooseAnItem" xml:space="preserve">
+    <value>İlk açılan listeden çalıştırmak için bir öğe seçin</value>
+  </data>
+  <data name="ExtraFinished" xml:space="preserve">
+    <value>Süreç bitmiştir.</value>
+  </data>
+  <data name="ExtraIs" xml:space="preserve">
+    <value>süreç hala periyodik yenileme otomatik ile, bu sayfayı çalışıyor</value>
+  </data>
+  <data name="ExtraNoOutput" xml:space="preserve">
+    <value>Süreç başlamıştır, ancak metin henüz iade edilmiştir.</value>
+  </data>
+  <data name="ExtraStarted" xml:space="preserve">
+    <value>Süreç başlamıştır. Bu sayfa otomatik 15 saniye içinde yenilenir.</value>
+  </data>
+  <data name="ServerImage" xml:space="preserve">
+    <value>Sunucu Görüntüler</value>
+  </data>
+  <data name="ServerImageTitle" xml:space="preserve">
+    <value>Sunucunuz için düzenleme sunucu görüntüleri</value>
+  </data>
+  <data name="Variables" xml:space="preserve">
+    <value>Değişkenler</value>
+  </data>
+  <data name="VariableTitle" xml:space="preserve">
+    <value>Sunucu değişken editörü</value>
+  </data>
+  <data name="ExtraToolDesc" xml:space="preserve">
+    <value>Bu araç sizin sağlayıcı tarafından etkinleştirilmiş diğer seçenekleri çalışmasını sağlar.</value>
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>Bir öğeyi seçin ....</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>Tarafından</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>Üzerinde</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Itibaren</value>
+  </data>
+  <data name="NewTroubleTicket" xml:space="preserve">
+    <value>Yeni sorun bilet</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Sunucu</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Konu</value>
+  </data>
+  <data name="TicketBlank" xml:space="preserve">
+    <value>Konu ve mesaj alanlarını boş olamaz!</value>
+  </data>
+  <data name="TicketBlankReply" xml:space="preserve">
+    <value>Sen boş cevap gönderemezsiniz. Lütfen bir mesaj giriniz.</value>
+  </data>
+  <data name="TicketNoReply" xml:space="preserve">
+    <value>Bunun yerine hesabınıza giriş, bu e-postaya cevap ve cevap eklemek etmeyiniz.</value>
+  </data>
+  <data name="TicketUpdate" xml:space="preserve">
+    <value>Sorun bilet durumu güncellendi</value>
+  </data>
+  <data name="ExtraStart" xml:space="preserve">
+    <value>Bu ekstra çalıştırabilirsiniz önce sunucu çalıştırıyor olmanız gerekir.</value>
+  </data>
+  <data name="ExtraStop" xml:space="preserve">
+    <value>Bu ekstra çalıştırabilirsiniz önce sunucusunu durdurmak gerekir.</value>
+  </data>
+  <data name="FailedloginMaint" xml:space="preserve">
+    <value>Panel bakım modunda şu anda. Daha sonra oturum açmayı deneyin.</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>Oyuncular</value>
+  </data>
+  <data name="Servers" xml:space="preserve">
+    <value>Sunucular</value>
+  </data>
+  <data name="AccountExists" xml:space="preserve">
+    <value>zaten var Adı, tekrar deneyin</value>
+  </data>
+  <data name="NoSubaccounts" xml:space="preserve">
+    <value>Sen alt hesap oluşturmak için izniniz yok.</value>
+  </data>
+  <data name="ConsoleTool" xml:space="preserve">
+    <value>Görünüm konsolu</value>
+  </data>
+  <data name="ConsoleToolTitle" xml:space="preserve">
+    <value>Görünüm sunucu işlem çıkışı</value>
+  </data>
+  <data name="ConsoleButton" xml:space="preserve">
+    <value>Konsol</value>
+  </data>
+  <data name="PendingRestartTip" xml:space="preserve">
+    <value>Sunucu çalışıyor, ancak yeniden başlatma bekliyor.  Yeniden başlatmayı başlatmak için tıklatın.</value>
+  </data>
+  <data name="PendingStopTip" xml:space="preserve">
+    <value>Sunucu çalışıyor, ancak bir kapatma bekliyor.  Hemen sona erdirmek için tıklatın.</value>
+  </data>
+  <data name="PendingUpdateTip" xml:space="preserve">
+    <value>Sunucu çalışıyor, ancak bir güncelleme bekliyor.  Sona erdirme ve güncelleme işlemini başlatmak için tıklatın.</value>
+  </data>
+  <data name="GracefulStarted" xml:space="preserve">
+    <value>Zarif kapatma başlatıldı.</value>
+  </data>
+  <data name="ShutdownCancelled" xml:space="preserve">
+    <value>Kapatma iptal edildi</value>
+  </data>
+  <data name="PendingRestart" xml:space="preserve">
+    <value>Sunucu kapanma bekliyor, yeniden başlatma bekliyor</value>
+  </data>
+  <data name="PendingRestartStarted" xml:space="preserve">
+    <value>Bekleyen bir sunucu yeniden başlatma işlemi başlatıldı</value>
+  </data>
+  <data name="PendingShutdown" xml:space="preserve">
+    <value>Sunucu kapatma bekliyor</value>
+  </data>
+  <data name="PendingShutdownTip" xml:space="preserve">
+    <value>Kapatma işlemi bekliyor, beklemedeki kapanmayı iptal etmek için tıklatın.</value>
+  </data>
+  <data name="PendingShutdownTipForce" xml:space="preserve">
+    <value>Kapatma işlemi bekliyor, hemen sona erdirme işlemi başlatmak için tıklatın.</value>
+  </data>
+  <data name="PendingUpdate" xml:space="preserve">
+    <value>Sunucu, güncelleme için askıda bekliyor</value>
+  </data>
+  <data name="OperationUnavailable" xml:space="preserve">
+    <value>İşlem şu anda kullanılamıyor</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Yeniden Başlat</value>
+  </data>
+  <data name="RestartText" xml:space="preserve">
+    <value>Sunucuyu yeniden başlat</value>
+  </data>
+  <data name="AdvertTool" xml:space="preserve">
+    <value>RCON Msgs</value>
+  </data>
+  <data name="AdvertToolTitle" xml:space="preserve">
+    <value>Zamanlanmış RCON iletileri/komutları ayarla</value>
+  </data>
+  <data name="Reinstall" xml:space="preserve">
+    <value>Yeniden Kur</value>
+  </data>
+  <data name="ReinstallTip" xml:space="preserve">
+    <value>Oyun sunucunuzu yeniden kurun</value>
+  </data>
+  <data name="ReinstallToolDesc" xml:space="preserve">
+    <value>Bu araç, oyun sunucunuzu yeniden kurmanızı sağlar.  Oyun sunucusunun ve komut satırı değerlerinin yeni bir kopyası kurulacaktır.  Geçerli sunucunuz devre dışı bırakılacak, ancak dosyalara erişiminiz olması durumunda erişilebilir olacak, ancak önceden bildirilmeksizin kaldırılabilir.</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Eylemler</value>
+  </data>
+  <data name="ArcInfoTT" xml:space="preserve">
+    <value>Arşiv bilgilerini görüntüle</value>
+  </data>
+  <data name="CompressTT" xml:space="preserve">
+    <value>Sıkıştır</value>
+  </data>
+  <data name="DecompressTT" xml:space="preserve">
+    <value>Sıkıştırmayı</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="ModTime" xml:space="preserve">
+    <value>Değiştirme Zamanı</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="NewNews" xml:space="preserve">
+    <value>Yeni bir haber öğesi eklendiği için buraya yeniden yönlendirildiniz.  Yeni öğeleri gözden geçirdikten sonra ana menüye devam edebilirsiniz.</value>
+  </data>
+  <data name="ShutdownFirst" xml:space="preserve">
+    <value>Sunucu çalışıyor, bu aracı kullanmak için önce durdurulmalıdır</value>
+  </data>
+  <data name="WorkshopDLError" xml:space="preserve">
+    <value>Mod aşağı yüklenirken hata oluştu:</value>
+  </data>
+  <data name="WorkshopItemsMissing" xml:space="preserve">
+    <value>Herhangi bir atölye tanıtıcısı tanımlanmadı, yapılacak hiçbir şey yok</value>
+  </data>
+  <data name="WorkshopTool" xml:space="preserve">
+    <value>Mod Kuruluş Programı</value>
+  </data>
+  <data name="WorkshopToolTitle" xml:space="preserve">
+    <value>Steam Workshop Mods 'ı bu sunucuya ekle ve güncelle</value>
+  </data>
+  <data name="RequiresLicense" xml:space="preserve">
+    <value>Bu özellik için bir lisans gerekir</value>
+  </data>
+  <data name="UpdatingMods" xml:space="preserve">
+    <value>Sunucu şu anda modları güncelliyor.  Bu, güncelleme etkinleştirildiyse, güncelleme işlemi tamamlandığında başlatılacaktır.</value>
+  </data>
+  <data name="UpdatingWorkshopStatus" xml:space="preserve">
+    <value>Atölye güncelleniyor</value>
+  </data>
+  <data name="UpdatingWorkshopStatusTip" xml:space="preserve">
+    <value>Sunucu, atölye öğelerini güncelliyor.  Güncelleme tamamlanıncaya kadar başlatılamaz ya da durdurulamaz.</value>
+  </data>
+  <data name="UpdatingWorkshopText" xml:space="preserve">
+    <value>Sunucu şu anda atölye öğelerini güncelliyor!</value>
+  </data>
+  <data name="TfaNotice" xml:space="preserve">
+    <value>Hesabınızı iki katsayı kimlik doğrulamasıyla sabitleyin.</value>
+  </data>
+  <data name="Added" xml:space="preserve">
+    <value>Eklendi</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="WorkshopAdded" xml:space="preserve">
+    <value>Öğe eklendi</value>
+  </data>
+  <data name="WorkshopBrowse" xml:space="preserve">
+    <value>Bu oyun için buhar atölyesi modlarına göz atın</value>
+  </data>
+  <data name="WorkshopDisabled" xml:space="preserve">
+    <value>Atölye bu oyun türü için etkinleştirilmedi, devam edilemiyor!</value>
+  </data>
+  <data name="WorkshopExists" xml:space="preserve">
+    <value>Öğe zaten var!</value>
+  </data>
+  <data name="WorkshopGO" xml:space="preserve">
+    <value>Atölye mod (lar) kurulum/güncelleme kuyruğa alındı.</value>
+  </data>
+  <data name="WorkshopIDErrorNumeric" xml:space="preserve">
+    <value>Yeni öğe eklenemiyor, atölye öğeleri yalnızca sayısal olmalıdır.</value>
+  </data>
+  <data name="WorkshopImport" xml:space="preserve">
+    <value>Atölye tanıtıcılarının derlemden içe aktarılması</value>
+  </data>
+  <data name="WorkshopMissingAPPID" xml:space="preserve">
+    <value>Bu oyun tipi için bir Buhar Uygulaması Tanıtıcısı tanımlanmadı, devam edilemiyor!</value>
+  </data>
+  <data name="WorkshopQueued" xml:space="preserve">
+    <value>mod atlanıyor, bu öğe için zaten bir iş zamanlandı.</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Geri Dön</value>
+  </data>
+</root>

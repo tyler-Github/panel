@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlreadyRunning" xml:space="preserve">
+    <value>Сервер вже запущено!</value>
+  </data>
+  <data name="AlreadyStopped" xml:space="preserve">
+    <value>Сервер вже зупинено!</value>
+  </data>
+  <data name="BadLogin" xml:space="preserve">
+    <value>Некоректний пароль користувача/пароль.  Якщо ви забули ваш пароль, натисніть кнопку &lt;a class="alert-link" href="forgotpw.aspx"&gt;тут&lt;/a&gt; , щоб відновити його.</value>
+  </data>
+  <data name="BadReply" xml:space="preserve">
+    <value>Отримано неочікувану відповідь від віддаленого монітора.</value>
+  </data>
+  <data name="ChangeEmail" xml:space="preserve">
+    <value>Адреса ел. пошти було змінено.</value>
+  </data>
+  <data name="ChangePW" xml:space="preserve">
+    <value>Пароль було змінено.</value>
+  </data>
+  <data name="CmdSaved" xml:space="preserve">
+    <value>Командний рядок збережено.</value>
+  </data>
+  <data name="DemoDisabled" xml:space="preserve">
+    <value>Цю можливість вимкнено для демонстраційних користувачів</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Подробиці</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Цю можливість було вимкнено адміністратором.</value>
+  </data>
+  <data name="DisabledTxt" xml:space="preserve">
+    <value>Вимкнений</value>
+  </data>
+  <data name="EditServer" xml:space="preserve">
+    <value>Редагувати сервер</value>
+  </data>
+  <data name="EditServerTitle" xml:space="preserve">
+    <value>Змінити налаштування цього сервера</value>
+  </data>
+  <data name="ExtraTool" xml:space="preserve">
+    <value>Екстрас</value>
+  </data>
+  <data name="ExtraToolTitle" xml:space="preserve">
+    <value>Інші параметри, які буде увімкнено вашим постачальником</value>
+  </data>
+  <data name="FailedloginAcctDisabled" xml:space="preserve">
+    <value>Рахунок вимкнено, будь ласка, підтримка контактів.</value>
+  </data>
+  <data name="FileTool" xml:space="preserve">
+    <value>Файли</value>
+  </data>
+  <data name="FileToolTitle" xml:space="preserve">
+    <value>Керування файлами на сервері</value>
+  </data>
+  <data name="Hash" xml:space="preserve">
+    <value>Змінений хеш сервера змінився.   Не запуск сервера.</value>
+  </data>
+  <data name="Hash2" xml:space="preserve">
+    <value>Було змінено хеш другого файла сервера.  Не запуск сервера.</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Інформація</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Сервер Def.</value>
+  </data>
+  <data name="ManageSDef" xml:space="preserve">
+    <value>Керування цим визначенням сервера</value>
+  </data>
+  <data name="ManageServer" xml:space="preserve">
+    <value>Сторінка керування для цього сервера</value>
+  </data>
+  <data name="ManageUser" xml:space="preserve">
+    <value>Сторінка керування для цього користувача</value>
+  </data>
+  <data name="MissingExe" xml:space="preserve">
+    <value>Не вдалося знайти виконуваний файл сервера, будь ласка, підтримуйте службу.</value>
+  </data>
+  <data name="NoExe" xml:space="preserve">
+    <value>Для цього сервера не було визначено жодного виконуваного файла ....</value>
+  </data>
+  <data name="NoPermission" xml:space="preserve">
+    <value>У тебе немає дозволу на те, щоб це зробити.</value>
+  </data>
+  <data name="NoPid" xml:space="preserve">
+    <value>Для сервера не було знайдено файл PID.</value>
+  </data>
+  <data name="NoResp" xml:space="preserve">
+    <value>Без відповіді</value>
+  </data>
+  <data name="NoServers" xml:space="preserve">
+    <value>Схоже, у вас немає доступу до ігрових серверів.</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Примітки</value>
+  </data>
+  <data name="NotesTitle" xml:space="preserve">
+    <value>Переглянути/редагувати ваші нотатки</value>
+  </data>
+  <data name="PWDontMatch" xml:space="preserve">
+    <value>Паролі не збігаються.</value>
+  </data>
+  <data name="PWInvalid" xml:space="preserve">
+    <value>Ваш поточний пароль є неправильним.</value>
+  </data>
+  <data name="PWTooShort" xml:space="preserve">
+    <value>Нові паролі мають бути не менше шести символів</value>
+  </data>
+  <data name="QueryTool" xml:space="preserve">
+    <value>ЗапитName</value>
+  </data>
+  <data name="QueryToolTitle" xml:space="preserve">
+    <value>Перевірте стан вашого ігрового сервера</value>
+  </data>
+  <data name="RconTool" xml:space="preserve">
+    <value>RCON</value>
+  </data>
+  <data name="RconToolTitle" xml:space="preserve">
+    <value>Віддалено керування вашим сервером</value>
+  </data>
+  <data name="Remote" xml:space="preserve">
+    <value>Не вдалося з ' єднатися з віддаленим монітором.</value>
+  </data>
+  <data name="RemoteError" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="RemoteErrorTip" xml:space="preserve">
+    <value>Неможливо з ' єднатися з віддаленим монітором</value>
+  </data>
+  <data name="RemoteOffline" xml:space="preserve">
+    <value>Віддалений сервер позначено як автономний.</value>
+  </data>
+  <data name="RemoteTimeout" xml:space="preserve">
+    <value>Перевищено час очікування на з ' єднання очікування відповіді з віддаленого спостереження.</value>
+  </data>
+  <data name="RestartedText" xml:space="preserve">
+    <value>Перезапущено!</value>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>Вгору</value>
+  </data>
+  <data name="RunningImgTip" xml:space="preserve">
+    <value>Сервер запущено.  Натисніть, щоб зупинити сервер.</value>
+  </data>
+  <data name="RunningText" xml:space="preserve">
+    <value>Сервер запущено!</value>
+  </data>
+  <data name="RunningTip" xml:space="preserve">
+    <value>Сервер запущено, натисніть, щоб зупинити</value>
+  </data>
+  <data name="ServerDisabled" xml:space="preserve">
+    <value>Сервер було вимкнено, будь ласка, підтримуйте з ' єднання.</value>
+  </data>
+  <data name="ServerName" xml:space="preserve">
+    <value>Назва сервера</value>
+  </data>
+  <data name="StartedText" xml:space="preserve">
+    <value>Почалося!</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Стан</value>
+  </data>
+  <data name="Stopped" xml:space="preserve">
+    <value>Вниз</value>
+  </data>
+  <data name="StoppedImgTip" xml:space="preserve">
+    <value>Сервер не запущено.  Клацніть, щоб запустити сервер.</value>
+  </data>
+  <data name="StoppedText" xml:space="preserve">
+    <value>Сервер зупинено!</value>
+  </data>
+  <data name="StoppedText2" xml:space="preserve">
+    <value>Зупинено!</value>
+  </data>
+  <data name="StoppedTip" xml:space="preserve">
+    <value>Сервер зупинено, натисніть, щоб почати</value>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>Підтримка системи паспортів</value>
+  </data>
+  <data name="TicketsNew" xml:space="preserve">
+    <value>Створити новий квиток</value>
+  </data>
+  <data name="TicketsView" xml:space="preserve">
+    <value>Перегляд ваших квитків</value>
+  </data>
+  <data name="TicketSysLink" xml:space="preserve">
+    <value>Крім того, ви можете створити допоміжний квиток у системі квитків.</value>
+  </data>
+  <data name="TooManyServers" xml:space="preserve">
+    <value>У вас немає прав на запуск більш ніж XXX сервера у заданий час.</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Сталася несподівана помилка.  Будь ласка, підтримуйте.</value>
+  </data>
+  <data name="UnhandledStartError" xml:space="preserve">
+    <value>Не вдалося запустити сервер через помилку без обробки, будь ласка, підтримуйте підтримку.</value>
+  </data>
+  <data name="UpdateTool" xml:space="preserve">
+    <value>Оновлювати</value>
+  </data>
+  <data name="UpdateToolTitle" xml:space="preserve">
+    <value>Оновлення вашого сервера</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>Зараз сервер оновлюється.  Це буде розпочато після завершення оновлення.</value>
+  </data>
+  <data name="UpdatingStatus" xml:space="preserve">
+    <value>Оновлення</value>
+  </data>
+  <data name="UpdatingStatusTip" xml:space="preserve">
+    <value>Сервер оновлюється.  Його неможливо запустити або зупинити, доки оновлення не буде завершено.</value>
+  </data>
+  <data name="UpdatingText" xml:space="preserve">
+    <value>Сервер зараз оновлює!</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Користувач</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>пароль</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>username</value>
+  </data>
+  <data name="UnhandledStopError" xml:space="preserve">
+    <value>Не вдалося зупинити сервер через помилку без обробки, будь ласка, будь ласка, підтримуйте його підтримку.</value>
+  </data>
+  <data name="ManageServerMenu" xml:space="preserve">
+    <value>Керування цим сервером</value>
+  </data>
+  <data name="ViewLogs" xml:space="preserve">
+    <value>Журнали</value>
+  </data>
+  <data name="OpenFTP" xml:space="preserve">
+    <value>Відкрити у клієнті FTP</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Шлях</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Ви справді бажаєте виконати цю дію?</value>
+  </data>
+  <data name="CreateErr" xml:space="preserve">
+    <value>Помилка під час створення файла:  </value>
+  </data>
+  <data name="DecompressErr" xml:space="preserve">
+    <value>Програму декомпресії не знайдено.  Будь ласка, підтримуйте.</value>
+  </data>
+  <data name="DelRoot" xml:space="preserve">
+    <value>Ви не можете вилучати верхню частину каталогу.  Контактна підтримка допомоги.</value>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>Деякі можливості вимкнено для демонстраційних записів.</value>
+  </data>
+  <data name="ExceedsMaxLen" xml:space="preserve">
+    <value>Файл перевищує допустиму довжину.</value>
+  </data>
+  <data name="FileExists" xml:space="preserve">
+    <value>Файл вже існує.</value>
+  </data>
+  <data name="FName" xml:space="preserve">
+    <value>Вам слід спочатку ввести ім ' я</value>
+  </data>
+  <data name="FolderNotFound" xml:space="preserve">
+    <value>Не знайдено теки.  Будь ласка, підтримуйте.</value>
+  </data>
+  <data name="InvName" xml:space="preserve">
+    <value>Назва містить некоректні символи</value>
+  </data>
+  <data name="ParentFolder" xml:space="preserve">
+    <value>Батьківський</value>
+  </data>
+  <data name="RenameErr" xml:space="preserve">
+    <value>Помилка під час перейменування файла:  </value>
+  </data>
+  <data name="ThisFolder" xml:space="preserve">
+    <value>Ця тека</value>
+  </data>
+  <data name="UnsupportedExt" xml:space="preserve">
+    <value>Це розширення не дозволено.  Підтримка контактів, якщо ви відчуваєте, що це має бути дозволено.</value>
+  </data>
+  <data name="LastManUpd" xml:space="preserve">
+    <value>Останнє оновлення ручної роботи</value>
+  </data>
+  <data name="UpdateComplete" xml:space="preserve">
+    <value>Оновлення завершено.</value>
+  </data>
+  <data name="UpdateStop" xml:space="preserve">
+    <value>Ви повинні зупинити сервер, перш ніж ви зможете оновити його!</value>
+  </data>
+  <data name="UpdatingIs" xml:space="preserve">
+    <value>Сервер оновлення, ця сторінка буде автоматично оновлюватися</value>
+  </data>
+  <data name="UpdatingNoOutput" xml:space="preserve">
+    <value>Оновлення було розпочато, але ніякого тексту ще не було повернуто.</value>
+  </data>
+  <data name="UpdatingOutSession" xml:space="preserve">
+    <value>Триває оновлення.  Це було розпочато через вас на іншій сесії, комусь іншому або автоматично.  Сервер має перезапустити після завершення оновлення і історії оновлення буде показано у цьому вікні.  Будь ласка, підтримуйте підтримки, якщо вам потрібна допомога.</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Довідка</value>
+  </data>
+  <data name="HelpTip" xml:space="preserve">
+    <value>Отримати підтримку</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Домівка</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Останній сервер</value>
+  </data>
+  <data name="LastTip" xml:space="preserve">
+    <value>Повернутися до останнього сервера, на якому ви виконали дію</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Вхід</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Вийти з системи</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Новина</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Профіль</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>ПараметриName</value>
+  </data>
+  <data name="UpdateToolDesc" xml:space="preserve">
+    <value>За допомогою цього інструмента ви зможете оновити ваш ігровий сервер і переглянути поточний і/або минулий стан оновлення.</value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>Закрита</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Відкрити</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Керування</value>
+  </data>
+  <data name="ChooseAnItem" xml:space="preserve">
+    <value>Виберіть елемент для запуску зі спадного списку першим</value>
+  </data>
+  <data name="ExtraFinished" xml:space="preserve">
+    <value>Процес завершено.</value>
+  </data>
+  <data name="ExtraIs" xml:space="preserve">
+    <value>Процес все ще виконується, ця сторінка буде автоматично оновлюватися</value>
+  </data>
+  <data name="ExtraNoOutput" xml:space="preserve">
+    <value>Процес було розпочато, але жодного тексту ще не було повернуто.</value>
+  </data>
+  <data name="ExtraStarted" xml:space="preserve">
+    <value>Процес було розпочато.  На цій сторінці буде автоматично оновлюватися за 15 секунд.</value>
+  </data>
+  <data name="ServerImage" xml:space="preserve">
+    <value>Зображення сервера</value>
+  </data>
+  <data name="ServerImageTitle" xml:space="preserve">
+    <value>Редагування зображень сервера для вашого сервера</value>
+  </data>
+  <data name="Variables" xml:space="preserve">
+    <value>Змінні</value>
+  </data>
+  <data name="VariableTitle" xml:space="preserve">
+    <value>Редактор змінних сервера</value>
+  </data>
+  <data name="ExtraToolDesc" xml:space="preserve">
+    <value>За допомогою цього інструмента ви зможете запускати інші параметри, які буде увімкнено вашим постачальником. &amp;nbsp; Оберіть одну зі спадного списку. &amp;nbsp; Якщо ви залишите цю сторінку, цей процес буде продовжено.</value>
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>Виберіть елемент ....</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>За</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>На</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>З</value>
+  </data>
+  <data name="NewTroubleTicket" xml:space="preserve">
+    <value>Новий тикет проблем</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="TicketBlank" xml:space="preserve">
+    <value>Поле теми і повідомлення не можуть бути порожніми!</value>
+  </data>
+  <data name="TicketBlankReply" xml:space="preserve">
+    <value>Ви не можете надіслати порожній відповідь.  Будь ласка, введіть повідомлення.</value>
+  </data>
+  <data name="TicketNoReply" xml:space="preserve">
+    <value>Будь ласка, не відповідайте на цю адресу електронної пошти, а потім увійдіть до вашого облікового запису і додайте відповідь.</value>
+  </data>
+  <data name="TicketUpdate" xml:space="preserve">
+    <value>Було оновлено стан проблемного</value>
+  </data>
+  <data name="ExtraStart" xml:space="preserve">
+    <value>Слід запускати сервер, перш ніж запустити цю додаткову програму.</value>
+  </data>
+  <data name="ExtraStop" xml:space="preserve">
+    <value>Ви повинні зупинити сервер, перш ніж ви можете запустити цю додаткову.</value>
+  </data>
+  <data name="FailedloginMaint" xml:space="preserve">
+    <value>Панель зараз знаходиться у режимі технічного обслуговування.  Будь ласка, спробуйте блог пізніше.</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>Гравці</value>
+  </data>
+  <data name="Servers" xml:space="preserve">
+    <value>Сервери</value>
+  </data>
+  <data name="AccountExists" xml:space="preserve">
+    <value>Ім ' я користувача вже існує, спробуйте знов</value>
+  </data>
+  <data name="NoSubaccounts" xml:space="preserve">
+    <value>У вас немає дозволу на створення підрахунків.</value>
+  </data>
+  <data name="ConsoleTool" xml:space="preserve">
+    <value>Перегляд консолі</value>
+  </data>
+  <data name="ConsoleToolTitle" xml:space="preserve">
+    <value>Перегляд виводу сервера</value>
+  </data>
+  <data name="ConsoleButton" xml:space="preserve">
+    <value>Консоль</value>
+  </data>
+  <data name="PendingRestartTip" xml:space="preserve">
+    <value>Сервер запущено, але перезапуск перебуває у черзі.  Клацніть, щоб почати перезапустити.</value>
+  </data>
+  <data name="PendingStopTip" xml:space="preserve">
+    <value>Сервер запущено, але завершення роботи буде зупилено.  Клацніть, щоб негайно вимкнути роботу.</value>
+  </data>
+  <data name="PendingUpdateTip" xml:space="preserve">
+    <value>Сервер запущено, але оновлення відкладається.  Клацніть, щоб почати вимикати і оновити.</value>
+  </data>
+  <data name="GracefulStarted" xml:space="preserve">
+    <value>Граціозний шатл розпочав.</value>
+  </data>
+  <data name="ShutdownCancelled" xml:space="preserve">
+    <value>Вимикання скасовано</value>
+  </data>
+  <data name="PendingRestart" xml:space="preserve">
+    <value>Завершення роботи сервера для перезапуску</value>
+  </data>
+  <data name="PendingRestartStarted" xml:space="preserve">
+    <value>Було розпочато перезапуск сервера</value>
+  </data>
+  <data name="PendingShutdown" xml:space="preserve">
+    <value>Очікуване завершення роботи сервера</value>
+  </data>
+  <data name="PendingShutdownTip" xml:space="preserve">
+    <value>Вимкнення завершення роботи, натисніть, щоб скасувати завершення завершення роботи.</value>
+  </data>
+  <data name="PendingShutdownTipForce" xml:space="preserve">
+    <value>Вимкнення завершення роботи, натисніть, щоб почати негайне завершення роботи.</value>
+  </data>
+  <data name="PendingUpdate" xml:space="preserve">
+    <value>Завершення роботи сервера для оновлення</value>
+  </data>
+  <data name="OperationUnavailable" xml:space="preserve">
+    <value>Дія в даний час недоступна</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Перезапустити</value>
+  </data>
+  <data name="RestartText" xml:space="preserve">
+    <value>Перезапустити сервер</value>
+  </data>
+  <data name="AdvertTool" xml:space="preserve">
+    <value>RCON msgs</value>
+  </data>
+  <data name="AdvertToolTitle" xml:space="preserve">
+    <value>Встановити час очікування RCON повідомлень/команд</value>
+  </data>
+  <data name="Reinstall" xml:space="preserve">
+    <value>Перевстановити</value>
+  </data>
+  <data name="ReinstallTip" xml:space="preserve">
+    <value>Перевстановити ваш сервер гри</value>
+  </data>
+  <data name="ReinstallToolDesc" xml:space="preserve">
+    <value>За допомогою цього інструмента ви зможете перевстановити ваш сервер гри.  Буде налаштовано свіжа копія ігрової сервера і значень командного рядка.  Ваш поточний сервер буде вимкнено, але доступний у разі, якщо вам потрібен доступ до файлів, але може бути вилучено без повідомлення.</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Дії</value>
+  </data>
+  <data name="ArcInfoTT" xml:space="preserve">
+    <value>Переглянути інформацію про архів</value>
+  </data>
+  <data name="CompressTT" xml:space="preserve">
+    <value>Стиснення</value>
+  </data>
+  <data name="DecompressTT" xml:space="preserve">
+    <value>Розкладати</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Вилучити</value>
+  </data>
+  <data name="ModTime" xml:space="preserve">
+    <value>Час зміни</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Назва</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Розмір</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="NewNews" xml:space="preserve">
+    <value>Ви переорієнтовані тут, тому що було додано новий елемент новин.  Ви можете продовжити головне меню після перегляду нових елементів.</value>
+  </data>
+  <data name="ShutdownFirst" xml:space="preserve">
+    <value>Сервер запущено, його слід спочатку зупинити, щоб використовувати цей інструмент</value>
+  </data>
+  <data name="WorkshopDLError" xml:space="preserve">
+    <value>Помилка звантаження Mod:</value>
+  </data>
+  <data name="WorkshopItemsMissing" xml:space="preserve">
+    <value>Не визначено жодного ідентифікатного сервера, нічого не робити</value>
+  </data>
+  <data name="WorkshopTool" xml:space="preserve">
+    <value>Встановлення мод</value>
+  </data>
+  <data name="WorkshopToolTitle" xml:space="preserve">
+    <value>Додати і оновити Steam Workshop Mods на цей сервер</value>
+  </data>
+  <data name="RequiresLicense" xml:space="preserve">
+    <value>Ця функція потребує ліцензії</value>
+  </data>
+  <data name="UpdatingMods" xml:space="preserve">
+    <value>Зараз сервер оновлюється.  Цей пункт буде запущено, якщо буде позначено цей пункт оновлення.</value>
+  </data>
+  <data name="UpdatingWorkshopStatus" xml:space="preserve">
+    <value>Оновлення майстерні</value>
+  </data>
+  <data name="UpdatingWorkshopStatusTip" xml:space="preserve">
+    <value>Сервер оновлює оновлення.  Його неможливо запустити або зупинити, доки оновлення не буде завершено.</value>
+  </data>
+  <data name="UpdatingWorkshopText" xml:space="preserve">
+    <value>Сервер оновлює елементи майстерні!</value>
+  </data>
+  <data name="TfaNotice" xml:space="preserve">
+    <value>Убезпечити ваш обліковий запис з двома факторами розпізнавання.</value>
+  </data>
+  <data name="Added" xml:space="preserve">
+    <value>Додано</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Час</value>
+  </data>
+  <data name="WorkshopAdded" xml:space="preserve">
+    <value>Додано елемент</value>
+  </data>
+  <data name="WorkshopBrowse" xml:space="preserve">
+    <value>Перегляд гри у майстерні Steam для цієї гри</value>
+  </data>
+  <data name="WorkshopDisabled" xml:space="preserve">
+    <value>Не вдалося продовжити майстерню для цього типу гри! Продовжити!</value>
+  </data>
+  <data name="WorkshopExists" xml:space="preserve">
+    <value>Елемент вже присутній!</value>
+  </data>
+  <data name="WorkshopGO" xml:space="preserve">
+    <value>Оновлення/оновлення у черзі/оновлення в черзі.</value>
+  </data>
+  <data name="WorkshopIDErrorNumeric" xml:space="preserve">
+    <value>Не вдалося додати новий елемент, елементи майстерності повинні бути числовими.</value>
+  </data>
+  <data name="WorkshopImport" xml:space="preserve">
+    <value>Імпортування ідентифікаторів майстерних з збірки</value>
+  </data>
+  <data name="WorkshopMissingAPPID" xml:space="preserve">
+    <value>Ідентифікатор програми Steam не визначено для цього типу гри, не можна продовжувати!</value>
+  </data>
+  <data name="WorkshopQueued" xml:space="preserve">
+    <value>Mod, завдання вже було заплановано для цього елемента.</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Повернення</value>
+  </data>
+</root>

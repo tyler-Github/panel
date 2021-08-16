@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Menu1Resource1.ScrollDownText" xml:space="preserve">
+    <value>Faites défiler la liste</value>
+  </data>
+  <data name="Menu1Resource1.ScrollUpText" xml:space="preserve">
+    <value>Faites défiler jusqu'à</value>
+  </data>
+  <data name="MenuItemResource1.Text" xml:space="preserve">
+    <value>Contacter le support</value>
+  </data>
+  <data name="MenuItemResource1.ToolTip" xml:space="preserve">
+    <value>Détails pour obtenir un soutien</value>
+  </data>
+  <data name="MenuItemResource1.Value" xml:space="preserve">
+    <value>Soutien</value>
+  </data>
+  <data name="MenuItemResource10.Text" xml:space="preserve">
+    <value>Management Group</value>
+  </data>
+  <data name="MenuItemResource10.Value" xml:space="preserve">
+    <value>Gérer les groupes</value>
+  </data>
+  <data name="MenuItemResource11.Text" xml:space="preserve">
+    <value>Autorisations de groupe</value>
+  </data>
+  <data name="MenuItemResource11.Value" xml:space="preserve">
+    <value>Gérer les autorisations du groupe</value>
+  </data>
+  <data name="MenuItemResource12.Text" xml:space="preserve">
+    <value>Utilisateur</value>
+  </data>
+  <data name="MenuItemResource12.Value" xml:space="preserve">
+    <value>Management Group</value>
+  </data>
+  <data name="MenuItemResource13.Text" xml:space="preserve">
+    <value>Management Server</value>
+  </data>
+  <data name="MenuItemResource13.ToolTip" xml:space="preserve">
+    <value>Gérer les serveurs de jeu</value>
+  </data>
+  <data name="MenuItemResource13.Value" xml:space="preserve">
+    <value>Management Server</value>
+  </data>
+  <data name="MenuItemResource14.Text" xml:space="preserve">
+    <value>Gestion vrac</value>
+  </data>
+  <data name="MenuItemResource14.ToolTip" xml:space="preserve">
+    <value>Gérer plusieurs serveurs à la fois</value>
+  </data>
+  <data name="MenuItemResource14.Value" xml:space="preserve">
+    <value>Gestion vrac</value>
+  </data>
+  <data name="MenuItemResource15.Text" xml:space="preserve">
+    <value>Serveur Extras</value>
+  </data>
+  <data name="MenuItemResource15.ToolTip" xml:space="preserve">
+    <value>Gérer des programmes supplémentaires pour serveurs</value>
+  </data>
+  <data name="MenuItemResource15.Value" xml:space="preserve">
+    <value>Serveur Extras</value>
+  </data>
+  <data name="MenuItemResource16.Text" xml:space="preserve">
+    <value>Management Server</value>
+  </data>
+  <data name="MenuItemResource16.ToolTip" xml:space="preserve">
+    <value>Gérer les serveurs de jeu</value>
+  </data>
+  <data name="MenuItemResource16.Value" xml:space="preserve">
+    <value>Management Server</value>
+  </data>
+  <data name="MenuItemResource17.Text" xml:space="preserve">
+    <value>Capturer la sortie du programme</value>
+  </data>
+  <data name="MenuItemResource17.ToolTip" xml:space="preserve">
+    <value>Outil qui vous permet de visualiser la sortie d'un serveur</value>
+  </data>
+  <data name="MenuItemResource17.Value" xml:space="preserve">
+    <value>Capturer la sortie du programme</value>
+  </data>
+  <data name="MenuItemResource18.Text" xml:space="preserve">
+    <value>Nouvelles de gestion</value>
+  </data>
+  <data name="MenuItemResource18.ToolTip" xml:space="preserve">
+    <value>Mange du système de nouvelles</value>
+  </data>
+  <data name="MenuItemResource18.Value" xml:space="preserve">
+    <value>Nouvelles de gestion</value>
+  </data>
+  <data name="MenuItemResource19.Text" xml:space="preserve">
+    <value>Report Tool</value>
+  </data>
+  <data name="MenuItemResource19.Value" xml:space="preserve">
+    <value>Report Tool</value>
+  </data>
+  <data name="MenuItemResource2.Text" xml:space="preserve">
+    <value>Billets d'appui</value>
+  </data>
+  <data name="MenuItemResource2.ToolTip" xml:space="preserve">
+    <value>Créer / Afficher demandes de support</value>
+  </data>
+  <data name="MenuItemResource2.Value" xml:space="preserve">
+    <value>Billets</value>
+  </data>
+  <data name="MenuItemResource20.Text" xml:space="preserve">
+    <value>Outil SQL</value>
+  </data>
+  <data name="MenuItemResource20.ToolTip" xml:space="preserve">
+    <value>Vous permet d'effectuer des requêtes sur base de données</value>
+  </data>
+  <data name="MenuItemResource20.Value" xml:space="preserve">
+    <value>Outil SQL</value>
+  </data>
+  <data name="MenuItemResource21.Text" xml:space="preserve">
+    <value>Billets d'appui</value>
+  </data>
+  <data name="MenuItemResource21.ToolTip" xml:space="preserve">
+    <value>Gérer les tickets de support</value>
+  </data>
+  <data name="MenuItemResource21.Value" xml:space="preserve">
+    <value>Billets d'appui</value>
+  </data>
+  <data name="MenuItemResource22.Text" xml:space="preserve">
+    <value>Outils</value>
+  </data>
+  <data name="MenuItemResource22.Value" xml:space="preserve">
+    <value>Outils</value>
+  </data>
+  <data name="MenuItemResource23.Text" xml:space="preserve">
+    <value>À propos UGCC / Licence</value>
+  </data>
+  <data name="MenuItemResource23.ToolTip" xml:space="preserve">
+    <value>Afficher / générer informations de licence, et des informations sur UGCC.</value>
+  </data>
+  <data name="MenuItemResource23.Value" xml:space="preserve">
+    <value>À propos UGCC / Licence</value>
+  </data>
+  <data name="MenuItemResource24.Text" xml:space="preserve">
+    <value>Configuration globale</value>
+  </data>
+  <data name="MenuItemResource24.ToolTip" xml:space="preserve">
+    <value>Divers paramètres de configuration</value>
+  </data>
+  <data name="MenuItemResource24.Value" xml:space="preserve">
+    <value>Configuration globale</value>
+  </data>
+  <data name="MenuItemResource25.Text" xml:space="preserve">
+    <value>Définitions Server (mode distant)</value>
+  </data>
+  <data name="MenuItemResource25.ToolTip" xml:space="preserve">
+    <value>Permet de gérer les paramètres du moniteur à distance</value>
+  </data>
+  <data name="MenuItemResource25.Value" xml:space="preserve">
+    <value>Définitions serveur</value>
+  </data>
+  <data name="MenuItemResource26.Text" xml:space="preserve">
+    <value>Modifier en-tête / pied de page</value>
+  </data>
+  <data name="MenuItemResource26.ToolTip" xml:space="preserve">
+    <value>Vous permet d'éditer les fichiers en-tête et pied de page</value>
+  </data>
+  <data name="MenuItemResource26.Value" xml:space="preserve">
+    <value>En-tête / pied de page</value>
+  </data>
+  <data name="MenuItemResource27.Text" xml:space="preserve">
+    <value>UGCC Config</value>
+  </data>
+  <data name="MenuItemResource27.Value" xml:space="preserve">
+    <value>UGCC Config</value>
+  </data>
+  <data name="MenuItemResource28.Text" xml:space="preserve">
+    <value>Emplacements</value>
+  </data>
+  <data name="MenuItemResource28.ToolTip" xml:space="preserve">
+    <value>Définir des emplacements de serveur</value>
+  </data>
+  <data name="MenuItemResource28.Value" xml:space="preserve">
+    <value>Emplacements</value>
+  </data>
+  <data name="MenuItemResource29.Text" xml:space="preserve">
+    <value>Config Installer</value>
+  </data>
+  <data name="MenuItemResource29.Value" xml:space="preserve">
+    <value>Config Installer</value>
+  </data>
+  <data name="MenuItemResource3.Text" xml:space="preserve">
+    <value>Documentation Panneau</value>
+  </data>
+  <data name="MenuItemResource3.ToolTip" xml:space="preserve">
+    <value>Documentation sur ce logiciel</value>
+  </data>
+  <data name="MenuItemResource3.Value" xml:space="preserve">
+    <value>Doc</value>
+  </data>
+  <data name="MenuItemResource30.Text" xml:space="preserve">
+    <value>Documentation</value>
+  </data>
+  <data name="MenuItemResource30.Value" xml:space="preserve">
+    <value>Documentation</value>
+  </data>
+  <data name="MenuItemResource31.Text" xml:space="preserve">
+    <value>Forum</value>
+  </data>
+  <data name="MenuItemResource31.Value" xml:space="preserve">
+    <value>Forum</value>
+  </data>
+  <data name="MenuItemResource32.Text" xml:space="preserve">
+    <value>Brainless Site Web Tech</value>
+  </data>
+  <data name="MenuItemResource32.Value" xml:space="preserve">
+    <value>Tech Brainless</value>
+  </data>
+  <data name="MenuItemResource33.Text" xml:space="preserve">
+    <value>Liens</value>
+  </data>
+  <data name="MenuItemResource33.Value" xml:space="preserve">
+    <value>Liens</value>
+  </data>
+  <data name="MenuItemResource34.Text" xml:space="preserve">
+    <value>Admin Menu</value>
+  </data>
+  <data name="MenuItemResource34.ToolTip" xml:space="preserve">
+    <value>Aller à la page menu admin</value>
+  </data>
+  <data name="MenuItemResource34.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MenuItemResource35.Text" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="MenuItemResource35.ToolTip" xml:space="preserve">
+    <value>Menu Principal</value>
+  </data>
+  <data name="MenuItemResource35.Value" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="MenuItemResource4.Text" xml:space="preserve">
+    <value>Soutien</value>
+  </data>
+  <data name="MenuItemResource4.ToolTip" xml:space="preserve">
+    <value>Options de support</value>
+  </data>
+  <data name="MenuItemResource4.Value" xml:space="preserve">
+    <value>Nouvel élément</value>
+  </data>
+  <data name="MenuItemResource5.Text" xml:space="preserve">
+    <value>Nouvelles</value>
+  </data>
+  <data name="MenuItemResource5.ToolTip" xml:space="preserve">
+    <value>Nouvelles de votre fournisseur de</value>
+  </data>
+  <data name="MenuItemResource5.Value" xml:space="preserve">
+    <value>Nouvelles</value>
+  </data>
+  <data name="MenuItemResource6.Text" xml:space="preserve">
+    <value>Mon profil</value>
+  </data>
+  <data name="MenuItemResource6.ToolTip" xml:space="preserve">
+    <value>Vos paramètres de compte</value>
+  </data>
+  <data name="MenuItemResource6.Value" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="MenuItemResource7.Text" xml:space="preserve">
+    <value>Déconnexion</value>
+  </data>
+  <data name="MenuItemResource7.ToolTip" xml:space="preserve">
+    <value>Déconnexion</value>
+  </data>
+  <data name="MenuItemResource7.Value" xml:space="preserve">
+    <value>Déconnexion</value>
+  </data>
+  <data name="MenuItemResource8.Text" xml:space="preserve">
+    <value>Dernière serveur</value>
+  </data>
+  <data name="MenuItemResource8.ToolTip" xml:space="preserve">
+    <value>Vous ramène à la page de gestion de serveurs votre dernière visite</value>
+  </data>
+  <data name="MenuItemResource9.Text" xml:space="preserve">
+    <value>Gestion des utilisateurs</value>
+  </data>
+  <data name="MenuItemResource9.Value" xml:space="preserve">
+    <value>Gestion des utilisateurs</value>
+  </data>
+</root>

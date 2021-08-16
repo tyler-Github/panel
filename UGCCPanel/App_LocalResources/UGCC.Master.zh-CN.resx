@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Menu1Resource1.ScrollDownText" xml:space="preserve">
+    <value>Xiàng xià gǔndòng</value>
+  </data>
+  <data name="Menu1Resource1.ScrollUpText" xml:space="preserve">
+    <value>Xiàngshàng gǔndòng</value>
+  </data>
+  <data name="MenuItemResource1.Text" xml:space="preserve">
+    <value>Liánxì zhīchí</value>
+  </data>
+  <data name="MenuItemResource1.ToolTip" xml:space="preserve">
+    <value>Wèi huòdé zhīchí de xiángxì xìnxī</value>
+  </data>
+  <data name="MenuItemResource1.Value" xml:space="preserve">
+    <value>Zhīchí</value>
+  </data>
+  <data name="MenuItemResource10.Text" xml:space="preserve">
+    <value>Jítuán guǎnlǐ</value>
+  </data>
+  <data name="MenuItemResource10.Value" xml:space="preserve">
+    <value>Guǎnlǐ zǔ</value>
+  </data>
+  <data name="MenuItemResource11.Text" xml:space="preserve">
+    <value>Zǔ quánxiàn</value>
+  </data>
+  <data name="MenuItemResource11.Value" xml:space="preserve">
+    <value>Guǎnlǐ zǔ quánxiàn</value>
+  </data>
+  <data name="MenuItemResource12.Text" xml:space="preserve">
+    <value>Yònghù</value>
+  </data>
+  <data name="MenuItemResource12.Value" xml:space="preserve">
+    <value>Jítuán guǎnlǐ</value>
+  </data>
+  <data name="MenuItemResource13.Text" xml:space="preserve">
+    <value>Fúwùqì guǎnlǐ</value>
+  </data>
+  <data name="MenuItemResource13.ToolTip" xml:space="preserve">
+    <value>Guǎnlǐ yóuxì fúwùqì</value>
+  </data>
+  <data name="MenuItemResource13.Value" xml:space="preserve">
+    <value>Fúwùqì guǎnlǐ</value>
+  </data>
+  <data name="MenuItemResource14.Text" xml:space="preserve">
+    <value>Pīliàng guǎnlǐ</value>
+  </data>
+  <data name="MenuItemResource14.ToolTip" xml:space="preserve">
+    <value>Zài yīcì guǎnlǐ duō tái fúwùqì</value>
+  </data>
+  <data name="MenuItemResource14.Value" xml:space="preserve">
+    <value>Pīliàng guǎnlǐ</value>
+  </data>
+  <data name="MenuItemResource15.Text" xml:space="preserve">
+    <value>Fúwùqì fùjiā</value>
+  </data>
+  <data name="MenuItemResource15.ToolTip" xml:space="preserve">
+    <value>Guǎnlǐ fúwùqì de éwài de chéngxù</value>
+  </data>
+  <data name="MenuItemResource15.Value" xml:space="preserve">
+    <value>Fúwùqì fùjiā</value>
+  </data>
+  <data name="MenuItemResource16.Text" xml:space="preserve">
+    <value>Fúwùqì guǎnlǐ</value>
+  </data>
+  <data name="MenuItemResource16.ToolTip" xml:space="preserve">
+    <value>Guǎnlǐ yóuxì fúwùqì</value>
+  </data>
+  <data name="MenuItemResource16.Value" xml:space="preserve">
+    <value>Fúwùqì guǎnlǐ</value>
+  </data>
+  <data name="MenuItemResource17.Text" xml:space="preserve">
+    <value>Capture chéngxù shūchū</value>
+  </data>
+  <data name="MenuItemResource17.ToolTip" xml:space="preserve">
+    <value>Gōngjù, shǐ nín kěyǐ chákàn fúwùqì de shūchū</value>
+  </data>
+  <data name="MenuItemResource17.Value" xml:space="preserve">
+    <value>Capture chéngxù shūchū</value>
+  </data>
+  <data name="MenuItemResource18.Text" xml:space="preserve">
+    <value>Xīnwén guǎnlǐ</value>
+  </data>
+  <data name="MenuItemResource18.ToolTip" xml:space="preserve">
+    <value>Nǎi yuán de xīnwén xìtǒng</value>
+  </data>
+  <data name="MenuItemResource18.Value" xml:space="preserve">
+    <value>Xīnwén guǎnlǐ</value>
+  </data>
+  <data name="MenuItemResource19.Text" xml:space="preserve">
+    <value>Bàogào gōngjù</value>
+  </data>
+  <data name="MenuItemResource19.Value" xml:space="preserve">
+    <value>Bàogào gōngjù</value>
+  </data>
+  <data name="MenuItemResource2.Text" xml:space="preserve">
+    <value>Zhīchí piào</value>
+  </data>
+  <data name="MenuItemResource2.ToolTip" xml:space="preserve">
+    <value>Chuàngjiàn/chákàn zhīchí qǐngqiú</value>
+  </data>
+  <data name="MenuItemResource2.Value" xml:space="preserve">
+    <value>Ménpiào</value>
+  </data>
+  <data name="MenuItemResource20.Text" xml:space="preserve">
+    <value>SQL gōngjù</value>
+  </data>
+  <data name="MenuItemResource20.ToolTip" xml:space="preserve">
+    <value>Yǔnxǔ nǐ duì shùjùkù zhíxíng cháxún</value>
+  </data>
+  <data name="MenuItemResource20.Value" xml:space="preserve">
+    <value>SQL gōngjù</value>
+  </data>
+  <data name="MenuItemResource21.Text" xml:space="preserve">
+    <value>Zhīchí piào</value>
+  </data>
+  <data name="MenuItemResource21.ToolTip" xml:space="preserve">
+    <value>Guǎnlǐ zhīchí piào</value>
+  </data>
+  <data name="MenuItemResource21.Value" xml:space="preserve">
+    <value>Zhīchí piào</value>
+  </data>
+  <data name="MenuItemResource22.Text" xml:space="preserve">
+    <value>Gōngjù</value>
+  </data>
+  <data name="MenuItemResource22.Value" xml:space="preserve">
+    <value>Gōngjù</value>
+  </data>
+  <data name="MenuItemResource23.Text" xml:space="preserve">
+    <value>Guānyú UGCC/xǔkě zhèng</value>
+  </data>
+  <data name="MenuItemResource23.ToolTip" xml:space="preserve">
+    <value>Chákàn/shēngchéng xǔkě zhèng de xìnxī, xìnxī hé yǒuguān UGCC.</value>
+  </data>
+  <data name="MenuItemResource23.Value" xml:space="preserve">
+    <value>Guānyú UGCC/xǔkě zhèng</value>
+  </data>
+  <data name="MenuItemResource24.Text" xml:space="preserve">
+    <value>Quánjú pèizhì</value>
+  </data>
+  <data name="MenuItemResource24.ToolTip" xml:space="preserve">
+    <value>Qítā pèizhì shèzhì</value>
+  </data>
+  <data name="MenuItemResource24.Value" xml:space="preserve">
+    <value>Quánjú pèizhì</value>
+  </data>
+  <data name="MenuItemResource25.Text" xml:space="preserve">
+    <value>Fúwùqì dìngyì (yuǎnchéng móshì)</value>
+  </data>
+  <data name="MenuItemResource25.ToolTip" xml:space="preserve">
+    <value>Kě ràng nín guǎnlǐ yuǎnchéng jiānkòng shèzhì</value>
+  </data>
+  <data name="MenuItemResource25.Value" xml:space="preserve">
+    <value>Fúwùqì dìngyì</value>
+  </data>
+  <data name="MenuItemResource26.Text" xml:space="preserve">
+    <value>Biānjí yè méi/yè jiǎo</value>
+  </data>
+  <data name="MenuItemResource26.ToolTip" xml:space="preserve">
+    <value>Yǔnxǔ nín biānjí yè méi hé yè jiǎo wénjiàn</value>
+  </data>
+  <data name="MenuItemResource26.Value" xml:space="preserve">
+    <value>Yè méi/yè jiǎo</value>
+  </data>
+  <data name="MenuItemResource27.Text" xml:space="preserve">
+    <value>UGCC pèizhì</value>
+  </data>
+  <data name="MenuItemResource27.Value" xml:space="preserve">
+    <value>UGCC pèizhì</value>
+  </data>
+  <data name="MenuItemResource28.Text" xml:space="preserve">
+    <value>Dìdiǎn</value>
+  </data>
+  <data name="MenuItemResource28.ToolTip" xml:space="preserve">
+    <value>Dìngyì fúwùqì wèizhì</value>
+  </data>
+  <data name="MenuItemResource28.Value" xml:space="preserve">
+    <value>Dìdiǎn</value>
+  </data>
+  <data name="MenuItemResource29.Text" xml:space="preserve">
+    <value>Ānzhuāng pèizhì</value>
+  </data>
+  <data name="MenuItemResource29.Value" xml:space="preserve">
+    <value>Ānzhuāng pèizhì</value>
+  </data>
+  <data name="MenuItemResource3.Text" xml:space="preserve">
+    <value>Panel wéndàng</value>
+  </data>
+  <data name="MenuItemResource3.ToolTip" xml:space="preserve">
+    <value>Yǒuguān cǐ ruǎnjiàn de wéndàng</value>
+  </data>
+  <data name="MenuItemResource3.Value" xml:space="preserve">
+    <value>Wénjiàn</value>
+  </data>
+  <data name="MenuItemResource30.Text" xml:space="preserve">
+    <value>Wéndàng</value>
+  </data>
+  <data name="MenuItemResource30.Value" xml:space="preserve">
+    <value>Wéndàng</value>
+  </data>
+  <data name="MenuItemResource31.Text" xml:space="preserve">
+    <value>Zhīchí lùntán</value>
+  </data>
+  <data name="MenuItemResource31.Value" xml:space="preserve">
+    <value>Zhīchí lùntán</value>
+  </data>
+  <data name="MenuItemResource32.Text" xml:space="preserve">
+    <value>Yúbèn jìshù wǎngzhàn</value>
+  </data>
+  <data name="MenuItemResource32.Value" xml:space="preserve">
+    <value>Yúbèn jìshù</value>
+  </data>
+  <data name="MenuItemResource33.Text" xml:space="preserve">
+    <value>Liànjiē</value>
+  </data>
+  <data name="MenuItemResource33.Value" xml:space="preserve">
+    <value>Liànjiē</value>
+  </data>
+  <data name="MenuItemResource34.Text" xml:space="preserve">
+    <value>Guǎnlǐ càidān</value>
+  </data>
+  <data name="MenuItemResource34.ToolTip" xml:space="preserve">
+    <value>Zhuǎn dào guǎnlǐ càidān yèmiàn.</value>
+  </data>
+  <data name="MenuItemResource34.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MenuItemResource35.Text" xml:space="preserve">
+    <value>Shǒuyè</value>
+  </data>
+  <data name="MenuItemResource35.ToolTip" xml:space="preserve">
+    <value>Zhǔ càidān</value>
+  </data>
+  <data name="MenuItemResource35.Value" xml:space="preserve">
+    <value>Shǒuyè</value>
+  </data>
+  <data name="MenuItemResource4.Text" xml:space="preserve">
+    <value>Zhīchí</value>
+  </data>
+  <data name="MenuItemResource4.ToolTip" xml:space="preserve">
+    <value>Zhīchí xuǎn xiàng</value>
+  </data>
+  <data name="MenuItemResource4.Value" xml:space="preserve">
+    <value>Xīn xiàngmù</value>
+  </data>
+  <data name="MenuItemResource5.Text" xml:space="preserve">
+    <value>Xīnwén</value>
+  </data>
+  <data name="MenuItemResource5.ToolTip" xml:space="preserve">
+    <value>Cóng nín de gōngyìng shāng xīnwén</value>
+  </data>
+  <data name="MenuItemResource5.Value" xml:space="preserve">
+    <value>Xīnwén</value>
+  </data>
+  <data name="MenuItemResource6.Text" xml:space="preserve">
+    <value>Wǒ de gèrén zīliào</value>
+  </data>
+  <data name="MenuItemResource6.ToolTip" xml:space="preserve">
+    <value>Nín de zhànghù shèzhì</value>
+  </data>
+  <data name="MenuItemResource6.Value" xml:space="preserve">
+    <value>Jiǎnjiè</value>
+  </data>
+  <data name="MenuItemResource7.Text" xml:space="preserve">
+    <value>Zhùxiāo</value>
+  </data>
+  <data name="MenuItemResource7.ToolTip" xml:space="preserve">
+    <value>Zhùxiāo</value>
+  </data>
+  <data name="MenuItemResource7.Value" xml:space="preserve">
+    <value>Zhùxiāo</value>
+  </data>
+  <data name="MenuItemResource8.Text" xml:space="preserve">
+    <value>Zuìhòu yī tái fúwùqì</value>
+  </data>
+  <data name="MenuItemResource8.ToolTip" xml:space="preserve">
+    <value>Dài nín huí dào nín shàng cì fǎngwèn de fúwùqì guǎnlǐ yèmiàn</value>
+  </data>
+  <data name="MenuItemResource9.Text" xml:space="preserve">
+    <value>Yònghù guǎnlǐ</value>
+  </data>
+  <data name="MenuItemResource9.Value" xml:space="preserve">
+    <value>Yònghù guǎnlǐ</value>
+  </data>
+</root>

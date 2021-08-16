@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Menu1Resource1.ScrollDownText" xml:space="preserve">
+    <value>नीचे स्क्रॉल</value>
+  </data>
+  <data name="Menu1Resource1.ScrollUpText" xml:space="preserve">
+    <value>ऊपर स्क्रॉल</value>
+  </data>
+  <data name="MenuItemResource1.Text" xml:space="preserve">
+    <value>संपर्क समर्थन</value>
+  </data>
+  <data name="MenuItemResource1.ToolTip" xml:space="preserve">
+    <value>समर्थन प्राप्त करने के लिए विवरण</value>
+  </data>
+  <data name="MenuItemResource1.Value" xml:space="preserve">
+    <value>सहयोग</value>
+  </data>
+  <data name="MenuItemResource10.Text" xml:space="preserve">
+    <value>समूह प्रबंधन</value>
+  </data>
+  <data name="MenuItemResource10.Value" xml:space="preserve">
+    <value>समूहों का प्रबंधन</value>
+  </data>
+  <data name="MenuItemResource11.Text" xml:space="preserve">
+    <value>समूह अनुमति</value>
+  </data>
+  <data name="MenuItemResource11.Value" xml:space="preserve">
+    <value>समूह अनुमतियाँ प्रबंधित</value>
+  </data>
+  <data name="MenuItemResource12.Text" xml:space="preserve">
+    <value>प्रयोक्ता</value>
+  </data>
+  <data name="MenuItemResource12.Value" xml:space="preserve">
+    <value>समूह प्रबंधन</value>
+  </data>
+  <data name="MenuItemResource13.Text" xml:space="preserve">
+    <value>सर्वर प्रबंधन</value>
+  </data>
+  <data name="MenuItemResource13.ToolTip" xml:space="preserve">
+    <value>खेल सर्वर का प्रबंधन</value>
+  </data>
+  <data name="MenuItemResource13.Value" xml:space="preserve">
+    <value>सर्वर प्रबंधन</value>
+  </data>
+  <data name="MenuItemResource14.Text" xml:space="preserve">
+    <value>थोक प्रबंधन</value>
+  </data>
+  <data name="MenuItemResource14.ToolTip" xml:space="preserve">
+    <value>एक बार में एकाधिक सर्वर का प्रबंधन</value>
+  </data>
+  <data name="MenuItemResource14.Value" xml:space="preserve">
+    <value>थोक प्रबंधन</value>
+  </data>
+  <data name="MenuItemResource15.Text" xml:space="preserve">
+    <value>सर्वर एक्स्ट्रा कलाकार</value>
+  </data>
+  <data name="MenuItemResource15.ToolTip" xml:space="preserve">
+    <value>सर्वर के लिए अतिरिक्त कार्यक्रमों का प्रबंधन</value>
+  </data>
+  <data name="MenuItemResource15.Value" xml:space="preserve">
+    <value>सर्वर एक्स्ट्रा कलाकार</value>
+  </data>
+  <data name="MenuItemResource16.Text" xml:space="preserve">
+    <value>सर्वर प्रबंधन</value>
+  </data>
+  <data name="MenuItemResource16.ToolTip" xml:space="preserve">
+    <value>खेल सर्वर का प्रबंधन</value>
+  </data>
+  <data name="MenuItemResource16.Value" xml:space="preserve">
+    <value>सर्वर प्रबंधन</value>
+  </data>
+  <data name="MenuItemResource17.Text" xml:space="preserve">
+    <value>कब्जा कार्यक्रम उत्पादन</value>
+  </data>
+  <data name="MenuItemResource17.ToolTip" xml:space="preserve">
+    <value>आप एक सर्वर के उत्पादन में देखने के लिए अनुमति देता है कि उपकरण</value>
+  </data>
+  <data name="MenuItemResource17.Value" xml:space="preserve">
+    <value>कब्जा कार्यक्रम उत्पादन</value>
+  </data>
+  <data name="MenuItemResource18.Text" xml:space="preserve">
+    <value>खबर प्रबंधन</value>
+  </data>
+  <data name="MenuItemResource18.ToolTip" xml:space="preserve">
+    <value>खबर प्रणाली मांगे</value>
+  </data>
+  <data name="MenuItemResource18.Value" xml:space="preserve">
+    <value>खबर प्रबंधन</value>
+  </data>
+  <data name="MenuItemResource19.Text" xml:space="preserve">
+    <value>रिपोर्ट टूल</value>
+  </data>
+  <data name="MenuItemResource19.Value" xml:space="preserve">
+    <value>रिपोर्ट टूल</value>
+  </data>
+  <data name="MenuItemResource2.Text" xml:space="preserve">
+    <value>समर्थन टिकट</value>
+  </data>
+  <data name="MenuItemResource2.ToolTip" xml:space="preserve">
+    <value>/ देखें समर्थन अनुरोध बनाएँ</value>
+  </data>
+  <data name="MenuItemResource2.Value" xml:space="preserve">
+    <value>टिकट</value>
+  </data>
+  <data name="MenuItemResource20.Text" xml:space="preserve">
+    <value>एसक्यूएल उपकरण</value>
+  </data>
+  <data name="MenuItemResource20.ToolTip" xml:space="preserve">
+    <value>आप डेटाबेस के खिलाफ प्रश्नों प्रदर्शन की अनुमति देता है</value>
+  </data>
+  <data name="MenuItemResource20.Value" xml:space="preserve">
+    <value>एसक्यूएल उपकरण</value>
+  </data>
+  <data name="MenuItemResource21.Text" xml:space="preserve">
+    <value>समर्थन टिकट</value>
+  </data>
+  <data name="MenuItemResource21.ToolTip" xml:space="preserve">
+    <value>समर्थन टिकट प्रबंधित</value>
+  </data>
+  <data name="MenuItemResource21.Value" xml:space="preserve">
+    <value>समर्थन टिकट</value>
+  </data>
+  <data name="MenuItemResource22.Text" xml:space="preserve">
+    <value>उपकरण</value>
+  </data>
+  <data name="MenuItemResource22.Value" xml:space="preserve">
+    <value>उपकरण</value>
+  </data>
+  <data name="MenuItemResource23.Text" xml:space="preserve">
+    <value>UGCC / लाइसेंस के बारे में</value>
+  </data>
+  <data name="MenuItemResource23.ToolTip" xml:space="preserve">
+    <value>देखें / UGCC के बारे में लाइसेंस जानकारी, और जानकारी उत्पन्न करते हैं।</value>
+  </data>
+  <data name="MenuItemResource23.Value" xml:space="preserve">
+    <value>UGCC / लाइसेंस के बारे में</value>
+  </data>
+  <data name="MenuItemResource24.Text" xml:space="preserve">
+    <value>वैश्विक विन्यास</value>
+  </data>
+  <data name="MenuItemResource24.ToolTip" xml:space="preserve">
+    <value>विविध विन्यास सेटिंग्स</value>
+  </data>
+  <data name="MenuItemResource24.Value" xml:space="preserve">
+    <value>वैश्विक विन्यास</value>
+  </data>
+  <data name="MenuItemResource25.Text" xml:space="preserve">
+    <value>सर्वर परिभाषाएं (दूरस्थ मोड)</value>
+  </data>
+  <data name="MenuItemResource25.ToolTip" xml:space="preserve">
+    <value>आप दूरस्थ मॉनिटर सेटिंग प्रबंधित करने की अनुमति</value>
+  </data>
+  <data name="MenuItemResource25.Value" xml:space="preserve">
+    <value>सर्वर परिभाषाएँ</value>
+  </data>
+  <data name="MenuItemResource26.Text" xml:space="preserve">
+    <value>संपादित हैडर / पाद</value>
+  </data>
+  <data name="MenuItemResource26.ToolTip" xml:space="preserve">
+    <value>आप शीर्ष लेख और पाद फ़ाइलों को संपादित करने की अनुमति देता है</value>
+  </data>
+  <data name="MenuItemResource26.Value" xml:space="preserve">
+    <value>शीर्ष / पाद</value>
+  </data>
+  <data name="MenuItemResource27.Text" xml:space="preserve">
+    <value>UGCC विन्यास</value>
+  </data>
+  <data name="MenuItemResource27.Value" xml:space="preserve">
+    <value>UGCC विन्यास</value>
+  </data>
+  <data name="MenuItemResource28.Text" xml:space="preserve">
+    <value>स्थान</value>
+  </data>
+  <data name="MenuItemResource28.ToolTip" xml:space="preserve">
+    <value>सर्वर स्थान को परिभाषित करें</value>
+  </data>
+  <data name="MenuItemResource28.Value" xml:space="preserve">
+    <value>स्थान</value>
+  </data>
+  <data name="MenuItemResource29.Text" xml:space="preserve">
+    <value>इंस्टालर विन्यास</value>
+  </data>
+  <data name="MenuItemResource29.Value" xml:space="preserve">
+    <value>इंस्टालर विन्यास</value>
+  </data>
+  <data name="MenuItemResource3.Text" xml:space="preserve">
+    <value>पैनल प्रलेखन</value>
+  </data>
+  <data name="MenuItemResource3.ToolTip" xml:space="preserve">
+    <value>इस सॉफ्टवेयर के बारे में दस्तावेज़ीकरण</value>
+  </data>
+  <data name="MenuItemResource3.Value" xml:space="preserve">
+    <value>डॉक्टर</value>
+  </data>
+  <data name="MenuItemResource30.Text" xml:space="preserve">
+    <value>दस्तावेज़ीकरण</value>
+  </data>
+  <data name="MenuItemResource30.Value" xml:space="preserve">
+    <value>दस्तावेज़ीकरण</value>
+  </data>
+  <data name="MenuItemResource31.Text" xml:space="preserve">
+    <value>समर्थन फोरम</value>
+  </data>
+  <data name="MenuItemResource31.Value" xml:space="preserve">
+    <value>समर्थन फोरम</value>
+  </data>
+  <data name="MenuItemResource32.Text" xml:space="preserve">
+    <value>बेवक़ूफ़ टेक वेबसाइट</value>
+  </data>
+  <data name="MenuItemResource32.Value" xml:space="preserve">
+    <value>बेवक़ूफ़ टेक</value>
+  </data>
+  <data name="MenuItemResource33.Text" xml:space="preserve">
+    <value>लिंक</value>
+  </data>
+  <data name="MenuItemResource33.Value" xml:space="preserve">
+    <value>लिंक</value>
+  </data>
+  <data name="MenuItemResource34.Text" xml:space="preserve">
+    <value>व्यवस्थापक मेनू</value>
+  </data>
+  <data name="MenuItemResource34.ToolTip" xml:space="preserve">
+    <value>व्यवस्थापक मेनू पृष्ठ पर जाएं</value>
+  </data>
+  <data name="MenuItemResource34.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MenuItemResource35.Text" xml:space="preserve">
+    <value>होम</value>
+  </data>
+  <data name="MenuItemResource35.ToolTip" xml:space="preserve">
+    <value>मुख्य मेनू</value>
+  </data>
+  <data name="MenuItemResource35.Value" xml:space="preserve">
+    <value>होम</value>
+  </data>
+  <data name="MenuItemResource4.Text" xml:space="preserve">
+    <value>सहयोग</value>
+  </data>
+  <data name="MenuItemResource4.ToolTip" xml:space="preserve">
+    <value>समर्थन विकल्प</value>
+  </data>
+  <data name="MenuItemResource4.Value" xml:space="preserve">
+    <value>नया आइटम</value>
+  </data>
+  <data name="MenuItemResource5.Text" xml:space="preserve">
+    <value>समाचार</value>
+  </data>
+  <data name="MenuItemResource5.ToolTip" xml:space="preserve">
+    <value>अपने प्रदाता से समाचार</value>
+  </data>
+  <data name="MenuItemResource5.Value" xml:space="preserve">
+    <value>समाचार</value>
+  </data>
+  <data name="MenuItemResource6.Text" xml:space="preserve">
+    <value>मेरा खाता</value>
+  </data>
+  <data name="MenuItemResource6.ToolTip" xml:space="preserve">
+    <value>अपनी खाता सेटिंग</value>
+  </data>
+  <data name="MenuItemResource6.Value" xml:space="preserve">
+    <value>प्रोफ़ाइल</value>
+  </data>
+  <data name="MenuItemResource7.Text" xml:space="preserve">
+    <value>लॉग ऑफ़</value>
+  </data>
+  <data name="MenuItemResource7.ToolTip" xml:space="preserve">
+    <value>बाहर प्रवेश करें</value>
+  </data>
+  <data name="MenuItemResource7.Value" xml:space="preserve">
+    <value>लॉग ऑफ़</value>
+  </data>
+  <data name="MenuItemResource8.Text" xml:space="preserve">
+    <value>अंतिम सर्वर</value>
+  </data>
+  <data name="MenuItemResource8.ToolTip" xml:space="preserve">
+    <value>सर्वर प्रबंधन पृष्ठ के लिए तुम वापस ले जाता है कि आप पिछले दौरा किया</value>
+  </data>
+  <data name="MenuItemResource9.Text" xml:space="preserve">
+    <value>प्रयोक्ता प्रबंधन</value>
+  </data>
+  <data name="MenuItemResource9.Value" xml:space="preserve">
+    <value>प्रयोक्ता प्रबंधन</value>
+  </data>
+</root>

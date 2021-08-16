@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Menu1Resource1.ScrollDownText" xml:space="preserve">
+    <value>向下捲動</value>
+  </data>
+  <data name="Menu1Resource1.ScrollUpText" xml:space="preserve">
+    <value>捲動</value>
+  </data>
+  <data name="MenuItemResource1.Text" xml:space="preserve">
+    <value>聯絡支援中心</value>
+  </data>
+  <data name="MenuItemResource1.ToolTip" xml:space="preserve">
+    <value>取得支援的詳細資料</value>
+  </data>
+  <data name="MenuItemResource1.Value" xml:space="preserve">
+    <value>支援</value>
+  </data>
+  <data name="MenuItemResource10.Text" xml:space="preserve">
+    <value>群組管理</value>
+  </data>
+  <data name="MenuItemResource10.Value" xml:space="preserve">
+    <value>管理群組</value>
+  </data>
+  <data name="MenuItemResource11.Text" xml:space="preserve">
+    <value>群組許可權</value>
+  </data>
+  <data name="MenuItemResource11.Value" xml:space="preserve">
+    <value>管理群組許可權</value>
+  </data>
+  <data name="MenuItemResource12.Text" xml:space="preserve">
+    <value>使用者與群組管理</value>
+  </data>
+  <data name="MenuItemResource12.Value" xml:space="preserve">
+    <value>群組管理</value>
+  </data>
+  <data name="MenuItemResource13.Text" xml:space="preserve">
+    <value>伺服器管理</value>
+  </data>
+  <data name="MenuItemResource13.ToolTip" xml:space="preserve">
+    <value>管理遊戲伺服器</value>
+  </data>
+  <data name="MenuItemResource13.Value" xml:space="preserve">
+    <value>伺服器管理</value>
+  </data>
+  <data name="MenuItemResource14.Text" xml:space="preserve">
+    <value>大量管理</value>
+  </data>
+  <data name="MenuItemResource14.ToolTip" xml:space="preserve">
+    <value>一次管理多個伺服器</value>
+  </data>
+  <data name="MenuItemResource14.Value" xml:space="preserve">
+    <value>大量管理</value>
+  </data>
+  <data name="MenuItemResource15.Text" xml:space="preserve">
+    <value>Server Extras</value>
+  </data>
+  <data name="MenuItemResource15.ToolTip" xml:space="preserve">
+    <value>管理伺服器的額外程式</value>
+  </data>
+  <data name="MenuItemResource15.Value" xml:space="preserve">
+    <value>Server Extras</value>
+  </data>
+  <data name="MenuItemResource16.Text" xml:space="preserve">
+    <value>伺服器管理</value>
+  </data>
+  <data name="MenuItemResource16.ToolTip" xml:space="preserve">
+    <value>管理遊戲伺服器</value>
+  </data>
+  <data name="MenuItemResource16.Value" xml:space="preserve">
+    <value>伺服器管理</value>
+  </data>
+  <data name="MenuItemResource17.Text" xml:space="preserve">
+    <value>擷取程式輸出</value>
+  </data>
+  <data name="MenuItemResource17.ToolTip" xml:space="preserve">
+    <value>可讓您檢視伺服器輸出的工具</value>
+  </data>
+  <data name="MenuItemResource17.Value" xml:space="preserve">
+    <value>擷取程式輸出</value>
+  </data>
+  <data name="MenuItemResource18.Text" xml:space="preserve">
+    <value>新聞管理</value>
+  </data>
+  <data name="MenuItemResource18.ToolTip" xml:space="preserve">
+    <value>管理新聞系統</value>
+  </data>
+  <data name="MenuItemResource18.Value" xml:space="preserve">
+    <value>新聞管理</value>
+  </data>
+  <data name="MenuItemResource19.Text" xml:space="preserve">
+    <value>報告工具</value>
+  </data>
+  <data name="MenuItemResource19.Value" xml:space="preserve">
+    <value>報告工具</value>
+  </data>
+  <data name="MenuItemResource2.Text" xml:space="preserve">
+    <value>支援問題單</value>
+  </data>
+  <data name="MenuItemResource2.ToolTip" xml:space="preserve">
+    <value>建立/檢視支援要求</value>
+  </data>
+  <data name="MenuItemResource2.Value" xml:space="preserve">
+    <value>券</value>
+  </data>
+  <data name="MenuItemResource20.Text" xml:space="preserve">
+    <value>SQL 工具</value>
+  </data>
+  <data name="MenuItemResource20.ToolTip" xml:space="preserve">
+    <value>容許您對資料庫執行查詢</value>
+  </data>
+  <data name="MenuItemResource20.Value" xml:space="preserve">
+    <value>SQL 工具</value>
+  </data>
+  <data name="MenuItemResource21.Text" xml:space="preserve">
+    <value>支援問題單</value>
+  </data>
+  <data name="MenuItemResource21.ToolTip" xml:space="preserve">
+    <value>管理支援問題單</value>
+  </data>
+  <data name="MenuItemResource21.Value" xml:space="preserve">
+    <value>支援問題單</value>
+  </data>
+  <data name="MenuItemResource22.Text" xml:space="preserve">
+    <value>工具</value>
+  </data>
+  <data name="MenuItemResource22.Value" xml:space="preserve">
+    <value>工具</value>
+  </data>
+  <data name="MenuItemResource23.Text" xml:space="preserve">
+    <value>關於 UGCC/License</value>
+  </data>
+  <data name="MenuItemResource23.ToolTip" xml:space="preserve">
+    <value>檢視/產生授權資訊，以及 UGCC 的相關資訊。</value>
+  </data>
+  <data name="MenuItemResource23.Value" xml:space="preserve">
+    <value>關於 UGCC/License</value>
+  </data>
+  <data name="MenuItemResource24.Text" xml:space="preserve">
+    <value>廣域配置</value>
+  </data>
+  <data name="MenuItemResource24.ToolTip" xml:space="preserve">
+    <value>Misc 配置設定</value>
+  </data>
+  <data name="MenuItemResource24.Value" xml:space="preserve">
+    <value>廣域配置</value>
+  </data>
+  <data name="MenuItemResource25.Text" xml:space="preserve">
+    <value>伺服器定義（遠端模式）</value>
+  </data>
+  <data name="MenuItemResource25.ToolTip" xml:space="preserve">
+    <value>可讓您管理遠端監視設定</value>
+  </data>
+  <data name="MenuItemResource25.Value" xml:space="preserve">
+    <value>伺服器定義</value>
+  </data>
+  <data name="MenuItemResource26.Text" xml:space="preserve">
+    <value>編輯標頭/標底</value>
+  </data>
+  <data name="MenuItemResource26.ToolTip" xml:space="preserve">
+    <value>可讓您編輯標頭檔和標底檔案</value>
+  </data>
+  <data name="MenuItemResource26.Value" xml:space="preserve">
+    <value>標頭/標底</value>
+  </data>
+  <data name="MenuItemResource27.Text" xml:space="preserve">
+    <value>UGCC 配置</value>
+  </data>
+  <data name="MenuItemResource27.Value" xml:space="preserve">
+    <value>UGCC 配置</value>
+  </data>
+  <data name="MenuItemResource28.Text" xml:space="preserve">
+    <value>地點</value>
+  </data>
+  <data name="MenuItemResource28.ToolTip" xml:space="preserve">
+    <value>定義伺服器位置</value>
+  </data>
+  <data name="MenuItemResource28.Value" xml:space="preserve">
+    <value>地點</value>
+  </data>
+  <data name="MenuItemResource29.Text" xml:space="preserve">
+    <value>安裝程式配置</value>
+  </data>
+  <data name="MenuItemResource29.Value" xml:space="preserve">
+    <value>安裝程式配置</value>
+  </data>
+  <data name="MenuItemResource3.Text" xml:space="preserve">
+    <value>畫面文件</value>
+  </data>
+  <data name="MenuItemResource3.ToolTip" xml:space="preserve">
+    <value>此軟體的相關文件</value>
+  </data>
+  <data name="MenuItemResource3.Value" xml:space="preserve">
+    <value>Doc</value>
+  </data>
+  <data name="MenuItemResource30.Text" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="MenuItemResource30.Value" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="MenuItemResource31.Text" xml:space="preserve">
+    <value>支助論壇</value>
+  </data>
+  <data name="MenuItemResource31.Value" xml:space="preserve">
+    <value>支助論壇</value>
+  </data>
+  <data name="MenuItemResource32.Text" xml:space="preserve">
+    <value>Brainless 技術網站</value>
+  </data>
+  <data name="MenuItemResource32.Value" xml:space="preserve">
+    <value>無大腦技術</value>
+  </data>
+  <data name="MenuItemResource33.Text" xml:space="preserve">
+    <value>鏈結</value>
+  </data>
+  <data name="MenuItemResource33.Value" xml:space="preserve">
+    <value>鏈結</value>
+  </data>
+  <data name="MenuItemResource34.Text" xml:space="preserve">
+    <value>管理功能表</value>
+  </data>
+  <data name="MenuItemResource34.ToolTip" xml:space="preserve">
+    <value>移至管理功能表頁面</value>
+  </data>
+  <data name="MenuItemResource34.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MenuItemResource35.Text" xml:space="preserve">
+    <value>家</value>
+  </data>
+  <data name="MenuItemResource35.ToolTip" xml:space="preserve">
+    <value>主功能表</value>
+  </data>
+  <data name="MenuItemResource35.Value" xml:space="preserve">
+    <value>家</value>
+  </data>
+  <data name="MenuItemResource4.Text" xml:space="preserve">
+    <value>支援</value>
+  </data>
+  <data name="MenuItemResource4.ToolTip" xml:space="preserve">
+    <value>支援選項</value>
+  </data>
+  <data name="MenuItemResource4.Value" xml:space="preserve">
+    <value>新建項目</value>
+  </data>
+  <data name="MenuItemResource5.Text" xml:space="preserve">
+    <value>新聞</value>
+  </data>
+  <data name="MenuItemResource5.ToolTip" xml:space="preserve">
+    <value>來自提供者的新聞</value>
+  </data>
+  <data name="MenuItemResource5.Value" xml:space="preserve">
+    <value>新聞</value>
+  </data>
+  <data name="MenuItemResource6.Text" xml:space="preserve">
+    <value>我的帳戶</value>
+  </data>
+  <data name="MenuItemResource6.ToolTip" xml:space="preserve">
+    <value>您的帳戶設定</value>
+  </data>
+  <data name="MenuItemResource6.Value" xml:space="preserve">
+    <value>設定檔</value>
+  </data>
+  <data name="MenuItemResource7.Text" xml:space="preserve">
+    <value>洛戈夫</value>
+  </data>
+  <data name="MenuItemResource7.ToolTip" xml:space="preserve">
+    <value>登出</value>
+  </data>
+  <data name="MenuItemResource7.Value" xml:space="preserve">
+    <value>洛戈夫</value>
+  </data>
+  <data name="MenuItemResource8.Text" xml:space="preserve">
+    <value>前次伺服器</value>
+  </data>
+  <data name="MenuItemResource8.ToolTip" xml:space="preserve">
+    <value>帶您回到前次造訪的伺服器管理頁面</value>
+  </data>
+  <data name="MenuItemResource9.Text" xml:space="preserve">
+    <value>使用者管理</value>
+  </data>
+  <data name="MenuItemResource9.Value" xml:space="preserve">
+    <value>使用者管理</value>
+  </data>
+</root>
